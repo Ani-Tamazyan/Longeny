@@ -1,0 +1,13 @@
+footer{
+    width: 1920px;
+    height: 229px;
+    background: #046A86;
+}
+.logo{
+    background: url("../images/logo.png");
+    width: 113px;
+    height: 113px;
+    margin-left: 137px;
+
+    box-shadow: 0px 1px 75px 0px #5BE6F5;
+}

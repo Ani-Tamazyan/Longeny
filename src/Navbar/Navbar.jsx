@@ -38,7 +38,6 @@ export default function Navbar() {
   return (
     <header>
       
-
       <div className='logo'>
         
       </div>
@@ -89,6 +88,7 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
+                
     </header>
   );
 }
