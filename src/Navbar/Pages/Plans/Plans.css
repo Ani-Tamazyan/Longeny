@@ -429,6 +429,8 @@ position: relative;
     line-height: 150%;
 }
 
+
+
 .checkbox{
     width: 897px;
     height: 832px;
@@ -441,6 +443,7 @@ position: relative;
     backdrop-filter: blur(6px);
     margin: 0 auto;
     margin-top: 91px;
+    overflow: auto;
 }
 .checkbox > ul > li{
     margin-top: 16px;
