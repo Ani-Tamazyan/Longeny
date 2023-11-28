@@ -1,15 +1,17 @@
 .footer{
-    /* width: 1920px; */
     height: 229px;
     background: #046A86;
     display: flex;
     margin-top: 125px;
 }
 .footer_logo{
-    background: url("../Plans/images/logo.png");
+    background-image: url("../Plans/images/logo.png");
+    border-radius: 50%;
     box-shadow: 0px 1px 75px 0px #5BE6F5;
     width: 113px;
     height: 113px;
+    background-size:contain;
+    background-color: #5BE6F5;
     
     margin: auto 0;
     margin-left: 137px;

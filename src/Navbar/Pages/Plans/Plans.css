@@ -1,7 +1,8 @@
 body{
-   width: 1920px;
+    width: 1920px;
     background: linear-gradient(0deg, rgba(176, 239, 248, 0.11) 0%, rgba(176, 239, 248, 0.11) 100%), #FFF;
 }
+
 
 .part1{
     display: flex;
@@ -10,9 +11,7 @@ body{
 .part1_left_side_h{
     width: 954px;
     margin-top: 213px;
-
     color: #0085AE;
-
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
     font-family: Open Sans;
     font-size: 56px;
@@ -21,11 +20,12 @@ body{
     line-height: 150%; 
     letter-spacing: 5.04px;
     text-transform: uppercase;
-
 }
+
 .part1_left_side{
     margin-left: 100px;
 }
+
 .part1_left_side_card{
     margin-top: 50px;
 }
@@ -33,25 +33,22 @@ body{
 .bookFreeCall{
     margin-top: 50px;
 }
+
 .part1_left_side_card{
     width: 832px;
-height: 185px;
-flex-shrink: 0;
-
-border-radius: 44px;
-background: rgba(255, 255, 255, 0.70);
-
-box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
-backdrop-filter: blur(6px);
-position: relative;
+    height: 185px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: rgba(255, 255, 255, 0.70);
+    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
+    backdrop-filter: blur(6px);
+    position: relative;
 
 }
 
 .part1_left_side_card > p{
     padding: 32px 0 32px 38px;
-
     color: #484848;
-
     text-shadow: 0px 4px 29px rgba(255, 255, 255, 0.25);
     font-family: Open Sans;
     font-size: 42px;
@@ -71,7 +68,6 @@ position: relative;
 }
 
 .part1_img{
-
     width: 1169px;
     height: 800px;
     flex-shrink: 0;
@@ -86,10 +82,13 @@ position: relative;
     margin-left: -100px;
 }
 
+
+
 .part2{
     display: flex;
     
 }
+
 .part2_left_side{
     background: url("./images/Group 520.png");
     width: 909.132px;
@@ -102,11 +101,13 @@ position: relative;
     margin-top: 238px;
     margin-left: 150px;
 }
+
 .part2_text{
     width: 790px;
     height: 394px;
     flex-shrink: 0;
 }
+
 .part2_right_side_h{
     display: flex;
     width: 782px;
@@ -114,9 +115,7 @@ position: relative;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-
     color: #0085AE;
-
     text-align: right;
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
     font-family: Open Sans;
@@ -126,40 +125,35 @@ position: relative;
     line-height: 150%; 
     letter-spacing: 5.8px;
     text-transform: uppercase;
-
 }
+
 .part2_right_side_p{
     color: #646464;
-
     text-align: right;
     font-family: Open Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; 
-
     margin-top: 27px;
 }
 
 .learnMore{
-
     width: 144.003px;
     height: 27px;
     flex-shrink: 0;
     margin-top: 14px;
-
     color: #0085AE;
-
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-decoration-line: underline;
-
     display: block;
     margin-left: 642px;
 }
+
 .link{
     width: 13.003px;
     height: 10.833px;
@@ -171,38 +165,31 @@ position: relative;
     position: absolute;
     right: 213px;
     margin-top: 47px;
-
     width: 1112px;
     height: 657px;
     flex-shrink: 0;
-
     border-radius: 44px;
     opacity: 0.9;
     background: radial-gradient(139.9% 112.15% at 40.33% 10.71%, #12A9D7 12.75%, #52D6E2 94.46%);
-
 }
 
 .part2_card_button {
     padding-left: 111px;
     padding-top: 73px;
 }
+
 .part2_card_button > button{
     display: inline-flex;
     padding: 11px 66px;
     align-items: flex-start;
     gap: 10px;
-
     border-radius: 19px;
     border: 2px solid #57E8F6;
-
     background: rgba(255, 255, 255, 0.10);
-
     box-shadow: 1px 2px 12px 0px rgba(52, 189, 227, 0.90);
     backdrop-filter: blur(6px);
     display: block;
-
     color: #FFF;
-
     text-align: right;
     font-family: Open Sans;
     font-size: 25px;
@@ -223,6 +210,7 @@ position: relative;
     float: right;
     margin-right: 73px;
 }
+
 .part2_card_p > p{
     color: #FFF; 
     text-align: right;
@@ -232,6 +220,7 @@ position: relative;
     font-weight: 500;
     line-height: 150%;
 }
+
 
 
 .part3{
@@ -248,7 +237,6 @@ position: relative;
     justify-content: center;
     flex-shrink: 0;
     color: #0085AE;
-
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
     font-family: Open Sans;
     font-size: 38px;
@@ -259,7 +247,6 @@ position: relative;
     text-transform: uppercase;
 }
 
-
 .organ2_img, .organ3_img, .organ4_img{
     width: 87.761px;
     height: 87.761px;
@@ -268,12 +255,9 @@ position: relative;
 .part3_organ1_cont{
     width: 930.952px;
     height: 114.433px;
-
     border-radius: 44px;
     border: 3px solid #57E8F6;
-
     background: #FFF;
-
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
     margin: 0 auto;
@@ -305,6 +289,7 @@ position: relative;
     margin-top: 110px;
     margin-left: 368px;
 }
+
 .part3_organ2_cont{
     width: 440.525px;
     height: 114.433px;
@@ -315,6 +300,7 @@ position: relative;
     backdrop-filter: blur(6px);
     position: relative;
 }
+
 .part3_organ2_cont > h3{
     text-align: left;
     width: 345.882px;
@@ -323,31 +309,32 @@ position: relative;
     padding-top: 45px;
     color: #005889;
 }
+
 .part3_organ2_cont > h3 > p{
    font-size: 15px;
 }
+
 .organ2_img{
     margin-top: -44px;
     margin-left: -264px;
     position: absolute;
     z-index: 2;
 }
+
 .part3_organ3{
     display: flex;
 }
-.part3_organ3_cont{
 
+.part3_organ3_cont{
     width: 478.382px;
     height: 114.433px;
     border-radius: 30px;
     background: #FFF;
-
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
     margin-left: 324px;
     position: relative;
 }
-
 
 .part3_organ3_cont > h3{
     width: 345.882px;
@@ -356,26 +343,25 @@ position: relative;
     padding-top: 52px;
     color: #005889;
 }
+
 .organ3_img{
     margin-left: 280px;
     margin-top: -44px;
     position: absolute;
     z-index: 2;
 }
+
 .part3_organ4_cont{
     width: 277.049px;
     height: 114.433px;
-
     border-radius: 30px;
     background: #FFF;
-
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
-
     margin-top: 101px;
     margin-left: 930px;
-
 }
+
 .part3_organ4_cont > h3{
     width: 97.793px;
     font-size: 20px;
@@ -383,12 +369,14 @@ position: relative;
     padding-top: 52px;
     color: #005889;
 }
+
 .dashed1, .dashed2, .dashed3{
     stroke-width: 1.5px;
     border:1px dashed rgba(0, 88, 137, 0.60);
     position: absolute;
     z-index: -1;
 }
+
 .dashed1{
     width: 368.681px;
     height: 223.704px;
@@ -397,6 +385,7 @@ position: relative;
     bottom: -1900px;   
     border-right-color: transparent;
 }
+
 .dashed2{
     width: 298.989px;
     height: 230.587px;
@@ -406,6 +395,7 @@ position: relative;
     border-left-color: transparent;
 
 }
+
 .dashed3{
     width: 85.5px;
     height: 395.784px;
@@ -422,6 +412,8 @@ position: relative;
     position: absolute;
     z-index: 2;
 }
+
+
 
 
 .part4_h{
@@ -461,47 +453,41 @@ position: relative;
     line-height: 150%;
 }
 
-
-
 .checkbox{
     width: 897px;
     height: 832px;
     border-radius: 15px 0px 0px 15px;
     border: 1px solid #0085AE;
-
     background: rgba(255, 255, 255, 0.88);
-
     box-shadow: 0px 0px 12px 2px rgba(52, 189, 227, 0.32) inset;
     backdrop-filter: blur(6px);
     margin: 0 auto;
     margin-top: 91px;
     overflow-y: scroll;
 }
+
 .checkbox > ul > li{
     margin-top: 16px;
     display: flex;
    
 }
+
 .checkbox_label{
     display: flex;
 }
+
 .checkbox_label > label{
     width: 755px;
     height: 85px;
     color: #056A86;
-
     font-family: Open Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; 
     text-transform: uppercase;
-
-    
-
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.74);
-
     box-shadow: 4px 4px 11px 0px rgba(52, 189, 227, 0.24);
     backdrop-filter: blur(6px);
     display: flex;
@@ -510,7 +496,6 @@ position: relative;
 }
 
 .checkbox_input{
-
    width: 36px;
    height: 36px;
    margin: auto 0;
@@ -518,12 +503,18 @@ position: relative;
    margin-right: 24px;
 } 
 
+.checkbox::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, #4d7fff 0%, #1a56ff 100%);
+    border-radius: 5px;
+}
+
 .part4_button{
     width: 790px;
     height: 73px;
     margin: 0 auto;
 
 }
+
 .order{
     width: 301px;
     height: 73px;
@@ -543,11 +534,10 @@ position: relative;
 .part5{
     margin-top: 320px;
 }
+
 .part5 > h2{
     width: 1563px;
-
     color: #0085AE;
-
     text-align: center;
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
     font-family: Open Sans;
@@ -559,6 +549,7 @@ position: relative;
     text-transform: uppercase;
     margin: 0 auto;
 }
+
 .part5 > p{
     width: 716px;
     color: #646464;
@@ -573,10 +564,10 @@ position: relative;
 
 }
 
-
 .part5_info:first-of-type{
     margin-top: 87px;
 }
+
 .part5_info{
     margin: 50px 0;
     width:min-content;
@@ -592,15 +583,18 @@ position: relative;
     display: flex;
     width:fit-content;
 }
+
 .part5_info_header_img{
     margin: auto;
     padding: 0 40px;
     margin-left: 50px;
 }
+
 .part5_info_header > img{
     width: 20px;
     height: 10px;
 }
+
 .part5_info_header > h3{
     width:max-content;
     color: #005889;
@@ -612,14 +606,14 @@ position: relative;
     margin-left: 100px;
     padding: 25px 0; 
 }
-.part5_info_hiden{
-    /* height: 474px; */
 
+.part5_info_hiden{
     border-radius: 0px 0px 86px 0px;
     background: #C7F6FF;
     box-shadow: -4px -4px 16px 0px rgba(0, 133, 174, 0.19) inset;
     margin-top: -40px;
 }
+
 .part5_info_hiden > p{
     padding-left: 100px;
     padding-right: 60px;
@@ -631,9 +625,11 @@ position: relative;
     font-weight: 600;
     line-height: 150%; 
 }
+
 .part5_info_hiden p:first-of-type{
     padding-top: 90px;
 }
+
 .part5_info_hiden p:last-of-type{
     padding-bottom: 30px;
     padding-top: 18px;
@@ -645,17 +641,15 @@ position: relative;
 }
 
 
-.part6 > h2{
-   
 
+
+.part6 > h2{
     display: flex;
     width: 790px;
     height: 120px;
     flex-direction: column;
     justify-content: center;
-
     color: #0085AE;
-
     text-align: center;
     font-family: Open Sans;
     font-size: 40px;
@@ -704,22 +698,20 @@ position: relative;
     margin-top: -220px;
     position: absolute; 
 }
+
 .number{
     width: 124px;
     height: 124px;
-
     background-color: #FFF;
     filter: drop-shadow(-2px 8px 27px rgba(0, 88, 137, 0.15));
     border-radius: 50%;
     color: #005889;
-
     text-align: center;
     font-family: Open Sans;
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%; 
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -742,9 +734,7 @@ position: relative;
 
 .part6_step p:last-of-type{
     width: 290px;
-
     color: #646464;
-
     text-align: center;
     font-family: Open Sans;
     font-size: 20px;
@@ -757,39 +747,40 @@ position: relative;
     margin-left: 129px;
     margin-top: 210px;
 }
+
 .step2{
     margin-left: 434px;
     margin-top: -490px;
 
 }
+
 .step3{
     margin-left: 800px;
     margin-top: -150px;
 
 }
+
 .step4{
     margin-left: 1192px;
     margin-top: -320px;
 
 }
+
 .step5{
     margin-left: 1517px;
     margin-top: -620px;
-
 }
+
 .part6 > button{
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 17px 129px;
     gap: 10px;
     border-radius: 36.5px;
     background: #FF6B00;
     box-shadow: -4px 5px 21px 0px rgba(0, 0, 0, 0.15);
-
     color: #FFF;
-
     text-align: center;
     font-family: Open Sans;
     font-size: 29px;
@@ -802,15 +793,15 @@ position: relative;
     margin-top: 450px;
 }
 
+
+
 .part7{
     margin: 0 auto;
     margin-top: 271px;
     width: 917px;
     height: 891px;
-
     border-radius: 35px;
     background: rgba(255, 255, 255, 0.85);
-
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
 }
@@ -821,9 +812,7 @@ position: relative;
     height: 45px;
     flex-direction: column;
     justify-content: center;
-
     color: #0085AE;
-
     text-align: center;
     font-family: Open Sans;
     font-size: 30px;
@@ -849,6 +838,7 @@ position: relative;
     line-height: 150%; 
     margin: 27px auto;
 }
+
 .part7 > p > span{
     color: #025C75;
     font-family: Open Sans;
@@ -865,7 +855,6 @@ position: relative;
 
 .part7 > form > label{
     color: #025C75;
-
     font-family: Open Sans;
     font-size: 22px;
     font-style: normal;
@@ -884,15 +873,14 @@ position: relative;
     font-size: 18px;
     padding-left: 5px;
 }
+
 .part7 > form > button{
     width: 420px;
     height: 73px;
     border-radius: 36.5px;
     background: #FF6B00;
     box-shadow: -4px 5px 21px 0px rgba(0, 0, 0, 0.15);
-
     color: #FFF;
-
     font-family: Open Sans;
     font-size: 29px;
     font-style: normal;
