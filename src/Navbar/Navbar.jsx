@@ -38,7 +38,7 @@ export default function Navbar() {
   return (
     <header>
       
-      <div className='logo'>
+      <div className='nav_logo'>
         
       </div>
 

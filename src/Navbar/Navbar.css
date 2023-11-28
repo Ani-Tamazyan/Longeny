@@ -1,9 +1,10 @@
 header{
+    /* width: 1920px; */
     display: flex;
     justify-content: space-around;
 }
 
-.logo{
+.nav_logo{
     background: url("../images/logo.png");
     width: 221px;
     height: 221px;

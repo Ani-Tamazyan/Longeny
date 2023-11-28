@@ -1,24 +1,22 @@
 import React, { useState } from 'react'
 
+import Footer from "../Footer/Footer"
+
 import "./Plans.css"
-import countryside from "./images/walk-countryside.png";
 import link from "./images/link.png";
 import organ1 from "./images/organ1.png"
 import organ2 from "./images/organ2.png"
 import organ3 from "./images/organ3.png"
 import organ4 from "./images/organ4.png"
 import drop from "./images/drop.png"
-import zig from "./images/zig.png"
 
 function Plans() {
     const [openSection, setOpenSection] = useState(null);
     
   const handleDropClick = (section) => {
-    if (openSection === section) {
-      
+    if (openSection === section) {  
       setOpenSection(null);
-    } else {
-      
+    } else {     
       setOpenSection(section);
     }
   };
@@ -240,8 +238,10 @@ function Plans() {
 
           {openSection === 'biomarker' && (
             <div className='part5_info_hiden'>
-              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs.</p>
-              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases.</p>
+              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs. We analyze a wide range of biomarkers, 
+                including hormone levels, inflammation markers, nutrient levels, and more.</p>
+              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases, including heart disease, metabolic disorders, 
+                and cancers and provide personalized recommendations to optimize your health.</p>
               <button className='bookFreeCall'>Book my call now!</button>
             </div>
           )}
@@ -256,8 +256,10 @@ function Plans() {
                 </div>                
                 {openSection === 'mri' && (
             <div className='part5_info_hiden'>
-              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs.</p>
-              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases.</p>
+              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs. We analyze a wide range of biomarkers, 
+                including hormone levels, inflammation markers, nutrient levels, and more.</p>
+              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases, including heart disease, metabolic disorders, 
+                and cancers and provide personalized recommendations to optimize your health.</p>
               <button className='bookFreeCall'>Book my call now!</button>
             </div>
           )}
@@ -273,8 +275,10 @@ function Plans() {
                 
                 {openSection === 'assessment' && (
             <div className='part5_info_hiden'>
-              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs.</p>
-              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases.</p>
+              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs. We analyze a wide range of biomarkers, 
+                including hormone levels, inflammation markers, nutrient levels, and more.</p>
+              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases, including heart disease, metabolic disorders, 
+                and cancers and provide personalized recommendations to optimize your health.</p>
               <button className='bookFreeCall'>Book my call now!</button>
             </div>
           )}
@@ -290,8 +294,10 @@ function Plans() {
                 
                 {openSection === 'screening' && (
             <div className='part5_info_hiden'>
-              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs.</p>
-              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases.</p>
+              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs. We analyze a wide range of biomarkers, 
+                including hormone levels, inflammation markers, nutrient levels, and more.</p>
+              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases, including heart disease, metabolic disorders, 
+                and cancers and provide personalized recommendations to optimize your health.</p>
               <button className='bookFreeCall'>Book my call now!</button>
             </div>
           )}
@@ -307,8 +313,10 @@ function Plans() {
                 
                 {openSection === 'analysis' && (
             <div className='part5_info_hiden'>
-              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs.</p>
-              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases.</p>
+              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs. We analyze a wide range of biomarkers, 
+                including hormone levels, inflammation markers, nutrient levels, and more.</p>
+              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases, including heart disease, metabolic disorders, 
+                and cancers and provide personalized recommendations to optimize your health.</p>
               <button className='bookFreeCall'>Book my call now!</button>
             </div>
           )}
@@ -324,8 +332,10 @@ function Plans() {
                 
                 {openSection === 'dexa' && (
             <div className='part5_info_hiden'>
-              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs.</p>
-              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases.</p>
+              <p>Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs. We analyze a wide range of biomarkers, 
+                including hormone levels, inflammation markers, nutrient levels, and more.</p>
+              <p>By measuring these biomarkers, we can identify potential health risks for chronic diseases, including heart disease, metabolic disorders, 
+                and cancers and provide personalized recommendations to optimize your health.</p>
               <button className='bookFreeCall'>Book my call now!</button>
             </div>
           )}
@@ -409,6 +419,7 @@ function Plans() {
             </form>
         </div>
 
+        <Footer />
         </>
     )
 }

@@ -1,6 +1,5 @@
 body{
-    width: 1920px;
-    height: 9548px;
+   width: 1920px;
     background: linear-gradient(0deg, rgba(176, 239, 248, 0.11) 0%, rgba(176, 239, 248, 0.11) 100%), #FFF;
 }
 
@@ -448,10 +447,11 @@ position: relative;
 .checkbox > ul > li{
     margin-top: 16px;
     display: flex;
-    overflow: hidden;
+   
 }
 .checkbox_label{
     display: flex;
+    /* overflow:initial; */
     
 }
 .checkbox_label > label{
@@ -486,6 +486,13 @@ position: relative;
    margin-left: 30px;
    margin-right: 24px;
 } 
+.checkbox::-webkit-scrollbar{
+    width: 8px;
+    /* height: 404px; */
+    border-radius: 16px;
+    background: linear-gradient(99deg, #57E8F6 28.39%, #12ADDC 74.04%);
+    box-shadow: 0.5px 0px 3px 0px rgba(0, 88, 137, 0.45);
+}
 .part4_button{
     width: 790px;
     height: 73px;
@@ -522,7 +529,7 @@ position: relative;
     font-size: 44px;
     font-style: normal;
     font-weight: 800;
-    line-height: 150%; /* 66px */
+    line-height: 150%; 
     letter-spacing: 3.96px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -547,6 +554,7 @@ position: relative;
 }
 .part5_info{
     margin: 50px 0;
+    width:min-content;
 }
 
 .part5_info_header{
@@ -557,7 +565,7 @@ position: relative;
     backdrop-filter: blur(6px);
     
     display: flex;
-    width: fit-content;
+    width:fit-content;
 }
 .part5_info_header_img{
     margin: auto;
@@ -569,7 +577,7 @@ position: relative;
     height: 10px;
 }
 .part5_info_header > h3{
- 
+    width:max-content;
     color: #005889;
     font-family: Open Sans;
     font-size: 40px;
@@ -578,6 +586,37 @@ position: relative;
     line-height: 150%; 
     margin-left: 100px;
     padding: 25px 0; 
+}
+.part5_info_hiden{
+    /* height: 474px; */
+
+    border-radius: 0px 0px 86px 0px;
+    background: #C7F6FF;
+    box-shadow: -4px -4px 16px 0px rgba(0, 133, 174, 0.19) inset;
+    margin-top: -40px;
+}
+.part5_info_hiden > p{
+    padding-left: 100px;
+    padding-right: 60px;
+    color: #646464;
+
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+.part5_info_hiden p:first-of-type{
+    padding-top: 90px;
+}
+.part5_info_hiden p:last-of-type{
+    padding-bottom: 30px;
+    padding-top: 18px;
+}
+
+.part5_info_hiden > button{
+    margin-left: 100px;
+    margin-bottom: 50px;
 }
 
 
