@@ -383,6 +383,39 @@ position: relative;
     padding-top: 52px;
     color: #005889;
 }
+.dashed1, .dashed2, .dashed3{
+    stroke-width: 1.5px;
+    border:1px dashed rgba(0, 88, 137, 0.60);
+    position: absolute;
+    z-index: -1;
+}
+.dashed1{
+    width: 368.681px;
+    height: 223.704px;
+
+    left: 241px;
+    bottom: -2070px;   
+    border-right-color: transparent;
+}
+.dashed2{
+    width: 298.989px;
+    height: 230.587px;
+    
+    left: 1379px;
+    bottom: -2070px;   
+    border-left-color: transparent;
+
+}
+.dashed3{
+    width: 85.5px;
+    height: 395.784px;
+
+    left: 840px;
+    bottom: -2300px;  
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
 .organ4_img{
     margin-top: -44px;
     margin-left: -67px;
@@ -432,7 +465,8 @@ position: relative;
 
 .checkbox{
     width: 897px;
-    height: 832px;
+    height: auto;
+    max-height: 832px;
     border-radius: 15px 0px 0px 15px;
     border: 1px solid #0085AE;
 
@@ -442,7 +476,7 @@ position: relative;
     backdrop-filter: blur(6px);
     margin: 0 auto;
     margin-top: 91px;
-    overflow: auto;
+    overflow-y: auto;
 }
 .checkbox > ul > li{
     margin-top: 16px;
@@ -451,8 +485,6 @@ position: relative;
 }
 .checkbox_label{
     display: flex;
-    /* overflow:initial; */
-    
 }
 .checkbox_label > label{
     width: 755px;
@@ -486,13 +518,7 @@ position: relative;
    margin-left: 30px;
    margin-right: 24px;
 } 
-.checkbox::-webkit-scrollbar{
-    width: 8px;
-    /* height: 404px; */
-    border-radius: 16px;
-    background: linear-gradient(99deg, #57E8F6 28.39%, #12ADDC 74.04%);
-    box-shadow: 0.5px 0px 3px 0px rgba(0, 88, 137, 0.45);
-}
+
 .part4_button{
     width: 790px;
     height: 73px;

@@ -100,7 +100,8 @@ function Plans() {
                 </div>
                 
             </div>
-
+            <div className='dashed1'></div>
+            <div className='dashed2'></div>
             <div className='part3_organ'>
                 <div className='part3_organ2'>
                     <img src={organ2}alt="organ2" className='organ2_img'/>
@@ -122,6 +123,7 @@ function Plans() {
                     
                 </div>
             </div>
+            <div className='dashed3'></div>
 
             <div className='part3_organ4'>
                <img src={organ4} alt="organ4" className='organ4_img'/>
