@@ -465,8 +465,7 @@ position: relative;
 
 .checkbox{
     width: 897px;
-    height: auto;
-    max-height: 832px;
+    height: 832px;
     border-radius: 15px 0px 0px 15px;
     border: 1px solid #0085AE;
 
@@ -476,7 +475,7 @@ position: relative;
     backdrop-filter: blur(6px);
     margin: 0 auto;
     margin-top: 91px;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 .checkbox > ul > li{
     margin-top: 16px;
@@ -874,7 +873,7 @@ position: relative;
     margin-left: 101px;
 }
 
-.part7 > form > input{
+.part7 > form > input, select{
     width: 715px;
     height: 47px;
     border-radius: 10px;
@@ -904,6 +903,7 @@ position: relative;
     margin: 0 auto;
     margin-top: 19px;
 }
+
 
 
 
