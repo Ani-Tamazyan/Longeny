@@ -1,0 +1,187 @@
+.part3{
+    margin-top: 436px;
+    text-align: center;
+}
+
+.part3 > h2{
+    display: flex;
+    width: 877px;
+    height: 60px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0085AE;
+    text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 150%; 
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+}
+.organ2_img, .organ3_img, .organ4_img{
+    width: 87.761px;
+    height: 87.761px;
+}
+
+.part3_organ1_cont{
+    width: 930.952px;
+    height: 114.433px;
+    border-radius: 44px;
+    border: 3px solid #57E8F6;
+    background: #FFF;
+    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
+    backdrop-filter: blur(6px);
+    margin: 0 auto;
+    margin-top: 135px;
+    position: relative;
+}
+
+.part3_organ1_cont > h3{   
+    width: 381.882px;
+   font-size: 30px;
+    margin: auto;
+    padding: auto;
+    margin-top: 50px;
+    transform: translateY(-50%);
+    color: #005889;
+}
+
+.organ1_img{
+    width: 119.596px;
+    height: 119.596px;
+    margin-top: -57px;
+    margin-left: -524px;
+    position: absolute;  
+    z-index: 2;
+}
+
+.part3_organ{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 368px;
+}
+
+.part3_organ2_cont{
+    width: 440.525px;
+    height: 114.433px;
+    border-radius: 30px;
+    background: #FFF;
+
+    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
+    backdrop-filter: blur(6px);
+    position: relative;
+}
+
+.part3_organ2_cont > h3{
+    text-align: left;
+    width: 345.882px;
+   font-size: 20px;
+    margin: auto;
+    padding-top: 45px;
+    color: #005889;
+}
+
+.part3_organ2_cont > h3 > p{
+   font-size: 15px;
+}
+
+.organ2_img{
+    margin-top: -44px;
+    margin-left: -264px;
+    position: absolute;
+    z-index: 2;
+}
+
+.part3_organ3{
+    display: flex;
+}
+
+.part3_organ3_cont{
+    width: 478.382px;
+    height: 114.433px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
+    backdrop-filter: blur(6px);
+    margin-left: 324px;
+    position: relative;
+}
+
+.part3_organ3_cont > h3{
+    width: 345.882px;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 52px;
+    color: #005889;
+}
+
+.organ3_img{
+    margin-left: 280px;
+    margin-top: -44px;
+    position: absolute;
+    z-index: 2;
+}
+
+.part3_organ4_cont{
+    width: 277.049px;
+    height: 114.433px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
+    backdrop-filter: blur(6px);
+    margin-top: 101px;
+    margin-left: 930px;
+}
+
+.part3_organ4_cont > h3{
+    width: 97.793px;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 52px;
+    color: #005889;
+}
+
+.dashed1, .dashed2, .dashed3{
+    stroke-width: 1.5px;
+    border:1px dashed rgba(0, 88, 137, 0.60);
+    position: absolute;
+    z-index: -1;
+}
+
+.dashed1{
+    width: 368.681px;
+    height: 223.704px;
+
+    left: 241px;
+    bottom: -1900px;   
+    border-right-color: transparent;
+}
+
+.dashed2{
+    width: 298.989px;
+    height: 230.587px;
+    
+    left: 1379px;
+    bottom: -1900px;   
+    border-left-color: transparent;
+
+}
+
+.dashed3{
+    width: 85.5px;
+    height: 395.784px;
+
+    left: 840px;
+    bottom: -2100px;  
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.organ4_img{
+    margin-top: -44px;
+    margin-left: -67px;
+    position: absolute;
+    z-index: 2;
+}

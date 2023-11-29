@@ -1,18 +1,22 @@
 import React from 'react'
 
-import './Footer.css';
-import phone from "./images/phone.png"
-import envelop from "./images/envelop.png"
-import location from "./images/location.png"
-import groops from "./images/groops.png"
+import './styles/Footer.css';
+
+import phone from "../assets/images/phone.png"
+import envelop from "../assets/images/envelop.png"
+import location from "../assets/images/location.png"
+import logo from "../assets/images/logo.png"
+
+import facebook from "../assets/images/facebook.png"
+import instagram from "../assets/images/instagram.png"
+import linkedin from "../assets/images/linkedin.png"
+import youtube from "../assets/images/youtube.png"
 
 
 function Footer() {
     return (
         <div className='footer'>
-            <div className='footer_logo'>
-
-            </div>
+            <img src={logo} alt="logo" className='footer_logo'/>
 
             <div className='footer_link'>
                 <ul>
@@ -51,7 +55,16 @@ function Footer() {
                 </ul>
             </div>  
 
-            <img src={groops} alt="groops" className='groops' />       
+            <div className='groops'>
+                        <a href="#"><img src={facebook} alt="facebook" className='facebook'/></a>
+
+                        <a href="#"><img src={instagram} alt="instagram" className='instagram'/></a>
+
+                        <a href="#"><img src={linkedin} alt="linkedin" className='linkedin'/></a>
+
+                        <a href="#"><img src={youtube} alt="facebook" className='youtube'/></a>
+        
+            </div>
         </div>
     )
 }

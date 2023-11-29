@@ -1,9 +1,9 @@
 import React from 'react'
 
-import './Home.css'
-import marisa from './images/marisa.jpg'
-import services from './images/services.jpg'
-import oldMan from './images/oldMan.jpg'
+import '../styles/Home.css'
+import marisa from '../../assets/images/marisa.jpg'
+import services from '../../assets/images/services.jpg'
+import oldMan from '../../assets/images/oldMan.jpg'
 
 function Home() {
     return (
@@ -12,7 +12,7 @@ function Home() {
                 <div className='home_left_side'>
                     <h1 className='home_left_side_h'>Live Long with Health & Vitality</h1>
                     <p className='home_left_side_p'>Helping you taking charge of your health and adding years to your life</p>  
-                    <button className='bookFreeCall'>Book my free call</button>
+                    <button className='book_free_call'>Book my free call</button>
                 </div>
 
                 <div className='home_img_card_I'>
@@ -41,3 +41,5 @@ function Home() {
 }
 
 export default Home
+
+

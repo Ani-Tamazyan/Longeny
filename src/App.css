@@ -1,8 +1,4 @@
-/* body{
-    width: 1920px;
-    background: linear-gradient(0deg, rgba(176, 239, 248, 0.11) 0%, rgba(176, 239, 248, 0.11) 100%), #FFF;
-} */
-.bookFreeCall{
+.book_free_call{
     width: 420px;
     height: 73px;
     background-color: #FF6B00;

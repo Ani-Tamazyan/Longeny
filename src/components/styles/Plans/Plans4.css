@@ -1,0 +1,101 @@
+.part4_h{
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    width: 1011px;
+    height: 174px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0085AE;
+    text-align: center;
+    text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 150%; 
+    letter-spacing: 5.8px;
+    text-transform: uppercase;
+}
+
+.part4_p{
+    margin: auto;
+    margin-top: 29px;
+    width: 790px;
+    color: #646464;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.checkbox{
+    width: 897px;
+    height: 832px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid #0085AE;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0px 0px 12px 2px rgba(52, 189, 227, 0.32) inset;
+    backdrop-filter: blur(6px);
+    margin: 0 auto;
+    margin-top: 91px;
+    overflow-y: scroll;
+}
+
+.checkbox > ul > li{
+    margin-top: 16px;
+    display: flex;
+}
+
+.checkbox_label{
+    display: flex;
+}
+
+.checkbox_label > label{
+    width: 755px;
+    height: 85px;
+    color: #056A86;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 150%; 
+    text-transform: uppercase;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.74);
+    box-shadow: 4px 4px 11px 0px rgba(52, 189, 227, 0.24);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.checkbox_input{
+   width: 36px;
+   height: 36px;
+   margin: auto 0;
+   margin-left: 30px;
+   margin-right: 24px;
+} 
+
+.checkbox::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, #4d7fff 0%, #1a56ff 100%);
+    border-radius: 5px;
+}
+
+.part4_button{
+    width: 790px;
+    height: 73px;
+    margin: 0 auto;
+
+}
+
+.order{
+    width: 301px;
+    height: 73px;
+    border-radius: 36.5px;
+    border: 1px solid #FF6B00;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 39.49px;
+    color: #FF6B00;
+    margin-left: 32px;
+    background: transparent;
+}
+

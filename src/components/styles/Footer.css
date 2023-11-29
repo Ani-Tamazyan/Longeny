@@ -42,10 +42,7 @@
 }
 .footer_link > ul > div  > li{
     color: #FFF;
-
-    font-family: Open Sans;
     font-size: 15px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
@@ -58,7 +55,16 @@
     padding-right: 10px;
 }
 .groops{
-    width: 204.922px;
-    height: 37px;
-    margin: auto;
+   margin: auto;
+   display: flex;
+   gap: 8px;
+}
+.groops > a{
+    background-color: #3ba4af;
+    padding: 8px;
+    border-radius: 50%;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

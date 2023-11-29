@@ -1,22 +1,19 @@
-header{
-    /* width: 1920px; */
+header, nav{
     display: flex;
-    justify-content: space-around;
 }
 
 .nav_logo{
-    background: url("../images/logo.png");
     width: 221px;
     height: 221px;
     margin-left: 100px;
     margin-top: 18px;
+    margin-right: 71px;
 }
 
-.navLinks{
-    margin-left: 71px;
+.nav-links{
     margin-top: 47px;
-    gap: 56px;
-    display: flex;   
+    display: flex;  
+    gap: 56px;    
 }
 
 .link{
@@ -24,52 +21,44 @@ header{
     width: 50px;
     height: 22px;
     color: #056A86;
-    font-family: Open Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
 }
 .activ{
     border-bottom: 2px solid #FF6B00;
 }
-.SignIn{
+.sign-in{
     width: 177px;
     height: 45px;
     border-radius: 24.5px;
     background: #1DB6E0;
     color: #FFF;
-    font-family: Open Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
-    margin-top: -10px;
+    margin-top: 37px;
     border: none;
     cursor: pointer;
+    margin-left: 122px;
 }
 
 .dropdown-image{
     width: 9px;
     height: 4px;
     margin-left: 12px;
-    font-weight: 800;
 }
 
 
 .dropdown-content {
-    position: absolute;
-    left: 45%;
-    top: 50px;
     border: 1px solid #1DB6E0; 
+    margin-top: 3px;
   }
   
   .dropdown-link {
     text-decoration: none;
-    display: inline;
-    padding: 0 25px;
+    display: block;
+    padding: 10px 25px;
     color: gray;
     font-weight: 600;
     font-size: 20px;
@@ -78,6 +67,7 @@ header{
   .dropdown-link:hover{
     color: #1DB6E0
   }
+
 
 
 

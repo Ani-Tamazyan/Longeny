@@ -1,37 +1,36 @@
-import { useState, useEffect } from 'react'
-import {Route, Routes} from "react-router-dom"
-import Navbar from "./Navbar/Navbar"
-import Home from "./Navbar/Pages/Home/Home"
-import AboutUs from "./Navbar/Pages/About_Us/AboutUs"
-import Guidance from "./Navbar/Pages/Guidance/Guidance"
-import Plans from "./Navbar/Pages/Plans/Plans"
-import Resources from "./Navbar/Pages/Resources/Resources"
-import Support from "./Navbar/Pages/Support/Support"
-import ForPartners from "./Navbar/Pages/ForPartners/ForPartners"
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
+import AboutUs from './components/pages/AboutUs';
+import Guidance from './components/pages/Guidance';
+import Plans from './components/pages/Plans/Plans';
+import Resources from './components/pages/Resources';
+import Support from './components/pages/Support';
+import ForPartners from './components/pages/ForPartners';
 
-import './App.css'
+import './App.css';
+
+
 
 function App() {
-
   return (
-    <div>
+    <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/about" element={<AboutUs />}/>
-        <Route path="/guidance" element={<Guidance />}/>
-        <Route path="/plans" element={<Plans />}/>
-        <Route path="/resources" element={<Resources />}/>
-        <Route path="/support" element={<Support />}/>
-        <Route path="/forPartners" element={<ForPartners />}/>
-      </Routes>   
-
-         
-    </div>
-  )
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/guidance" element={<Guidance />} />
+        <Route path="/plans" element={<Plans />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/forPartners" element={<ForPartners />} />
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;
 
 
 
