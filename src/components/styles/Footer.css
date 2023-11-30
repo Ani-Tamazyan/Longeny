@@ -11,8 +11,7 @@
     width: 113px;
     height: 113px;
     background-size:contain;
-    background-color: #5BE6F5;
-    
+    background-color: #5BE6F5;   
     margin: auto 0;
     margin-left: 137px;
 }
@@ -26,17 +25,11 @@
 .footer_link > ul > div > a{
     list-style: none;
     text-decoration: none;
-
-    
 }
 .footer_link > ul > div > a > li{
     color: var(--text-with-background);
-
-    font-family: Open Sans;
     font-size: 15px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: uppercase;
     padding: 4px;
 }
