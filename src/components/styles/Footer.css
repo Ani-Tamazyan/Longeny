@@ -30,7 +30,7 @@
     
 }
 .footer_link > ul > div > a > li{
-    color: #FFF;
+    color: var(--text-with-background);
 
     font-family: Open Sans;
     font-size: 15px;

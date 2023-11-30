@@ -15,7 +15,7 @@
     height: 45px;
     flex-direction: column;
     justify-content: center;
-    color: #0085AE;
+    color: var(--header-color);
     text-align: center;
     font-size: 30px;
     font-weight: 800;
@@ -29,7 +29,7 @@
 .part7 > p{
     width: 640px;
     height: 76px;
-    color: #646464;
+    color: var(--text-color);
     text-align: center;
     font-size: 24px;
     font-weight: 600;
@@ -61,7 +61,7 @@
     height: 47px;
     border-radius: 10px;
     border: 1px solid #046A86;
-    background: #FFF;
+    background: var(--background);
     margin: 0 auto;
     margin-bottom: 16px;
     font-size: 18px;
@@ -72,9 +72,9 @@
     width: 420px;
     height: 73px;
     border-radius: 36.5px;
-    background: #FF6B00;
+    background: var(--button-color);
     box-shadow: -4px 5px 21px 0px rgba(0, 0, 0, 0.15);
-    color: #FFF;
+    color: var(--text-with-background);
     font-size: 29px;
     font-weight: 700;
     line-height: normal;

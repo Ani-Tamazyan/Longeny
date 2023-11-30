@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    color: #0085AE;
+    color: var(--header-color);
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
     font-size: 38px;
     font-weight: 800;
@@ -30,7 +30,7 @@
     height: 114.433px;
     border-radius: 44px;
     border: 3px solid #57E8F6;
-    background: #FFF;
+    background: var(--background);
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
     margin: 0 auto;
@@ -45,7 +45,7 @@
     padding: auto;
     margin-top: 50px;
     transform: translateY(-50%);
-    color: #005889;
+    color: var(--organ-h);
 }
 
 .organ1_img{
@@ -67,7 +67,7 @@
     width: 440.525px;
     height: 114.433px;
     border-radius: 30px;
-    background: #FFF;
+    background: var(--background);
 
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
@@ -80,7 +80,7 @@
    font-size: 20px;
     margin: auto;
     padding-top: 45px;
-    color: #005889;
+    color: var(--organ-h);
 }
 
 .part3_organ2_cont > h3 > p{
@@ -102,7 +102,7 @@
     width: 478.382px;
     height: 114.433px;
     border-radius: 30px;
-    background: #FFF;
+    background: var(--background);
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
     margin-left: 324px;
@@ -114,7 +114,7 @@
     font-size: 20px;
     margin: auto;
     padding-top: 52px;
-    color: #005889;
+    color: var(--organ-h);
 }
 
 .organ3_img{
@@ -128,7 +128,7 @@
     width: 277.049px;
     height: 114.433px;
     border-radius: 30px;
-    background: #FFF;
+    background: var(--background);
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
     margin-top: 101px;
@@ -140,7 +140,7 @@
     font-size: 20px;
     margin: auto;
     padding-top: 52px;
-    color: #005889;
+    color: var(--organ-h);
 }
 
 .dashed1, .dashed2, .dashed3{
