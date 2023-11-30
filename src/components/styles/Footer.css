@@ -71,7 +71,7 @@
         height: 100px;
         margin-left: 30px;
     }
-    .footer_link > a {
+    .footer_link > ul > div:not(.contact){
         display: none;
     }
 }

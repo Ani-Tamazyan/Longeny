@@ -9,6 +9,7 @@ import menu from '../assets/images/menu.jpg';
 export default function Navbar() {
   const location = useLocation();
   const [showDropDown, setShowDropDown] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false); 
 
   const links = [
     { to: '/', label: 'HOME' },
@@ -29,9 +30,9 @@ export default function Navbar() {
     setShowDropDown(!showDropDown);
   };
 
-  // const handleMenu = () => {
-    
-  // };
+  const handleMobileMenu = () => {
+    setShowMobileMenu(!showMobileMenu); 
+  };
 
   return (
     <header>
@@ -72,14 +73,29 @@ export default function Navbar() {
               )}
             </li>
           ))}
-        </ul>
-
-        
+        </ul>      
                
       </nav>
       <button className='sign-in'>SIGN IN</button>
 
-      <img src={menu} alt="menu" className='menu'/>
+      <img src={menu} alt="menu" className='menu' onClick={handleMobileMenu} />
+
+      {showMobileMenu && (
+        <nav className='mobile-menu'>
+          <ul className='nav-links'>
+            {links.map((link, index) => (
+              <li key={index}>
+                <Link
+                  to={link.to}
+                  className={location.pathname === link.to ? 'link activ' : 'link'}
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
     </header>
   );
 }
