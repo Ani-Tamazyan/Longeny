@@ -96,3 +96,18 @@
     margin-left: 100px;
     margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 991px) {  
+    .part5 > h2{
+        width: fit-content;
+        font-size: 30px;
+    }
+    .part5 > p{
+        font-size: 25px;
+    }
+    .part5_info_header > h3{
+        font-size: 30px;
+        padding: 15px 0; 
+        
+    }
+}

@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './styles/Navbar.css';;
 import dropDown from '../assets/images/drop-down.png';
 import logo from '../assets/images/logo.png';
+import menu from '../assets/images/menu.jpg'; 
 
 export default function Navbar() {
   const location = useLocation();
@@ -27,6 +28,10 @@ export default function Navbar() {
   const handleDropDown = () => {
     setShowDropDown(!showDropDown);
   };
+
+  // const handleMenu = () => {
+    
+  // };
 
   return (
     <header>
@@ -68,9 +73,13 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
+
         
-        <button className='sign-in'>SIGN IN</button>
+               
       </nav>
+      <button className='sign-in'>SIGN IN</button>
+
+      <img src={menu} alt="menu" className='menu'/>
     </header>
   );
 }

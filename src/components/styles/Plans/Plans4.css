@@ -99,3 +99,12 @@
     background: transparent;
 }
 
+@media only screen and (max-width: 991px) {  
+    .part4_h{
+        font-size: 50px;
+    }
+    .part4_p{
+        font-size: 22px;
+    }
+}
+

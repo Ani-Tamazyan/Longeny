@@ -10,7 +10,7 @@ function Plans6() {
             <h3>Where do I Start?</h3>
 
             <div className='part6_img'></div>
-
+        <div className='sreps'>
             <div className='part6_step step1'>
                 <div className='number'>
                     <h2>1</h2>
@@ -54,6 +54,7 @@ function Plans6() {
                 <p>Reassess by Retesting</p>
                 <p>Every 3 to 6 months, you can update your test data to learn about your progress and continue working on or recalibrate your action plan
                      based on the results.</p>
+            </div>
             </div>
 
             <button>explore plans now!</button>

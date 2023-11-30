@@ -27,7 +27,7 @@
 
 .part3_organ1_cont{
     width: 930.952px;
-    height: 114.433px;
+    height: var(--organ-cont-height);
     border-radius: 44px;
     border: 3px solid #57E8F6;
     background: var(--background);
@@ -65,7 +65,7 @@
 
 .part3_organ2_cont{
     width: 440.525px;
-    height: 114.433px;
+    height: var(--organ-cont-height);
     border-radius: 30px;
     background: var(--background);
 
@@ -100,7 +100,7 @@
 
 .part3_organ3_cont{
     width: 478.382px;
-    height: 114.433px;
+    height: var(--organ-cont-height);
     border-radius: 30px;
     background: var(--background);
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
@@ -184,4 +184,90 @@
     margin-left: -67px;
     position: absolute;
     z-index: 2;
+}
+
+@media only screen and (max-width: 991px) {  
+    .organ1_img{
+        width: 95px;
+        height: 95px;
+        margin-top: -57px;
+        margin-left: -340px;
+    } 
+    .organ2_img, .organ3_img, .organ4_img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .part3_organ1_cont{
+        width: 600px;
+        height: 100px;
+    }
+    
+    .part3_organ1_cont > h3{   
+        width: 381.882px;
+       font-size: 30px;
+    }
+    
+    .part3_organ{
+        margin-top: 110px;
+        margin-left: 50px;
+    }
+    
+    .part3_organ2_cont, .part3_organ3_cont{
+        width: 300px;
+        height: 100px;
+    }
+    
+    .part3_organ2_cont > h3, .part3_organ3_cont > h3, .part3_organ4_cont > h3{
+        width: 250px;
+        font-size: 18px;
+    }
+    
+    .part3_organ2_cont > h3 > p{
+       font-size: 13px;
+    }
+    
+     .organ2_img{
+        margin-top: -44px;
+        margin-left: 0px;
+        left: 15px;
+    }
+       
+    .part3_organ3_cont{
+        margin-left: 290px;
+    }
+    
+    .organ3_img{
+        margin-left: 260px;
+    }
+    
+    .part3_organ4_cont{
+        width: 300px;
+        height: 100px;
+        margin-top: 101px;
+        margin-left: 450px;
+
+    }
+    .part3_organ4_cont > h3{
+        margin: auto;
+        padding-top: 47px;
+    }
+  
+    .dashed1{
+        width: 340px;    
+        left: 5px;
+        bottom: -1850px;   
+    }
+ 
+    .dashed2{
+        width: 298.989px;
+        height: 230.587px;
+        left: 650px;
+        bottom: -1850px;   
+    
+    }
+    .dashed3{
+        left: 360px;
+        bottom: -2050px;  
+    }
 }

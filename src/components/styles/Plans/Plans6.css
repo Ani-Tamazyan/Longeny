@@ -133,3 +133,25 @@
     margin-top: 450px;
 }
 
+@media only screen and (max-width: 991px) {  
+    .part6 > h2{
+        font-size: 30px;
+    }
+    .part6 > h3{
+        font-size: 47px;
+    }
+    .part6_img{
+        background: none;
+    }
+    .part6{
+        display: flex;
+        flex-direction: column;
+    }
+    .step1, .step2, .step3, .step4, .step5{
+        margin: 50px  auto;
+    }
+    .part6 > button{
+        margin-top: 150px;
+    }
+}
+

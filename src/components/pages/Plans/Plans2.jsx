@@ -36,7 +36,7 @@ function Plans2() {
 
                         <div className='part2_card_p'>
                             <p>At LonGeny our first goal is to help prevent or delay the onset of chronic disease.
-                                <span>Why Prevention?</span>                           
+                                <span> Why Prevention?</span>                           
                             </p>
                         </div>
                     </div>
