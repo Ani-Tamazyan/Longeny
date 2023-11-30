@@ -9,7 +9,7 @@
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
     font-size: 44px;
     font-weight: 800;
-    line-height: 150%; 
+    line-height: var(--line-height); 
     letter-spacing: 3.96px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -21,7 +21,7 @@
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    line-height: 150%; 
+    line-height: var(--line-height); 
     margin: 0 auto;
     margin-top: 72px;
 }
@@ -62,7 +62,7 @@
     color: #005889;
     font-size: 40px;
     font-weight: 700;
-    line-height: 150%; 
+    line-height: var(--line-height); 
     margin-left: 100px;
     padding: 25px 0; 
 }

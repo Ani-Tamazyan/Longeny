@@ -38,7 +38,7 @@ function Footer() {
                         <a href="#"><li>FAQ</li></a>                  
                     </div>
 
-                    <div>
+                    <div className='contact'>
                         <li>
                             <img src={phone} alt="phone" />
                             +0 123 456 789
