@@ -9,6 +9,7 @@ function Plans1() {
         <div className='part1'>
             <div className='part1_left_side'>
 
+
                 <h2 className='part1_left_side_h'>HEALTH ASSESSMENT</h2>
 
                 <div className='part1_left_side_card'>
