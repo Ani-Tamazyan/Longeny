@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "../../styles/Plans/Plans6.css";
+import "../../styles/Plans/PlansStart.css";
 
 function Plans6() {
     return (

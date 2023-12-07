@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "../../styles/Plans/Plans7.css";
+import "../../styles/Plans/PlansForm.css";
 
 
 function Plans7() {

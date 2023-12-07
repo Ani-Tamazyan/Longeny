@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "../../styles/Plans/Plans2.css"
+import "../../styles/Plans/PlansPrevent.css"
 
 import link from "../../assets/images/link.png"
 

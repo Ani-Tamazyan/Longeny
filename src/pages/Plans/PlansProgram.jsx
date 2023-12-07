@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../../styles/Plans/Plans5.css";
+import "../../styles/Plans/PlansProgram.css";
 import drop from "../../assets/images/drop.png";
 import data from '../../components/constant';
 

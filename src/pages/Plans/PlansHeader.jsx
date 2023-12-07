@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "../../styles/Plans/Plans1.css"
+import "../../styles/Plans/PlansHeader.css"
 
 import countryside from "../../assets/images/walk-countryside.png"
 

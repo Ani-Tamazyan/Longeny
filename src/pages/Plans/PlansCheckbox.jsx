@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "../../styles/Plans/Plans4.css"
+import "../../styles/Plans/PlansCheckbox.css"
 
 function Plans4() {
     return (

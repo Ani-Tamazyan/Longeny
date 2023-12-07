@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "../../styles/Plans/Plans3.css"
+import "../../styles/Plans/PlansDisease.css"
 
 import organ1 from "../../assets/images/organ1.png"
 import organ2 from "../../assets/images/organ2.png"
