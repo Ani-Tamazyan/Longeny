@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Route, Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import AboutUs from './components/pages/AboutUs';
@@ -11,21 +11,54 @@ import ForPartners from './components/pages/ForPartners';
 
 import './App.css';
 
+const Layout = () => {
+  return(
+    <div>
+      <Navbar />
+      <Outlet />
+    </div>
+  )
+}
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/about",
+        element: <AboutUs />
+      },
+      {
+        path: "/guidance",
+        element: <Guidance />
+      },
+      {
+        path: "/plans",
+        element: <Plans />
+      },
+      {
+        path: "/resources",
+        element: <Resources />
+      }, {
+        path: "/support",
+        element: <Support />
+      }, {
+        path: "/partners",
+        element: <ForPartners />
+      }
+    ]
+  },
+])
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/guidance" element={<Guidance />} />
-        <Route path="/plans" element={<Plans />} />
-        <Route path="/resources" element={<Resources />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/forPartners" element={<ForPartners />} />
-      </Routes>
+    <RouterProvider router={router}/>
     </>
   );
 }
