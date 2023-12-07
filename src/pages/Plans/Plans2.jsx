@@ -2,7 +2,7 @@ import React from 'react'
 
 import "../../styles/Plans/Plans2.css"
 
-import link from "../../../assets/images/link.png"
+import link from "../../assets/images/link.png"
 
 function Plans2() {
     return (

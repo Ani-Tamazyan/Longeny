@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './styles/Footer.css';
+import '../styles/Footer.css';
 
 import phone from "../assets/images/phone.png"
 import envelop from "../assets/images/envelop.png"

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import './styles/Navbar.css';;
+import '../styles/Navbar.css';;
 import dropDown from '../assets/images/drop-down.png';
 import logo from '../assets/images/logo.png';
 import menu from '../assets/images/menu.jpg'; 

@@ -1,9 +1,9 @@
 import React from 'react'
 
 import '../styles/Home.css'
-import marisa from '../../assets/images/marisa.jpg'
-import services from '../../assets/images/services.jpg'
-import oldMan from '../../assets/images/oldMan.jpg'
+import marisa from '../assets/images/marisa.jpg'
+import services from '../assets/images/services.jpg'
+import oldMan from '../assets/images/oldMan.jpg'
 
 function Home() {
     return (

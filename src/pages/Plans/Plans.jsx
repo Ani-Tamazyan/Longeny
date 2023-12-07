@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Footer from "../../Footer";
 import Part1 from "./Plans1";
 import Part2 from "./Plans2";
 import Part3 from "./Plans3";
@@ -26,8 +25,6 @@ function Plans() {
             <Part5 />
             <Part6 />   
             <Part7 />  
-
-            <Footer />
         </>
     )
 }

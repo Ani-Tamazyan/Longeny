@@ -1,13 +1,14 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider, Route, Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
-import AboutUs from './components/pages/AboutUs';
-import Guidance from './components/pages/Guidance';
-import Plans from './components/pages/Plans/Plans';
-import Resources from './components/pages/Resources';
-import Support from './components/pages/Support';
-import ForPartners from './components/pages/ForPartners';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import Guidance from './pages/Guidance';
+import Plans from './pages/Plans/Plans';
+import Resources from './pages/Resources';
+import Support from './pages/Support';
+import ForPartners from './pages/ForPartners';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ const Layout = () => {
     <div>
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   )
 }

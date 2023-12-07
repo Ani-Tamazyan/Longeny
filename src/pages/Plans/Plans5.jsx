@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../../styles/Plans/Plans5.css";
-import drop from "../../../assets/images/drop.png";
+import drop from "../../assets/images/drop.png";
 import data from './constant';
 
 function Plans5() {

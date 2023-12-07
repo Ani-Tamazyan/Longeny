@@ -2,7 +2,8 @@ import React from 'react'
 
 import "../../styles/Plans/Plans1.css"
 
-import countryside from "../../../assets/images/walk-countryside.png"
+import countryside from "../../assets/images/walk-countryside.png"
+
 
 function Plans1() {
     return (
