@@ -1,12 +1,12 @@
 import React from 'react'
 
-import Part1 from "./Plans1";
-import Part2 from "./Plans2";
-import Part3 from "./Plans3";
-import Part4 from "./Plans4";
-import Part5 from "./Plans5";
-import Part6 from "./Plans6";
-import Part7 from "./Plans7";
+import PlansHeader from "./PlansHeader";
+import PlansPrevent from "./PlansPrevent";
+import PlansDisease from "./PlansDisease";
+import PlansCheckbox from "./PlansCheckbox";
+import PlansProgram from "./PlansProgram";
+import PlansStart from "./PlansStart";
+import PlansForm from "./PlansForm";
 
 import "../../styles/Plans/Plans.css";
 
@@ -18,13 +18,13 @@ function Plans() {
 
     return (
         <>
-            <Part1 />
-            <Part2 />
-            <Part3 />
-            <Part4 />
-            <Part5 />
-            <Part6 />   
-            <Part7 />  
+            <PlansHeader />
+            <PlansPrevent />
+            <PlansDisease />
+            <PlansCheckbox />
+            <PlansProgram />
+            <PlansStart />   
+            <PlansForm />  
         </>
     )
 }
