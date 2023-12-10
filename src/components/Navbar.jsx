@@ -8,26 +8,27 @@ import menu from '../assets/images/menu.jpg';
 
 export default function Navbar() {
   const location = useLocation();
-  const [showDropDown, setShowDropDown] = useState(false);
+  const [showDropDown, setShowDropDown] = useState(null);
   const [showMobileMenu, setShowMobileMenu] = useState(false); 
 
   const links = [
     { to: '/', label: 'HOME' },
     { to: '/plans', label: 'PLANS' },
-    { to: '/guidance', label: 'GUIDANCE/CONSELLING' },
+    { to: '/guidance', label: 'GUIDANCE / CONSELLING' },
     { to: '/resources', label: 'RESOURCES', dropdownLinks: [
         { to: '/blog', label: 'BLOGS' },
         { to: '/post', label: 'VIDEOS' },
         { to: '/post', label: 'FAQS' },
       ],
     },
-    { to: '/support', label: 'SUPPORT/CONTACT' },
+    { to: '/support', label: 'SUPPORT / CONTACT' },
     { to: '/forPartners', label: 'FOR PARTNERS' },
     { to: '/about', label: 'ABOUT US' },
   ];
 
-  const handleDropDown = () => {
-    setShowDropDown(!showDropDown);
+  const handleDropDown = (index, event) => {
+    event.preventDefault();
+    setShowDropDown((prevIndex) => (prevIndex === index ? null : index));
   };
 
   const handleMobileMenu = () => {
@@ -35,12 +36,11 @@ export default function Navbar() {
   };
 
   return (
-    <header>
-
+    <nav>
       <img src={logo} alt="logo" className='nav_logo'/>
-
-      <nav>
-        <ul className='nav-links'>
+    
+      <ul className='navbar'>
+        <div className='nav-links'>
           {links.map((link, index) => (
             <li key={index}>
               <Link
@@ -53,12 +53,12 @@ export default function Navbar() {
                     src={dropDown}
                     alt='dropdown'
                     className='dropdown-image'
-                    onClick={handleDropDown}
-                    style={index === 3 ? { position: 'relative' } : {}}
+                    onClick={(event) => handleDropDown(index, event)}
                   />
                 )}
               </Link>
-              {link.dropdownLinks && showDropDown && (
+
+              {link.dropdownLinks && showDropDown === index && (
                 <div className='dropdown-content'>
                   <ul>
                     {link.dropdownLinks.map((dropdownLink, dropdownIndex) => (
@@ -71,13 +71,17 @@ export default function Navbar() {
                   </ul>
                 </div>
               )}
+
             </li>
           ))}
-        </ul>      
-               
-      </nav>
-      <button className='sign-in'>SIGN IN</button>
+        </div>
 
+          <div className='nav-button'>
+            <button className='sign-in'>SIGN IN</button>
+          </div>
+      </ul>   
+
+        {/* 
       <img src={menu} alt="menu" className='menu' onClick={handleMobileMenu} />
 
       {showMobileMenu && (
@@ -95,7 +99,9 @@ export default function Navbar() {
             ))}
           </ul>
         </nav>
-      )}
-    </header>
+      )} */}
+      </nav>
+      
+
   );
 }

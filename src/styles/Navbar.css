@@ -1,73 +1,73 @@
-header, nav{
-    display: flex;
+nav, .navbar, .nav-links{
+  display: flex;
+}
+
+nav{
+  margin: 0 100px;
 }
 
 .nav_logo{
-    width: 221px;
-    height: 221px;
-    margin-left: 100px;
-    margin-top: 18px;
-    margin-right: 71px;
+  width: 221px;
+  height: 221px;
+  margin-top: 18px;
+}
+
+.navbar{
+  gap: 122px;
+  margin-left: 71px;
 }
 
 .nav-links{
-    margin-top: 47px;
-    display: flex;  
-    gap: 56px;    
+  width: 1129px;
+  margin-top: 47px;
+  gap: 56px;
+  height: 22px;
 }
 
 .link{
-    text-decoration: none;
-    width: 50px;
-    height: 22px;
-    color: #056A86;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
+  color: #056A86;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
 }
+
 .activ{
-    border-bottom: 2px solid #FF6B00;
+  border-bottom: 2px solid #FF6B00;
 }
+
 .sign-in{
-    width: 177px;
-    height: 45px;
-    border-radius: 24.5px;
-    background: #1DB6E0;
-    color: var(--text-with-background);
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 37px;
-    border: none;
-    cursor: pointer;
-    margin-left: 122px;
+  margin-top: 37px;
+  width: 177px;
+  height: 45px;
+  border-radius: 24.5px;
+  border: none;
+  background: #1DB6E0;
+
+  color: #FFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav-links li:nth-child(5){
+  margin-left: 21px;
 }
 
-.dropdown-image{
-    width: 9px;
-    height: 4px;
-    margin-left: 12px;
+.dropdown-image{ 
+  position: absolute;
+  top: 50%;
+  margin-left: 12px;
+  width: 9px;
+  height: 4px;
+  stroke-width: 2px;
+  stroke: #056A86;
 }
 
 
-.dropdown-content {
-    border: 1px solid #1DB6E0; 
-    margin-top: 3px;
-  }
-  
-  .dropdown-link {
-    text-decoration: none;
-    display: block;
-    padding: 10px 25px;
-    color: gray;
-    font-weight: 600;
-    font-size: 20px;
-  }
 
-  .dropdown-link:hover{
-    color: #1DB6E0
-  }
-  
+
+/*  
   .menu{
     display: none;
     width: 60px;
@@ -106,4 +106,4 @@ header, nav{
         gap: 30px;
         margin: 10px 0;
       }
-}
+} */

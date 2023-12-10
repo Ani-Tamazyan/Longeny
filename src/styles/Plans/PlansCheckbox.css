@@ -1,80 +1,114 @@
-.part4_h{
-    margin: 0 auto;
+.part_checkbox{
     margin-top: 200px;
+}
+
+.part_checkbox_h{
     display: flex;
     width: 1011px;
     height: 174px;
     flex-direction: column;
     justify-content: center;
-    color: var(--header-color);
+
+    color: #0085AE;
     text-align: center;
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
+    font-family: Open Sans;
     font-size: 58px;
     font-weight: 800;
-    line-height: var(--line-height); 
+    line-height: 150%; 
     letter-spacing: 5.8px;
     text-transform: uppercase;
+    margin: 0 auto;
+
 }
 
-.part4_p{
-    margin: auto;
-    margin-top: 29px;
+.part_checkbox_p{
     width: 790px;
-    color: var(--text-color);
+
+    color: #646464;
     text-align: center;
+    font-family: Open Sans;
     font-size: 25px;
+    font-style: normal;
     font-weight: 600;
-    line-height: var(--line-height);
+    line-height: 150%; 
+    margin: 21px auto 91px;
 }
 
 .checkbox{
     width: 897px;
     height: 832px;
+
     border-radius: 15px 0px 0px 15px;
-    border: 1px solid var(--header-color);
+    border: 1px solid #0085AE;
     background: rgba(255, 255, 255, 0.88);
     box-shadow: 0px 0px 12px 2px rgba(52, 189, 227, 0.32) inset;
     backdrop-filter: blur(6px);
     margin: 0 auto;
-    margin-top: 91px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
-.checkbox > ul > li{
-    margin-top: 16px;
+.checkbox ul{
+    margin-top: 20px;
+}
+
+.checkbox li{
     display: flex;
 }
 
+.checkbox_input{
+    width: 36px;
+    height: 36px;
+
+    border-radius: 8px;
+    border: 1px solid #056A86;
+    margin: auto 0;
+    margin-left: 30px;
+}
 .checkbox_label{
-    display: flex;
-}
-
-.checkbox_label > label{
     width: 755px;
     height: 85px;
-    color: #056A86;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: var(--line-height); 
-    text-transform: uppercase;
+
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.74);
     box-shadow: 4px 4px 11px 0px rgba(52, 189, 227, 0.24);
     backdrop-filter: blur(6px);
+    margin-bottom: 16px;
+    margin-left: 24px;
+}
+.checkbox_label label{
+    color: #056A86;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 150%; 
+    text-transform: uppercase;
     display: flex;
     align-items: center;
+    padding-top: 23px;
     padding-left: 40px;
-   
 }
 
-.checkbox_input{
-   width: 36px;
-   height: 36px;
-   margin: auto 0;
-   margin-left: 30px;
-   margin-right: 24px;
-} 
+.part4_button{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 88px;
+}
 
+.order{
+    width: 301px;
+    height: 73px;
+    border-radius: 36.5px;
+    border: 1px solid #FF6B00;
+    box-shadow: -4px 5px 21px 0px rgba(0, 0, 0, 0.15);
+    color: #FF6B00;
+    font-family: Open Sans;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
 
 .checkbox::-webkit-scrollbar {
     width: 8px;
@@ -82,7 +116,31 @@
 
 .checkbox::-webkit-scrollbar-track {
     width: 2px;
-    /* height: 792px; */
+    height: 792px;
+
+    border-radius: 13px;
+    background: #AECAD2;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28) inset;
+  }
+  
+.checkbox::-webkit-scrollbar-thumb {
+    width: 8px;
+    height: 404px;
+    border-radius: 16px;
+    background: linear-gradient(99deg, #57E8F6 28.39%, #12ADDC 74.04%);
+    box-shadow: 0.5px 0px 3px 0px rgba(0, 88, 137, 0.45);
+}
+
+
+
+/*
+.checkbox::-webkit-scrollbar {
+    width: 8px;
+}
+
+.checkbox::-webkit-scrollbar-track {
+    width: 2px;
+    
     border-radius: 13px;
     background: #AECAD2;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28) inset;
@@ -122,5 +180,5 @@
     .part4_p{
         font-size: 22px;
     }
-}
-
+} 
+ */

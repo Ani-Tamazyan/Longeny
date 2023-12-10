@@ -11,9 +11,6 @@ import PlansForm from "./PlansForm";
 import "../../styles/Plans/Plans.css";
 
 
-
-
-
 function Plans() {
 
     return (

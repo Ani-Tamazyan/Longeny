@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react' 
 
 import "../../styles/Plans/PlansStart.css";
 
 function Plans6() {
     return (
-        <div className='part6'>
+        <div className='part_start'>
             <h2>Disease Free Life Implies Longer Healthier Life!</h2>
 
             <h3>Where do I Start?</h3>
 
-            <div className='part6_img'></div>
+            <div className='part_start_img'></div>
         <div className='sreps'>
-            <div className='part6_step step1'>
+            <div className='part_start_step step1'>
                 <div className='number'>
                     <h2>1</h2>
                 </div>
@@ -19,7 +19,7 @@ function Plans6() {
                 <p>We learn about your health goals and our expert counsellors will help you choose a plan that’s most apt for you.</p>
             </div>
 
-            <div className='part6_step step2'>
+            <div className='part_start_step step2'>
                 <div className='number'>
                     <h2>2</h2>
                 </div>
@@ -28,7 +28,7 @@ function Plans6() {
                 <p>You can schedule a time that’s convenient for you and have your sample collected from the comfort of your hime.</p>
             </div>
 
-            <div className='part6_step step3'>
+            <div className='part_start_step step3'>
                 <div className='number'>
                     <h2>3</h2>
                 </div>
@@ -37,7 +37,7 @@ function Plans6() {
                 <p>Receive your test report and get a personalised guidance based on your goals and specific to your health.</p>
             </div>
 
-            <div className='part6_step step4'>
+            <div className='part_start_step step4'>
                 <div className='number'>
                     <h2>4</h2>
                 </div>
@@ -46,7 +46,7 @@ function Plans6() {
                 <p>Connect with leading healthcare specialists, including nutritionists, physiologists, doctors and sleep specialists.</p>
             </div>
 
-            <div className='part6_step step5'>
+            <div className='part_start_step step5'>
                 <div className='number'>
                     <h2>5</h2>
                 </div>

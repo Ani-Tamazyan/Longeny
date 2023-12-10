@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Poppins:ital,wght@1,100&display=swap');
+
+body{
+    width: 1920px;
+}
+
 .book_free_call{
     width: 420px;
     height: 73px;
+    border-radius: 36.5px;
+    box-shadow: -4px 5px 21px 0px rgba(0, 0, 0, 0.15);
     background-color: #FF6B00;
     border: none;
-    border-radius: 36.5px;
+
     text-align: center;
     color: #FFF;
     font-family: Open Sans;
     font-size: 29px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
 }
   

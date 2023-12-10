@@ -1,13 +1,13 @@
 import React from 'react'
 
 import "../../styles/Plans/PlansCheckbox.css"
-
+ 
 function Plans4() {
     return (
-        <div className='part4'>
-            <h2 className='part4_h'>The Most Comprehensive Biomarker Analysis</h2>
+        <div className='part_checkbox'>
+            <h2 className='part_checkbox_h'>The Most Comprehensive Biomarker Analysis</h2>
 
-            <p className='part4_p'>Your membership will include 120+ lab tests and consultations with leading doctor's in respective fields.</p>
+            <p className='part_checkbox_p'>Your membership will include 120+ lab tests and consultations with leading doctor's in respective fields.</p>
            
 
             <div className='checkbox'>
@@ -15,7 +15,7 @@ function Plans4() {
                     <li>
                         <input type="checkbox" value="Heart" className='checkbox_input'/>
                         <div className='checkbox_label'>
-                            <label>Heart</label>
+                            <label htmlFor="Heart">Heart</label>
                         </div>
                         
                     </li>
