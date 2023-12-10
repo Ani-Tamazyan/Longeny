@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         header: "Comprehensive Biomarker Analysis",
         text1: "Our biomarker analysis is designed to provide a detailed evaluation of your body's unique needs. We analyze a wide range of biomarkers, including hormone levels, inflammation markers, nutrient levels, and more.",
@@ -37,5 +37,19 @@ const data = [
     },
 ]
 
-export default data;
+export const label = [
+    "Heart",
+    "Thyroid",
+    "Autoimmunity",
+    "Immunity",
+    "Metabolic Health",
+    "Digestive",
+    "Nutrients",
+    "Liver",
+    "sdfh",
+    "jhgity",
+    "uiogh",
+    "iodtgf"
+]
+
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../../styles/Plans/PlansProgram.css";
 import drop from "../../assets/images/drop.png";
-import data from '../../components/constant';
+import {data} from '../../components/constant';
 
 function Plans5() {
   const [openSection, setOpenSection] = useState(null);
