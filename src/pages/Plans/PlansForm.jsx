@@ -5,25 +5,29 @@ import "../../styles/Plans/PlansForm.css";
 
 function Plans7() {
     return (
-        <div className='part7'>
+        <div className='part_form'>
             <h2>SCHEDULE YOUR FREE CALL</h2>
             <p>Experience the power within you to control your health Schedule a call with our counsellors <span>NOW!</span></p>
 
             <form>
-                <label htmlFor="">First Name</label>
-                <input type="text" name="" id="" />
-                <label htmlFor="">Last Name</label>
-                <input type="text" name="" id="" />
-                <label htmlFor="">Email</label>
-                <input type="email" name="" id="" />
-                <label htmlFor="">Mobile</label>
-                <input type="phone" name="" id="" />
-                <label htmlFor="">What are you most interested in?</label>
+                <label htmlFor="first">First Name</label>
+                <input type="text" name="first" id="first" />
+
+                <label htmlFor="last">Last Name</label>
+                <input type="text" name="last" id="last" />
+
+                <label htmlFor="email">Email</label>
+                <input type="email" name="email" id="email" />
+
+                <label htmlFor="mobil">Mobile</label>
+                <input type="phone" name="mobil" id="mobil" />
+
+                <label htmlFor="interest">What are you most interested in?</label>
                 <select name="interest" id="interest">
                     <option value=""></option>           
-                    <option value="volvo">Heart</option>
-                    <option value="saab">Liver</option>
-                    <option value="mercedes">Immunity</option>
+                    <option value="heart">Heart</option>
+                    <option value="liver">Liver</option>
+                    <option value="immunity">Immunity</option>
                 </select>
         
                 <button>Submit Request</button>
@@ -31,6 +35,6 @@ function Plans7() {
         </div>
     )
 }
-
+ 
 export default Plans7
 

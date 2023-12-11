@@ -5,7 +5,7 @@ import "../../styles/Plans/PlansHeader.css"
 import countryside from "../../assets/images/walk-countryside.png"
 
 
-function Plans1() {
+function PlansHeader() {
     return (
         <div className='part_header'>
             <div className='part_header_left_side'>
@@ -30,4 +30,5 @@ function Plans1() {
     )
 }
 
-export default Plans1
+export default PlansHeader
+

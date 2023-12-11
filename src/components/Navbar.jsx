@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import '../styles/Navbar.css';;
+import '../styles/Navbar.css';
 import dropDown from '../assets/images/drop-down.png';
 import logo from '../assets/images/logo.png';
-import menu from '../assets/images/menu.jpg'; 
+import menu from '../assets/images/menu.jpg';
 
 export default function Navbar() {
   const location = useLocation();
   const [showDropDown, setShowDropDown] = useState(null);
-  const [showMobileMenu, setShowMobileMenu] = useState(false); 
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   const links = [
     { to: '/', label: 'HOME' },
@@ -22,7 +22,7 @@ export default function Navbar() {
       ],
     },
     { to: '/support', label: 'SUPPORT / CONTACT' },
-    { to: '/forPartners', label: 'FOR PARTNERS' },
+    { to: '/forPartners', label: 'FOR PARTNERS' }, 
     { to: '/about', label: 'ABOUT US' },
   ];
 
@@ -32,31 +32,37 @@ export default function Navbar() {
   };
 
   const handleMobileMenu = () => {
-    setShowMobileMenu(!showMobileMenu); 
+    setShowMobileMenu(!showMobileMenu);
+  };
+
+  const handleMobileLinkClick = () => {
+    setShowMobileMenu(false);
   };
 
   return (
-    <nav>
+    <div className='part_nav'>
+      <nav>
       <img src={logo} alt="logo" className='nav_logo'/>
     
       <ul className='navbar'>
-        <div className='nav-links'>
-          {links.map((link, index) => (
-            <li key={index}>
-              <Link
-                to={link.to}
-                className={location.pathname === link.to ? 'link activ' : 'link'}
-              >
-                {link.label}
-                {link.dropdownLinks && (
-                  <img
-                    src={dropDown}
-                    alt='dropdown'
-                    className='dropdown-image'
-                    onClick={(event) => handleDropDown(index, event)}
-                  />
-                )}
-              </Link>
+          <div className='nav-links'>
+            {links.map((link, index) => (
+              <li key={index}>
+                <Link
+                  to={link.to}
+                  className={location.pathname === link.to ? 'link activ' : 'link'}
+                  onClick={handleMobileLinkClick}
+                >
+                  {link.label}
+                  {link.dropdownLinks && (
+                    <img
+                      src={dropDown}
+                      alt='dropdown'
+                      className='dropdown-image'
+                      onClick={(event) => handleDropDown(index, event)}
+                    />
+                  )}
+                </Link>
 
               {link.dropdownLinks && showDropDown === index && (
                 <div className='dropdown-content'>
@@ -81,27 +87,32 @@ export default function Navbar() {
           </div>
       </ul>   
 
-        {/* 
+       
       <img src={menu} alt="menu" className='menu' onClick={handleMobileMenu} />
 
-      {showMobileMenu && (
-        <nav className='mobile-menu'>
-          <ul className='nav-links'>
-            {links.map((link, index) => (
-              <li key={index}>
-                <Link
-                  to={link.to}
-                  className={location.pathname === link.to ? 'link activ' : 'link'}
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      )} */}
+      <div className='menu_cont'>
+          {showMobileMenu && (
+            <nav className='mobile-menu'>
+              <ul className='nav-links'>
+                {links.map((link, index) => (
+                  <li key={index}>
+                    <Link
+                      to={link.to}
+                      className={location.pathname === link.to ? 'link activ' : 'link'}
+                      onClick={handleMobileLinkClick} 
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+        </div>
       </nav>
-      
-
+    </div>
   );
 }
+
+
+        

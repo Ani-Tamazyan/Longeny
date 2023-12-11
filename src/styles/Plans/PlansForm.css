@@ -1,4 +1,5 @@
-/* .part7{
+
+.part_form{
     margin: 0 auto;
     margin-top: 271px;
     width: 917px;
@@ -9,7 +10,7 @@
     backdrop-filter: blur(6px);
 }
 
-.part7 > h2{
+.part_form > h2{
     display: flex;
     width: 605px;
     height: 45px;
@@ -26,7 +27,7 @@
     padding-top: 60px;
 }
 
-.part7 > p{
+.part_form > p{
     width: 640px;
     height: 76px;
     color: var(--text-color);
@@ -37,26 +38,26 @@
     margin: 27px auto;
 }
 
-.part7 > p > span{
+.part_form > p > span{
     color: #025C75;
     font-size: 26px;
     font-weight: 600;
     line-height: var(--line-height);
 }
 
-.part7 > form{
+.part_form > form{
     display: flex;
     flex-direction: column;
 }
 
-.part7 > form > label{
+.part_form> form > label{
     color: #025C75;
     font-size: 22px;
     font-weight: 600;
     margin-left: 101px;
 }
 
-.part7 > form > input, select{
+.part_form > form > input, select{
     width: 715px;
     height: 47px;
     border-radius: 10px;
@@ -66,9 +67,10 @@
     margin-bottom: 16px;
     font-size: 18px;
     padding-left: 5px;
+
 }
 
-.part7 > form > button{
+.part_form > form > button{
     width: 420px;
     height: 73px;
     border-radius: 36.5px;
@@ -81,4 +83,5 @@
     border: none;
     margin: 0 auto;
     margin-top: 19px;
-} */
+
+}
