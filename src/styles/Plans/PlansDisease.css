@@ -156,276 +156,99 @@
 } 
 
 
-/* .part3{
-    margin-top: 436px;
-    text-align: center;
-}
-
-.part3 > h2{
-    display: flex;
-    width: 877px;
-    height: 60px;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: var(--header-color);
-    text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
-    font-size: 38px;
-    font-weight: 800;
-    line-height: var(--line-height); 
-    letter-spacing: 4px;
-    text-transform: uppercase;
-
-}
-.organ2_img, .organ3_img, .organ4_img{
-    width: 87.761px;
-    height: 87.761px;
-}
-
-.part3_organ1_cont{
-    width: 930.952px;
-    height: var(--organ-cont-height);
-    border-radius: 44px;
-    border: 3px solid #57E8F6;
-    background: var(--background);
-    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
-    backdrop-filter: blur(6px);
-    margin: 0 auto;
-    margin-top: 135px;
-    position: relative;
-}
-
-.part3_organ1_cont > h3{   
-    width: 381.882px;
-   font-size: 30px;
-    margin: auto;
-    padding: auto;
-    margin-top: 50px;
-    transform: translateY(-50%);
-    color: var(--organ-h);
-}
-
-.organ1_img{
-    width: 119.596px;
-    height: 119.596px;
-    margin-top: -57px;
-    margin-left: -524px;
-    position: absolute;  
-    z-index: 2;
-}
-
-.part3_organ{
-    display: flex;
-    margin-top: 110px;
-    margin-left: 368px;
-}
-
-.part3_organ2_cont{
-    width: 440.525px;
-    height: var(--organ-cont-height);
-    border-radius: 30px;
-    background: var(--background);
-
-    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
-    backdrop-filter: blur(6px);
-    position: relative;
-}
-
-.part3_organ2_cont > h3{
-    text-align: left;
-    width: 345.882px;
-   font-size: 20px;
-    margin: auto;
-    padding-top: 45px;
-    color: var(--organ-h);
-}
-
-.part3_organ2_cont > h3 > p{
-   font-size: 15px;
-}
-
-.organ2_img{
-    margin-top: -44px;
-    margin-left: -264px;
-    position: absolute;
-    z-index: 2;
-}
-
-.part3_organ3{
-    display: flex;
-}
-
-.part3_organ3_cont{
-    width: 478.382px;
-    height: var(--organ-cont-height);
-    border-radius: 30px;
-    background: var(--background);
-    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
-    backdrop-filter: blur(6px);
-    margin-left: 324px;
-    position: relative;
-}
-
-.part3_organ3_cont > h3{
-    width: 345.882px;
-    font-size: 20px;
-    margin: auto;
-    padding-top: 52px;
-    color: var(--organ-h);
-}
-
-.organ3_img{
-    margin-left: 280px;
-    margin-top: -44px;
-    position: absolute;
-    z-index: 2;
-}
-
-.part3_organ4_cont{
-    width: 277.049px;
-    height: 114.433px;
-    border-radius: 30px;
-    background: var(--background);
-    box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
-    backdrop-filter: blur(6px);
-    margin-top: 101px;
-    margin-left: 930px;
-}
-
-.part3_organ4_cont > h3{
-    width: 97.793px;
-    font-size: 20px;
-    margin: auto;
-    padding-top: 52px;
-    color: var(--organ-h);
-}
-
-.dashed1, .dashed2, .dashed3{
-    stroke-width: 1.5px;
-    border:1px dashed rgba(0, 88, 137, 0.60);
-    position: absolute;
-    z-index: -1;
-}
-
-.dashed1{
-    width: 368.681px;
-    height: 223.704px;
-
-    left: 241px;
-    bottom: -1900px;   
-    border-right-color: transparent;
-}
-
-.dashed2{
-    width: 298.989px;
-    height: 230.587px;
-    
-    left: 1379px;
-    bottom: -1900px;   
-    border-left-color: transparent;
-
-}
-
-.dashed3{
-    width: 85.5px;
-    height: 395.784px;
-
-    left: 840px;
-    bottom: -2100px;  
-    border-right-color: transparent;
-    border-top-color: transparent;
-}
-
-.organ4_img{
-    margin-top: -44px;
-    margin-left: -67px;
-    position: absolute;
-    z-index: 2;
-}
-
-@media only screen and (max-width: 991px) {  
-    .organ1_img{
-        width: 95px;
-        height: 95px;
-        margin-top: -57px;
-        margin-left: -340px;
-    } 
-    .organ2_img, .organ3_img, .organ4_img{
-        width: 75px;
-        height: 75px;
+@media only screen and (max-width: 390px) {  
+    .part_disease{
+        margin-top: 736px;
     }
     
-    .part3_organ1_cont{
-        width: 600px;
-        height: 100px;
-    }
-    
-    .part3_organ1_cont > h3{   
-        width: 381.882px;
-       font-size: 30px;
-    }
-    
-    .part3_organ{
-        margin-top: 110px;
-        margin-left: 50px;
-    }
-    
-    .part3_organ2_cont, .part3_organ3_cont{
-        width: 300px;
-        height: 100px;
-    }
-    
-    .part3_organ2_cont > h3, .part3_organ3_cont > h3, .part3_organ4_cont > h3{
-        width: 250px;
-        font-size: 18px;
-    }
-    
-    .part3_organ2_cont > h3 > p{
-       font-size: 13px;
-    }
-    
-     .organ2_img{
-        margin-top: -44px;
+    .part_disease h2{
         margin-left: 0px;
-        left: 15px;
+        width: 410px;
+        height: 40px;
+        font-size: 25px;
+        line-height: 130%; 
+        letter-spacing: 2px;
+        text-align: center;
     }
-       
-    .part3_organ3_cont{
-        margin-left: 290px;
+    
+    .part_disease_organ1_cont{
+        width: 300px;
+        height: 50px;
+    
+        border-radius: 22px;
+        border: 2px solid #57E8F6;
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-left: 45px;
+    }
+    
+    .part_disease_organ1_cont img{
+        margin-top: 15px;
+        margin-left: 50px;
+        width: 200px;
+    }
+    
+    .organ1_img{
+        width: 50px;
+        height: 50px;
+        left: 20px;
+        top: 1650px
+    }
+    
+    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
+        border-radius: 22px;
+        height: 50px;
+        width: 300px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+    
+    .part_disease_organ{
+        display: block;
+    }
+    .part_disease_organ2_cont{
+        width: 300px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+    .part_disease_organ2_cont img, .part_disease_organ3_cont img{
+        margin-top: 15px;
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .part_disease_organ4_cont img{
+        margin-top: 15px;
+        margin-left: 50px;
+        width: 100px;
+    }
+    
+    .organ2_img, .organ3_img, .organ4_img{
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .organ2_img{
+        top: 1730px;
+        left: 20px;
     }
     
     .organ3_img{
-        margin-left: 260px;
+        top: 1810px;
+        left: 20px;
     }
     
-    .part3_organ4_cont{
-        width: 300px;
-        height: 100px;
-        margin-top: 101px;
-        margin-left: 450px;
-
+    .part_disease_organ4_cont img{
+        margin-left: 89px;
     }
-    .part3_organ4_cont > h3{
-        margin: auto;
-        padding-top: 47px;
-    }
-  
-    .dashed1{
-        width: 340px;    
-        left: 5px;
-        bottom: -1850px;   
-    }
- 
-    .dashed2{
-        width: 298.989px;
-        height: 230.587px;
-        left: 650px;
-        bottom: -1850px;   
     
+    .organ4_img{
+        top: 1890px;
+        left: 20px;
     }
-    .dashed3{
-        left: 360px;
-        bottom: -2050px;  
-    }
-} */
+    
+    .dashed1, .dashed2, .dashed3{
+        display: none;
+    }   
+} 

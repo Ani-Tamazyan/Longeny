@@ -55,21 +55,79 @@
 }
 
 .part_header_img{
+    width: 1090px;
     height: 800px;
     margin-top: -62px;
     border-radius: 44px;
     object-fit: cover;
     position: absolute;
     left: 830px;
-    z-index: -1;
-    
+    z-index: -1;   
 } 
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (max-width: 1804px) {    
+    .part_header_img{
+        left: 743px; 
+        width: 1000px;
+    }   
+}
+
+@media only screen and (max-width: 390px) {    
+    .part_header_left_side{
+        margin-left: 3px;
+    }
+    .part_header_left_side_h{
+        width: 200px;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 130%; 
+        letter-spacing: 3px;
+        margin-top: 113px;
+    }
     
+    .part_header_left_side_card{
+        display: block;
+        width: 400px;
+        height: 155px;
+        margin-top: 20px;
+    }
+    
+    .part_header_left_side_card_text{
+        width: 400px;
+        height: 90px; 
+        margin-left: 38px;
+    }
+    
+    .part_header_left_side_card_text  span{
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 110%;
+    }
+    
+    .part_header_left_side_card_text >  span:nth-child(2){
+        font-size: 30px;
+    }
+    
+    .header_button{
+        margin-top: 50px;
+    }
+    
+    .part_header_img{
+        width: 500px;
+        height: 600px;
+        margin-top: 0px;
+        object-fit:contain;
+        left: 0px;
+    } 
+    .header_button{
+        display: flex;
+        justify-content: center;
+    }
+    .header_button > .book_free_call{
+        width: 300px;
+        font-size: 20px;
+        height: 50px;
+    }
 }
 
-@media only screen and (max-width: 390px) {
 
-     
-}

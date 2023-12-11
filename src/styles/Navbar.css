@@ -3,7 +3,6 @@ nav, .navbar, .nav-links{
 }
 
 nav{
-  width: 1920px;
   margin: 0 100px;
 }
 
@@ -19,7 +18,6 @@ nav{
 }
 
 .nav-links{
-  width: 1129px;
   margin-top: 47px;
   gap: 56px;
   height: 22px;
@@ -69,28 +67,25 @@ nav{
     display: none;
     width: 40px;
     height: 40px;
-    margin-top: 37px;
-    margin-left: 100px;
+    margin-top: 27px;
+    margin-left: 35px;
   }
 
-  
-  
-  @media only screen and (min-width: 2000px) {
-    nav{
-      width: 2000px;
-    }
-    .nav-links{
-      width: 1200px;
+  @media only screen and (max-width: 1804px) {    
+    .navbar{
       gap: 70px;
     }
-  }
+}
+
 
   @media only screen and (max-width: 390px) {
+    nav{
+      margin: 0 10px;
+    }
     .nav_logo{
-        width: 180px;
-        height: 180px;
-        margin-left: 5px;
-        margin-right: 10px;
+        width: 160px;
+        height: 160px;
+        margin-top: 10px;
     }  
     
      .nav-links{
@@ -103,25 +98,27 @@ nav{
       }
 
       .sign-in{
-        margin-left: 600px;
+          margin-top: 27px;
+          width: 100px;
+          height: 35px;
+          font-size: 14px;
+          margin-left: -30px;
       }
     
       .menu_cont {
         display: flex;
         position: absolute;
-        top: 200px;
-        left: -100px;
+        top: 100px;
+        left: 100px;
         height: 370px;
         background-color: #ccc;
         z-index: 10;
         padding: 10px 0;
-
       }
       
       .mobile-menu .nav-links{
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 30px;
         margin: 10px 0;
       }

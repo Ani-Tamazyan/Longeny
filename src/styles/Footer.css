@@ -1,12 +1,10 @@
 .footer{
-    width: 1920px;
     height: 229px;
     background: #046A86;
     display: flex;
     margin-top: 125px;
 }
 .footer_logo{
-    /* background-image: url("../Plans/images/logo.png"); */
     border-radius: 50%;
     box-shadow: 0px 1px 75px 0px #5BE6F5;
     width: 113px;
@@ -30,9 +28,7 @@
     font-family: Open Sans;
     font-size: 15px;
     font-weight: 600;
-    text-transform: uppercase;
-    /* padding: 4px; */
-    
+    text-transform: uppercase; 
 }
 
 .footer_link > ul > div {
@@ -74,17 +70,32 @@
     justify-content: center;
     align-items: center;
 }
-/*  
-@media only screen and (max-width: 991px) {    
+
+@media only screen and (max-width: 390px) {
     .footer{
-        height: 190px;
+        height: 200px;
     }
     .footer_logo{
-        width: 100px;
-        height: 100px;
-        margin-left: 30px;
+        width: 70px;
+        height: 70px;
+        margin-left: 10px;
     }
     .footer_link > ul > div:not(.contact){
         display: none;
     }
-} */
+    
+    .contact{
+        margin-left: -40px;
+    }
+
+     .footer_link > ul > div { 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    .footer_link > ul > div  > li{
+        font-size: 12px;      
+    } 
+}

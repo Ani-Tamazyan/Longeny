@@ -95,18 +95,84 @@
 }
 
 
-/*
-@media only screen and (max-width: 991px) {  
-    .part5 > h2{
-        width: fit-content;
-        font-size: 30px;
+
+@media only screen and (max-width: 390px) {  
+    .part_program{
+        margin-top: 150px;
     }
-    .part5 > p{
-        font-size: 25px;
+    
+    .part_program > h2{
+        width: 400px;
+        font-size: 24px;
+        line-height: 130%; 
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-left: 0;
     }
-    .part5_info_header > h3{
-        font-size: 30px;
-        padding: 15px 0; 
-        
+    
+    .part_program > p{
+        width: 400px;
+        font-size: 15px;
+        line-height: 130%;
+        margin: 50px 0 60px 0px;
     }
-} */
+    
+    .part_program_info{
+        margin: 30px 0;
+    }
+    
+    .part_program_info_header{
+        border-radius: 0 70px 70px 0;
+    }
+    
+    .part_program_info_header_img{
+        margin: auto 5px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+    
+    .part_program_info_header > img{
+        width: 10px;
+        height: 5px;
+    }
+    
+    .part_program_info_header > h3{
+        font-size: 15px;
+        margin-left: 10px;
+        padding: 5px 0; 
+    }
+    
+    .part_program_info_hiden{
+    border-radius: 0px 0px 46px 0px;
+        margin-top: -20px;
+
+    }
+    
+    .part_program_info_hiden > p{
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 13px;
+        line-height: 130%; 
+    }
+    
+    .part_program_info_hiden p:first-of-type{
+        padding-top: 40px;
+    }
+    
+    .part_program_info_hiden p:last-of-type{
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    
+    .part_program_info_hiden > button{
+        margin-left: 3px;
+        margin-bottom: 30px;
+    }
+
+    .part_program_info_hiden > .book_free_call{
+        width: 190px;
+        height: 50px;
+        font-size: 15px;
+    }
+    
+}

@@ -85,3 +85,57 @@
     margin-top: 19px;
 
 }
+
+@media only screen and (max-width: 390px) {  
+    .part_form{
+        margin: 0;
+        margin-top: 171px;
+        width: 400px;
+        height: 591px;
+        border-radius: 30px;
+    }
+    
+    .part_form > h2{
+        width: 400px;
+        height: 40px;
+        font-size: 20px;
+        letter-spacing: 3px;
+        padding-top: 30px;
+    }
+    
+    .part_form > p{
+        width: 400px;
+        height: 60px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 130%; 
+        margin: 17px auto;
+    }
+    
+    .part_form > p > span{
+        font-size: 16px;
+    }
+    
+    
+    .part_form> form > label{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    
+    .part_form > form > input, select{
+        width: 400px;
+        height: 37px;
+        margin-bottom: 11px;
+        font-size: 15px;
+        padding-left: 5px; 
+    }
+    
+    .part_form > form > button{
+        width: 300px;
+        height: 53px;
+        border-radius: 30px;
+        font-size: 19px;
+        margin-top: 13px;
+    }
+}
+

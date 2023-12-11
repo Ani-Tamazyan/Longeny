@@ -132,53 +132,73 @@
 }
 
 
-
-/*
-.checkbox::-webkit-scrollbar {
-    width: 8px;
-}
-
-.checkbox::-webkit-scrollbar-track {
-    width: 2px;
+@media only screen and (max-width: 390px) {
+    .part_checkbox{
+        margin-top: 100px;
+        width: 400px;
+    }
     
-    border-radius: 13px;
-    background: #AECAD2;
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28) inset;
-  }
-  
-  .checkbox::-webkit-scrollbar-thumb {
-    border-radius: 16px;
-    background: linear-gradient(99deg, #57E8F6 28.39%, #12ADDC 74.04%);
-    box-shadow: 0.5px 0px 3px 0px rgba(0, 88, 137, 0.45);
-}
+    .part_checkbox_h{
+        width: 400px;
+        height: 100px;
 
-
-.part4_button{
-    width: 790px;
-    height: 73px;
-    margin: 0 auto;
-
-}
-
-.order{
-    width: 301px;
-    height: 73px;
-    border-radius: 36.5px;
-    border: 1px solid var(--button-color);
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 39.49px;
-    color: var(--button-color);
-    margin-left: 32px;
-    background: transparent;
-}
-
-@media only screen and (max-width: 991px) {  
-    .part4_h{
-        font-size: 50px;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 130%; 
+        letter-spacing: 3px;
+        text-transform: uppercase; 
     }
-    .part4_p{
-        font-size: 22px;
+    
+    .part_checkbox_p{
+        width: 400px;
+
+        font-size: 15px;
+        line-height: 130%; 
+        margin: 21px auto 51px;
     }
-} 
- */
+    
+    .checkbox{
+        width: 400px;
+        height: 390px;
+    }
+    
+    .checkbox ul{
+        margin-top: 10px;
+    }
+    
+    .checkbox_input{
+        width: 26px;
+        height: 26px;
+    
+        margin-left: 20px;
+    }
+    .checkbox_label{
+        width: 499px;
+        height: 45px;
+    
+        margin-bottom: 16px;
+        margin-left: 14px;
+    }
+    .checkbox_label label{
+        font-size: 15px;       
+        line-height: 130%; 
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    
+    .part4_button{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 48px;
+    }
+
+    .part4_button .book_free_call, .order{
+        width: 170px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 15px;
+
+    }
+    
+}

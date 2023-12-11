@@ -81,6 +81,7 @@ export default function Navbar() {
             </li>
           ))}
         </div>
+        
 
           <div className='nav-button'>
             <button className='sign-in'>SIGN IN</button>
