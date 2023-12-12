@@ -94,9 +94,14 @@
     margin-bottom: 50px;
 }
 
+.part_program_info_header_img.rotate > img {
+    transform: rotateX(180deg); 
+    transition: transform 0.3s ease; 
+  }
 
 
-@media only screen and (max-width: 390px) {  
+
+@media only screen and (max-width: 500px) {  
     .part_program{
         margin-top: 150px;
     }
@@ -107,14 +112,15 @@
         line-height: 130%; 
         letter-spacing: 2px;
         text-transform: uppercase;
-        margin-left: 0;
+        margin-left: 50px;
     }
     
     .part_program > p{
         width: 400px;
         font-size: 15px;
         line-height: 130%;
-        margin: 50px 0 60px 0px;
+        margin-top: 50px;
+        margin-left: 50px;
     }
     
     .part_program_info{

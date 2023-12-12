@@ -3,7 +3,7 @@ import "../../styles/Plans/PlansProgram.css";
 import drop from "../../assets/images/drop.png";
 import {data} from '../../components/constant';
 
-function Plans5() {
+function PlansProgram() {
   const [openSection, setOpenSection] = useState(null);
 
   const handleDropClick = (section) => {
@@ -23,7 +23,7 @@ function Plans5() {
         <div className='part_program_info' key={index}>
           <div className='part_program_info_header'>
             <h3>{section.header}</h3>
-            <div className='part_program_info_header_img' onClick={() => handleDropClick(index)}>
+            <div className={`part_program_info_header_img ${openSection === index ? 'rotate' : ''}`} onClick={() => handleDropClick(index)}>
               <img src={drop} alt="drop" />
             </div>
           </div>
@@ -41,5 +41,5 @@ function Plans5() {
   );
 }
 
-export default Plans5;
+export default PlansProgram; 
 

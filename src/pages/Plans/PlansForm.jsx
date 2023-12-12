@@ -3,7 +3,7 @@ import React from 'react'
 import "../../styles/Plans/PlansForm.css";
 
 
-function Plans7() {
+function PlansForm() {
     return (
         <div className='part_form'>
             <h2>SCHEDULE YOUR FREE CALL</h2>
@@ -36,5 +36,5 @@ function Plans7() {
     )
 }
  
-export default Plans7
+export default PlansForm
 

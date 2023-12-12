@@ -3,7 +3,7 @@ import {label} from '../../components/constant';
 
 import "../../styles/Plans/PlansCheckbox.css"
  
-function Plans4() {
+function PlansCheckbox() {
     return (
         <div className='part_checkbox'>
             <h2 className='part_checkbox_h'>The Most Comprehensive Biomarker Analysis</h2>
@@ -32,4 +32,4 @@ function Plans4() {
     )
 }
 
-export default Plans4
+export default PlansCheckbox

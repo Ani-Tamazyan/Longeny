@@ -70,6 +70,21 @@
 
 }
 
+.part_form > form > select {
+    color: #046A86;
+    background: url('path-to-your-arrow-icon.png') no-repeat scroll right center transparent;
+    padding-right: 80px; 
+}
+
+.part_form > form > select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #046A86;
+    background: url('../../assets/images/drop.png') no-repeat scroll calc(100% - 17px)  center transparent;
+    background-size: 14px 9px;
+}
+
 .part_form > form > button{
     width: 420px;
     height: 73px;
@@ -86,9 +101,10 @@
 
 }
 
-@media only screen and (max-width: 390px) {  
+@media only screen and (max-width: 500px) {  
     .part_form{
         margin: 0;
+        margin-left: 50px;
         margin-top: 171px;
         width: 400px;
         height: 591px;

@@ -153,17 +153,18 @@
     }
 }
 
-@media only screen and (max-width: 390px) {    
+@media only screen and (max-width: 500px) {    
  
-    
     .part_prevention_left_side{
-        width: 0px;
-        height: 0px;
+        width: 0;
+        height: 0;
     }
     
     .part_prevention_right_side{
         width: 400px;
+        margin-left: 50px;
         margin-top: 138px;
+        justify-content: center;
         left: 0px;
     }
     .part_prevention_text{

@@ -4,7 +4,7 @@ import "../../styles/Plans/PlansPrevent.css"
 
 import link from "../../assets/images/link.png"
 
-function Plans2() {
+function PlansPrevent() {
     return (
         <div className='part_prevention'>
             <div className='part_prevention_left_side'>
@@ -49,4 +49,4 @@ function Plans2() {
     )
 }
 
-export default Plans2
+export default PlansPrevent

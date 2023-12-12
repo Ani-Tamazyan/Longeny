@@ -132,10 +132,11 @@
 }
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 500px) {
     .part_checkbox{
         margin-top: 100px;
         width: 400px;
+        margin-left: 50px;
     }
     
     .part_checkbox_h{

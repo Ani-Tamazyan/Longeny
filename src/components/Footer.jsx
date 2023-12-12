@@ -6,7 +6,6 @@ import phone from "../assets/images/phone.png"
 import envelop from "../assets/images/envelop.png"
 import location from "../assets/images/location.png"
 import logo from "../assets/images/logo.png"
-
 import facebook from "../assets/images/facebook.png"
 import instagram from "../assets/images/instagram.png"
 import linkedin from "../assets/images/linkedin.png"

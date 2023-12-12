@@ -11,7 +11,7 @@ import cancer from "../../assets/images/Cancer.png"
 import atherosclerotic from "../../assets/images/Atherosclerotic.png"
 import neuro from "../../assets/images/Neuro.png"
 
-function Plans3() {
+function PlansDisease() {
     return (
         <div className='part_disease'>
             <h2>The 4 Spectres of Chronic Disease</h2>
@@ -60,5 +60,5 @@ function Plans3() {
     )
 }
 
-export default Plans3
+export default PlansDisease
 

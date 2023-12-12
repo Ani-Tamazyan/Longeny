@@ -156,9 +156,11 @@
 } 
 
 
-@media only screen and (max-width: 390px) {  
+@media only screen and (max-width: 500px) {  
     .part_disease{
         margin-top: 736px;
+        width: 400px;
+        margin-left: 50px;
     }
     
     .part_disease h2{
@@ -191,7 +193,6 @@
     .organ1_img{
         width: 50px;
         height: 50px;
-        left: 20px;
         top: 1650px
     }
     
@@ -223,20 +224,18 @@
         width: 100px;
     }
     
-    .organ2_img, .organ3_img, .organ4_img{
+    .organ1_img, .organ2_img, .organ3_img, .organ4_img{
         width: 50px;
         height: 50px;
-
+        left: 70px;
     }
 
     .organ2_img{
         top: 1730px;
-        left: 20px;
     }
     
     .organ3_img{
         top: 1810px;
-        left: 20px;
     }
     
     .part_disease_organ4_cont img{
@@ -245,7 +244,7 @@
     
     .organ4_img{
         top: 1890px;
-        left: 20px;
+        
     }
     
     .dashed1, .dashed2, .dashed3{

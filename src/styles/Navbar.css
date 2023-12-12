@@ -78,13 +78,14 @@ nav{
 }
 
 
-  @media only screen and (max-width: 390px) {
+  @media only screen and (max-width: 500px) {
     nav{
-      margin: 0 10px;
+      margin: 0 20px;
+      gap: 50px;
     }
     .nav_logo{
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
         margin-top: 10px;
     }  
     

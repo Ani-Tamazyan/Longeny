@@ -87,6 +87,7 @@
     width: 290px;
     color: var(--text-color);
     text-align: center;
+    font-family: Open Sans;
     font-size: 20px;
     font-weight: 400;
     line-height: var(--line-height); 
@@ -138,7 +139,7 @@
     margin-top: 450px;
 }
 
-@media only screen and (max-width: 1804px) {    
+@media only screen and (max-width: 1870px) {    
     .part_start_img{
         width: 1804px;
     }
@@ -154,26 +155,28 @@
     }
     
     .step3{
-        margin-left: 865px;
-        margin-top: -95.5px;
+        margin-left: 840px;
+        margin-top: -110px;
     
     }
     
     .step4{
-        margin-left: 1260px;
-        margin-top: -487px;
+        margin-left: 1220px;
+        margin-top: -480px;
     
     }
     
     .step5{
-        margin-left: 1510px;
-        margin-top: -620px;
+        margin-left: 1500px;
+        margin-top: -600px;
     }
 }
 
-@media only screen and (max-width: 390px) {  
+@media only screen and (max-width: 500px) {  
     .part_start{
         margin-top: 125px;
+        width: 400px;
+        margin-left: 50px;
     }
     
     .part_start_header h2{

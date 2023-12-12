@@ -2,7 +2,7 @@ import React from 'react';
 import { start } from '../../components/constant';
 import '../../styles/Plans/PlansStart.css';
 
-function Plans6() {
+function PlansStart() {
   return (
     <div className='part_start'>
         <div className='part_start_header'>
@@ -29,5 +29,5 @@ function Plans6() {
   );
 }
 
-export default Plans6;
+export default PlansStart;
 
