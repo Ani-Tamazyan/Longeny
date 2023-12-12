@@ -28,7 +28,7 @@
     height: 174px;
     flex-direction: column;
     justify-content: center;
-    color: #0085AE;
+    color: var(--header-color);
 
     text-align: right;
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
@@ -62,7 +62,7 @@
 }
 .learnMore span{
     height: 27px;
-    color: #0085AE;
+    color: var(--header-color);
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
@@ -127,7 +127,7 @@
 }
 
 .part_prevention_card_text p{
-    color: #FFF;
+    color: var(--text-with-background);
     font-family: Open Sans;
     font-size: 24px;
     font-weight: 500;
@@ -135,7 +135,7 @@
 }
 
 .part_prevention_card_text span{
-    color: #FFF;
+    color: var(--text-with-background);
     font-family: Open Sans;
     font-size: 26px;
     font-weight: 600;

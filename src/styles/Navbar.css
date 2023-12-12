@@ -32,7 +32,7 @@ nav{
 }
 
 .activ{
-  border-bottom: 2px solid #FF6B00;
+  border-bottom: 2px solid var(--button-color);
 }
 
 .sign-in{
@@ -43,7 +43,7 @@ nav{
   border: none;
   background: #1DB6E0;
 
-  color: #FFF;
+  color: var(--text-with-background);
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 700;

@@ -4,7 +4,7 @@
 
 .part_program > h2{
     width: 1563px;
-    color: #0085AE;
+    color: var(--header-color);
     text-align: center;
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
     font-family: Open Sans;

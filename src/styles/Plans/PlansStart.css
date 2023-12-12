@@ -8,7 +8,7 @@
     height: 120px;
     flex-direction: column;
     justify-content: center;
-    color: #0085AE;
+    color: var(--header-color);
     text-align: center;
     font-family: Open Sans;
     font-size: 40px;
@@ -25,7 +25,7 @@
     height: 90px;
     flex-direction: column;
     justify-content: center;
-    color: #0085AE;
+    color: var(--header-color);
     text-align: center;
     font-family: Open Sans;
     font-size: 60px;
@@ -60,7 +60,7 @@
     background-color: var(--background);
     filter: drop-shadow(-2px 8px 27px rgba(0, 88, 137, 0.15));
     border-radius: 50%;
-    color: #005889;
+    color: var(--organ-h);
     text-align: center;
     font-size: 42px;
     font-weight: 700;
@@ -174,9 +174,9 @@
 
 @media only screen and (max-width: 500px) {  
     .part_start{
-        margin-top: 125px;
         width: 400px;
-        margin-left: 50px;
+        margin-top: 125px; 
+        margin-left: 50px;  
     }
     
     .part_start_header h2{

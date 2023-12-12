@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Poppins:ital,wght@1,100&display=swap');
 
-/* body{
+body{
     width: 1920px;
-} */
+}
 
 .book_free_call{
     width: 420px;
@@ -20,7 +20,6 @@
     text-transform: uppercase;
 }
   
-
 :root {
     --header-color: #0085AE;
     --part1-text-color: #484848;
