@@ -135,6 +135,28 @@
     border-right-color: transparent;
 }
 
+.dot1, .dot2, .dot3{
+    width: 13.766px;
+    height: 13.766px;
+    position: absolute;
+    z-index: 5;
+}
+
+.dot1{
+    margin-left: 362px;
+    margin-top: 160px;
+}
+
+.dot2{
+    margin-left: 1604px;
+    margin-top: 168px;
+}
+
+.dot3{
+    margin-left: 925px;
+    margin-top: 158px;
+}
+
  .dashed2{
     width: 298.989px;
     height: 230.587px;
@@ -250,4 +272,8 @@
     .dashed1, .dashed2, .dashed3{
         display: none;
     }   
+
+    .dot1, .dot2, .dot3{
+        display: none;
+    }
 } 
