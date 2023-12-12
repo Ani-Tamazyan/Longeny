@@ -188,4 +188,7 @@
         font-size: 15px;
     }
     
+    .program_background_img{
+        display: none;
+    }
 }

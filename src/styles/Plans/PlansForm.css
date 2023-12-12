@@ -167,5 +167,9 @@
         font-size: 19px;
         margin-top: 13px;
     }
+
+    .form_background_img2, .form_background_img1{
+        display: none;
+    }
 }
 

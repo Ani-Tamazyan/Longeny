@@ -281,4 +281,8 @@
     .dot1, .dot2, .dot3{
         display: none;
     }
+
+    .disease_background_img{
+        display: none;
+    }
 } 
