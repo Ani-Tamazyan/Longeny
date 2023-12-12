@@ -1,11 +1,15 @@
 import React from 'react'
 
 import "../../styles/Plans/PlansForm.css";
+import vector1 from "../../assets/images/VectorForm1.png"
+import vector2 from "../../assets/images/VectorForm2.png"
 
 
 function PlansForm() {
     return (
-        <div className='part_form'>
+        <>
+        <img src={vector1} alt="vector" className='form_background_img1'/>
+        <div className='part_form'>          
             <h2>SCHEDULE YOUR FREE CALL</h2>
             <p>Experience the power within you to control your health Schedule a call with our counsellors <span>NOW!</span></p>
 
@@ -33,6 +37,9 @@ function PlansForm() {
                 <button>Submit Request</button>
             </form>
         </div>
+        
+        <img src={vector2} alt="vector" className='form_background_img2'/>
+    </>
     )
 }
  

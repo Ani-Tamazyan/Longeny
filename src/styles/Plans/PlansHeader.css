@@ -65,6 +65,20 @@
     z-index: -1;   
 } 
 
+.header_background_img1{
+    position: absolute;
+    z-index: -10;
+    top: 530px;
+    left: 138px;
+}
+
+.header_background_img2{
+    position: absolute;
+    z-index: -10;
+    top: 670px;
+    left: 727px;
+}
+
 @media only screen and (max-width: 1804px) {    
     .part_header_img{
         left: 743px; 

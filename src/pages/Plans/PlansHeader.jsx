@@ -3,11 +3,15 @@ import React from 'react'
 import "../../styles/Plans/PlansHeader.css"
 
 import countryside from "../../assets/images/walk-countryside.png"
+import vector1 from "../../assets/images/VectorHeader.png"
+import vector2 from "../../assets/images/VectorHeader2.png"
 
 
 function PlansHeader() {
     return (
         <div className='part_header'>
+            <img src={vector1} alt="vector"  className='header_background_img1'/>
+            <img src={vector2} alt="vector"  className='header_background_img2'/>
             <div className='part_header_left_side'>
 
                 <h2 className='part_header_left_side_h'>HEALTH ASSESSMENT</h2>

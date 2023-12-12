@@ -131,7 +131,12 @@
     box-shadow: 0.5px 0px 3px 0px rgba(0, 88, 137, 0.45);
 }
 
-
+.checkbox_background_img{
+    position: absolute;
+    z-index: -10;
+    top: 4199px;
+    left: 1619px;
+}
 @media only screen and (max-width: 500px) {
     .part_checkbox{
         margin-top: 100px;
@@ -200,6 +205,6 @@
         border-radius: 30px;
         font-size: 15px;
 
-    }
-    
+    }   
 }
+

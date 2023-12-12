@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
-import "../../styles/Plans/PlansProgram.css";
-import drop from "../../assets/images/drop.png";
+
 import {data} from '../../components/constant';
+import "../../styles/Plans/PlansProgram.css";
+
+import drop from "../../assets/images/drop.png";
+import vector from "../../assets/images/VectorProgram.png"
 
 function PlansProgram() {
   const [openSection, setOpenSection] = useState(null);
@@ -37,6 +40,8 @@ function PlansProgram() {
           )}
         </div>
       ))}
+
+      <img src={vector} alt="vector" className='program_background_img' />
     </div>
   );
 }

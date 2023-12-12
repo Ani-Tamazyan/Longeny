@@ -2,6 +2,7 @@ import React from 'react'
 import {label} from '../../components/constant';
 
 import "../../styles/Plans/PlansCheckbox.css"
+import vector from "../../assets/images/VectorCheckbox.png"
  
 function PlansCheckbox() {
     return (
@@ -23,6 +24,8 @@ function PlansCheckbox() {
                 ))}
                 </ul>
             </div>
+
+            <img src={vector} alt="vector" className='checkbox_background_img' />
 
             <div className='part4_button'>
                 <button className='book_free_call'>Book your free call</button>

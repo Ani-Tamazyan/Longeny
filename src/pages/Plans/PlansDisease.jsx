@@ -11,11 +11,14 @@ import cancer from "../../assets/images/Cancer.png"
 import atherosclerotic from "../../assets/images/Atherosclerotic.png"
 import neuro from "../../assets/images/Neuro.png"
 import ellipse from "../../assets/images/elipse.png"
+import vector from "../../assets/images/VectorDisease.png"
 
 function PlansDisease() {
     return (
         <div className='part_disease'>
             <h2>The 4 Spectres of Chronic Disease</h2>
+
+            <img src={vector} alt="vector" className='disease_background_img' />
 
             <div className='part_disease_organ1'>
                 <img src={organ1} alt="organ1" className='organ1_img'/>

@@ -101,6 +101,20 @@
 
 }
 
+.form_background_img1{
+    position: absolute;
+    z-index: -10;
+    top: 7829px;
+    left: 1291px;
+}
+
+.form_background_img2{
+    position: absolute;
+    z-index: -10;
+    top: 8779px;
+    left: 351px;
+} 
+
 @media only screen and (max-width: 500px) {  
     .part_form{
         margin: 0;
