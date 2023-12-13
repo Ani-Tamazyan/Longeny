@@ -1,16 +1,22 @@
 import React from 'react';
+
 import { start } from '../../components/constant';
 import '../../styles/Plans/PlansStart.css';
+import zig from "../../assets/images/zig.png"
 
 function PlansStart() {
   return (
     <div className='part_start'>
         <div className='part_start_header'>
-            <h2>Disease Free Life Implies Longer Healthier Life!</h2>
+            <h2>
+              <span>Disease Free Life</span>
+              <span>Implies Longer Healthier Life!</span>
+            </h2>
             <h3>Where do I Start?</h3>
         </div>
 
-      <div className='part_start_img'></div>
+      {/* <div className='part_start_img'></div> */}
+      <img src={zig} alt="zig" className='part_start_img' />
 
       <div className='steps'>
         {start.map((step, index) => (

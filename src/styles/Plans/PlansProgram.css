@@ -1,5 +1,6 @@
 .part_program{
     margin-top: 320px;
+    position: relative;
 }
 
 .part_program > h2{
@@ -102,10 +103,11 @@
 .program_background_img{
     width: 1165px;
     height: 1158px;
+    object-fit: contain;
     position: absolute;
     z-index: -10;
-    top: 5309px;
-    left: 1342px;
+    top: 220px;
+    left: 1100px;
 }
 
 @media only screen and (max-width: 500px) {  
@@ -192,3 +194,5 @@
         display: none;
     }
 }
+
+

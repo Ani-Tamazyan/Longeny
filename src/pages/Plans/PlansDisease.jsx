@@ -12,6 +12,9 @@ import atherosclerotic from "../../assets/images/Atherosclerotic.png"
 import neuro from "../../assets/images/Neuro.png"
 import ellipse from "../../assets/images/elipse.png"
 import vector from "../../assets/images/VectorDisease.png"
+import dashed1 from "../../assets/images/dashed1.png"
+import dashed2 from "../../assets/images/dashed2.png"
+import dashed3 from "../../assets/images/dashed3.png"
 
 function PlansDisease() {
     return (
@@ -29,10 +32,10 @@ function PlansDisease() {
                 
             </div>
 
-            <div className='dashed1'></div>
+            <img src={dashed1} alt="dashed1" className='dashed1' />
             <img src={ellipse} alt="dot" className='dot1' />
 
-            <div className='dashed2'></div>
+            <img src={dashed2} alt="dashed2" className='dashed2' />
             <img src={ellipse} alt="dot" className='dot2' />
 
             <div className='part_disease_organ'>
@@ -55,7 +58,7 @@ function PlansDisease() {
                 </div>
             </div>
 
-            <div className='dashed3'></div>
+            <img src={dashed3} alt="dashed3" className='dashed3' />
             <img src={ellipse} alt="dot" className='dot3' />
 
             <div className='part_disease_organ4'>

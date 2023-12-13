@@ -18,7 +18,8 @@ function PlansProgram() {
   };
 
   return (
-    <div className='part_program'>
+    <>
+        <div className='part_program'>
       <h2>360ME from LONGENY. India’s First Subscription Based Comprehensive Health Assessment Program</h2>
       <p>Here’s What you Get with 360ME</p>
 
@@ -43,6 +44,8 @@ function PlansProgram() {
 
       <img src={vector} alt="vector" className='program_background_img' />
     </div>
+    </>
+
   );
 }
 

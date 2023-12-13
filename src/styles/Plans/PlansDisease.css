@@ -119,9 +119,8 @@
     left: 887px;
 }
 
-.dashed1, .dashed2, .dashed3{
+ .dashed1, .dashed2, .dashed3{
     stroke-width: 1.5px;
-    border:1px dashed rgba(0, 88, 137, 0.60);
     position: absolute;
     z-index: -1;
 }
@@ -129,11 +128,9 @@
 .dashed1{
     width: 368.681px;
     height: 223.704px;
-
     left: 241px;
     top: 2702px;
-    border-right-color: transparent;
-}
+} 
 
 .dot1, .dot2, .dot3{
     width: 13.766px;
@@ -144,7 +141,7 @@
 
 .dot1{
     margin-left: 362px;
-    margin-top: 160px;
+    margin-top: 155px;
 }
 
 .dot2{
@@ -159,22 +156,16 @@
 
  .dashed2{
     width: 298.989px;
-    height: 230.587px;
-    
+    height: 230.587px;  
     left: 1378px;
     top: 2705px;
-    border-left-color: transparent;
-
 }
 
 .dashed3{
     width: 85.5px;
     height: 395.784px;
-
     left: 840px;
     top: 2759px;
-    border-right-color: transparent;
-    border-top-color: transparent;
 } 
 
 .disease_background_img{

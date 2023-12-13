@@ -8,7 +8,7 @@
     width: 954px;
     color: var(--header-color);
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
-    font-family: Open Sans;
+    font-family: 'Open Sans'; 
     font-size: 56px;
     font-weight: 800;
     line-height: 150%; 
@@ -78,6 +78,21 @@
     top: 670px;
     left: 727px;
 }
+
+.ellipseHeader{
+    width: 548.9px;
+    height: 453.466px;
+    transform: rotate(-24.641deg);
+    
+    border-radius: 548.9px;
+    background: rgba(255, 153, 135, 0.18);
+    filter: blur(176.5px);
+    position: absolute;
+    z-index: -2;
+    top: 209px;
+    left: 280px;
+}
+
 
 @media only screen and (max-width: 1804px) {    
     .part_header_img{

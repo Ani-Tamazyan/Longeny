@@ -5,6 +5,7 @@ import "../../styles/Plans/PlansHeader.css"
 import countryside from "../../assets/images/walk-countryside.png"
 import vector1 from "../../assets/images/VectorHeader.png"
 import vector2 from "../../assets/images/VectorHeader2.png"
+import ellipseHeader from "../../assets/images/ellipseHeader.png"
 
 
 function PlansHeader() {
@@ -15,6 +16,9 @@ function PlansHeader() {
             <div className='part_header_left_side'>
 
                 <h2 className='part_header_left_side_h'>HEALTH ASSESSMENT</h2>
+
+                <img src={ellipseHeader} alt="ellipseHeader" className='ellipseHeader'/>
+               
 
                 <div className='part_header_left_side_card'>
                     <div className='part_header_left_side_card_text'>

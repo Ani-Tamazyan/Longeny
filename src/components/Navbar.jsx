@@ -14,7 +14,7 @@ export default function Navbar() {
   const links = [
     { to: '/', label: 'HOME' },
     { to: '/plans', label: 'PLANS' },
-    { to: '/guidance', label: 'GUIDANCE / CONSELLING' },
+    { to: '/guidance', label: 'GUIDANCE / COUNSELLING' },
     { to: '/resources', label: 'RESOURCES', dropdownLinks: [
         { to: '/blog', label: 'BLOGS' },
         { to: '/post', label: 'VIDEOS' },
@@ -31,12 +31,17 @@ export default function Navbar() {
     setShowDropDown((prevIndex) => (prevIndex === index ? null : index));
   };
 
-  const handleMobileMenu = () => {
-    setShowMobileMenu(!showMobileMenu);
-  };
 
   const handleMobileLinkClick = () => {
     setShowMobileMenu(false);
+  };
+
+  const handleMobileMenu = () => {
+    setShowMobileMenu(!showMobileMenu);
+    const menuCont = document.querySelector('.menu_cont');
+    if (menuCont) {
+      menuCont.style.backgroundColor = showMobileMenu ? 'transparent' : '#ccc';
+    }
   };
 
   return (
@@ -88,10 +93,9 @@ export default function Navbar() {
           </div>
       </ul>   
 
-       
       <img src={menu} alt="menu" className='menu' onClick={handleMobileMenu} />
 
-      <div className='menu_cont'>
+      <div className='menu_cont' >
           {showMobileMenu && (
             <nav className='mobile-menu'>
               <ul className='nav-links'>

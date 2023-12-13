@@ -1,10 +1,11 @@
 .part_start{
     margin-top: 165px;
+
 }
 
 .part_start_header h2{
     display: flex;
-    width: 790px;
+    width: 793px;
     height: 120px;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +14,7 @@
     font-family: Open Sans;
     font-size: 40px;
     font-weight: 800;
-    line-height: 150%; 
+    line-height: 60px; 
     letter-spacing: 4px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -21,7 +22,7 @@
 
 .part_start_header h3{
     display: flex;
-    width: 691px;
+    width: 697px;
     height: 90px;
     flex-direction: column;
     justify-content: center;
@@ -44,14 +45,14 @@
 
 
 .part_start_img{
-    background: url("../../assets/images/zig.png");
-    background-repeat: no-repeat;
-    width: 1920px;
-    height: 842px;
+    /* background-image: url("../../assets/images/zig.png");
+    width: 2057.5px;
+    height: 842px; */
     stroke-width: 3px;
     stroke: rgba(0, 88, 137, 0.11);
     margin-top: -180px;
     position: absolute; 
+    z-index: -1;
 }
 
 .number{
@@ -60,18 +61,18 @@
     background-color: var(--background);
     filter: drop-shadow(-2px 8px 27px rgba(0, 88, 137, 0.15));
     border-radius: 50%;
-    color: var(--organ-h);
     text-align: center;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: var(--line-height); 
-
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-bottom: 30px;
+}
 
+.number h2{
+    color: var(--organ-h); 
+    font-size: 42px;
+    font-weight: 700;
 }
 
 .part_start_step p:first-of-type{
@@ -100,7 +101,7 @@
 
 .step2{
     margin-left: 520px;
-    margin-top: -455.5px;
+    margin-top: 4.5px;
 }
 
 .step3{
