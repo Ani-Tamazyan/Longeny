@@ -1,3 +1,4 @@
+
 .footer{
     height: 229px;
     background: #046A86;
@@ -60,14 +61,14 @@
     padding-right: 10px;
 }
 
-.groops{
+/* .groops{
     width: 205px;
    margin: auto;
    display: flex;
    gap: 8px;  
-}
+} */
 
-.groops > a{
+/* .groops > a{
     background-color: #3ba4af;
     padding: 8px;
     border-radius: 50%;
@@ -75,7 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 @media only screen and (max-width: 1690px) {
     .footer_logo{

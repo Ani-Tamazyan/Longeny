@@ -15,7 +15,6 @@ function PlansStart() {
             <h3>Where do I Start?</h3>
         </div>
 
-      {/* <div className='part_start_img'></div> */}
       <img src={zig} alt="zig" className='part_start_img' />
 
       <div className='steps'>

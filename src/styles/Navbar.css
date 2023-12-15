@@ -1,3 +1,7 @@
+.part_nav{
+  width: max-content;
+}
+
 nav, .navbar, .nav-links{
   display: flex;
 }
@@ -185,6 +189,7 @@ nav{
 }
 
 @media only screen and (max-width: 500px) {  
+  
   .navbar{
     width: 4%;
   } 

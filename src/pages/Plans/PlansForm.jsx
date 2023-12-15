@@ -4,10 +4,9 @@ import "../../styles/Plans/PlansForm.css";
 import vector1 from "../../assets/images/VectorForm1.png"
 import vector2 from "../../assets/images/VectorForm2.png"
 
-
 function PlansForm() {
     return (
-        <>
+        <div className='part_form_cont'>
         <img src={vector1} alt="vector" className='form_background_img1'/>
         <div className='part_form'>          
             <h2>SCHEDULE YOUR FREE CALL</h2>
@@ -39,7 +38,7 @@ function PlansForm() {
         </div>
         
         <img src={vector2} alt="vector" className='form_background_img2'/>
-    </>
+    </div>
     )
 }
  

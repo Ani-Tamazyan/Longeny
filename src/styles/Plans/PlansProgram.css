@@ -31,6 +31,7 @@
 .part_program_info{
     margin: 50px 0;
     width:min-content;
+    cursor: pointer;
 }
 
 .part_program_info_header{
@@ -110,89 +111,309 @@
     left: 1100px;
 }
 
-@media only screen and (max-width: 500px) {  
-    .part_program{
-        margin-top: 150px;
-    }
-    
+@media only screen and (max-width: 1870px) { 
     .part_program > h2{
-        width: 400px;
-        font-size: 24px;
-        line-height: 130%; 
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin-left: 50px;
+        width: 1463px;
     }
-    
+    .program_background_img{
+        display: none;
+    }
+ }
+
+ @media only screen and (max-width: 1830px) { 
+    .part_program > h2{
+        width: 1363px;
+        font-size: 40px;      
+    }
+ }
+
+ @media only screen and (max-width: 1800px) { 
+    .part_program > h2{
+        width: 1163px;
+        font-size: 40px;      
+    }
+
+    .part_program > p{       
+        font-size: 30px;
+    }
+ }
+
+ @media only screen and (max-width: 1760px) { 
+    .part_program > h2{
+        margin-left: 300px;     
+    }
     .part_program > p{
-        width: 400px;
-        font-size: 15px;
-        line-height: 130%;
-        margin-top: 50px;
-        margin-left: 50px;
+        width: 616px;
+        font-size: 30px;
+
     }
-    
+ }
+
+ @media only screen and (max-width: 1660px) { 
+    .part_program > h2{
+        margin-left: 230px;     
+    }
+    .part_program > p{
+        margin-left: 485px;
+    }
+ }
+
+ @media only screen and (max-width: 1540px) { 
+    .part_program > h2{
+        margin-left: 130px;     
+    }
+    .part_program > p{
+        margin-left: 385px;
+    }
+ }
+
+ @media only screen and (max-width: 1390px) { 
+    .part_program > h2{
+        margin-left: 60px;     
+    }
+    .part_program > p{
+        margin-left: 295px;
+    }
+
     .part_program_info{
         margin: 30px 0;
     }
     
     .part_program_info_header{
-        border-radius: 0 70px 70px 0;
+        border-radius: 0 100px 100px 0;
     }
     
     .part_program_info_header_img{
-        margin: auto 5px;
-        padding: 0px;
+        margin: auto;
+        padding: 0 30px;
         margin-left: 20px;
     }
     
-    .part_program_info_header > img{
+    /* .part_program_info_header > img{
+        width: 15px;
+        height: 10px;
+    } */
+    
+    .part_program_info_header > h3{
+        font-size: 30px;
+        margin-left: 50px;
+        padding: 15px 0; 
+    }
+    
+    .part_program_info_hiden > p{
+        padding-left: 50px;
+        padding-right: 40px;
+        font-size: 15px;
+        line-height: 130%; 
+    }
+    
+    .part_program_info_hiden p:first-of-type{
+        padding-top: 70px;
+    }
+    
+    .part_program_info_hiden p:last-of-type{
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
+    
+    .part_program_info_hiden > button{
+        margin-left: 50px;
+        margin-bottom: 40px;
+        width: 250px;
+        font-size: 20px;
+    }  
+ }
+
+ @media only screen and (max-width: 1250px) { 
+    .part_program > h2{
+        margin-left: 30px; 
+        font-size: 35px;    
+    }
+    .part_program > p{
+        font-size: 25px; 
+
+    }
+ }
+
+ @media only screen and (max-width: 1200px) { 
+    .part_program > h2{
+        width: 900px;
+        margin-left: 90px;   
+    }
+    .part_program > p{
+        font-size: 25px; 
+        margin-left: 245px;
+    }
+ }
+
+ @media only screen and (max-width: 1200px) { 
+    .part_program > h2{
+        width: 900px;
+        margin-left: 90px; 
+        line-height: 130%; 
+
+    }
+    .part_program > p{
+        font-size: 25px; 
+        margin-left: 245px;
+    }
+ }
+
+ @media only screen and (max-width: 1050px) { 
+    .part_program > h2{
+        margin-left: 100px; 
+        font-size: 30px;
+    }
+    .part_program > p{
+        font-size: 20px; 
+        margin-left: 185px;
+    }
+ }
+
+
+ @media only screen and (max-width: 950px) { 
+    .part_program > h2{
+        width: 800px;
+        margin-left: 50px; 
+    }
+    .part_program > p{
+        margin-left: 115px;
+    }
+
+    .part_program_info{
+        margin: 20px 0;
+    }
+    
+    
+    .part_program_info_header_img{
+        margin: auto;
+        padding: 0 20px;
+    }
+    
+    .part_program_info_header_img > img{
+        width: 12px;
+        height: 7px;
+    }
+    
+    .part_program_info_header > h3{
+        font-size: 20px;
+    }
+    
+    .part_program_info_hiden > button{
+        margin-left: 50px;
+        margin-bottom: 40px;
+        width: 200px;
+        font-size: 15px;
+        height: 50px;
+    }  
+    .part_program_info_hiden{
+        margin-top: -30px;
+    }
+ }
+
+ @media only screen and (max-width: 860px) { 
+    .part_program > h2{
+        width: 700px;
+        font-size: 25px;
+    }
+    .part_program > p{
+        margin-left: 95px;
+    }
+   
+ }
+
+ @media only screen and (max-width: 750px) { 
+    .part_program > h2{
+        width: 600px;
+        margin-left: 30px; 
+        font-size: 20px;
+    }
+    .part_program > p{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+ }
+
+
+ @media only screen and (max-width: 620px) { 
+    .part_program > h2{
+        width: 500px;
+    }
+    .part_program > p{
+        margin-left: -50px;
+    }
+
+    .part_program_info{
+        margin: 10px 0;
+    }
+    
+    
+    .part_program_info_header_img{
+        padding: 0 10px;
+    }
+    
+    .part_program_info_header_img > img{
+        width: 12px;
+        height: 7px;
+    }
+    
+    .part_program_info_header > h3{
+        margin-left: 10px;
+    }
+
+    .part_program_info_hiden > p{
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    
+    .part_program_info_hiden > button{
+        margin-left: 10px;
+    } 
+
+ }
+
+ @media only screen and (max-width: 420px) { 
+    .part_program > h2{
+        width: 400px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .part_program > p{
+        margin-left: -110px;
+        font-size: 13px;
+
+    }
+      
+    .part_program_info_header_img{
+        padding: 0 7px;
+    }
+    
+    .part_program_info_header_img > img{
         width: 10px;
         height: 5px;
     }
     
     .part_program_info_header > h3{
+        margin-left: 5px;
         font-size: 15px;
-        margin-left: 10px;
-        padding: 5px 0; 
-    }
-    
-    .part_program_info_hiden{
-    border-radius: 0px 0px 46px 0px;
-        margin-top: -20px;
 
     }
-    
+
     .part_program_info_hiden > p{
-        padding-left: 3px;
-        padding-right: 3px;
-        font-size: 13px;
-        line-height: 130%; 
-    }
-    
-    .part_program_info_hiden p:first-of-type{
-        padding-top: 40px;
-    }
-    
-    .part_program_info_hiden p:last-of-type{
-        padding-bottom: 20px;
-        padding-top: 10px;
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 20px;
     }
     
     .part_program_info_hiden > button{
-        margin-left: 3px;
-        margin-bottom: 30px;
-    }
+        margin-left: 5px;
+        width: 130px;
+        font-size: 12px;
+    } 
+ }
 
-    .part_program_info_hiden > .book_free_call{
-        width: 190px;
-        height: 50px;
-        font-size: 15px;
-    }
-    
-    .program_background_img{
-        display: none;
-    }
-}
+
 
 

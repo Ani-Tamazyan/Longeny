@@ -38,7 +38,6 @@
 .checkbox{
     width: 897px;
     height: 832px;
-
     border-radius: 15px 0px 0px 15px;
     border: 1px solid var(--header-color);
     background: rgba(255, 255, 255, 0.88);
@@ -54,6 +53,7 @@
 
 .checkbox li{
     display: flex;
+    width: min-content;
 }
 
 .checkbox_input{
@@ -111,25 +111,29 @@
 }
 
 .checkbox::-webkit-scrollbar {
-    width: 8px;
+    /* width: 30px;  */
+    width: 8px; 
+    height: 404px;
 }
 
 .checkbox::-webkit-scrollbar-track {
-    width: 2px;
-    height: 792px;
-
-    border-radius: 13px;
-    background: #AECAD2;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28) inset;
+    background: #AECAD2;
+    /* border-left: 14px solid transparent;
+    border-right: 14px solid transparent; */
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    background-clip: padding-box; 
+    
   }
   
 .checkbox::-webkit-scrollbar-thumb {
-    width: 8px;
-    height: 404px;
-    border-radius: 16px;
     background: linear-gradient(99deg, #57E8F6 28.39%, #12ADDC 74.04%);
-    box-shadow: 0.5px 0px 3px 0px rgba(0, 88, 137, 0.45);
+    border-radius: 16px;
+    /* box-shadow: inset 0 0 0px 10px #FFF; */
 }
+
+
 
 .checkbox_background_img{
     position: absolute;
@@ -137,78 +141,230 @@
     top: 4199px;
     left: 1619px;
 }
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 1740px) {
     .part_checkbox{
-        margin-top: 100px;
-        width: 400px;
-        margin-left: 50px;
+        width: 1740px;
     }
     
     .part_checkbox_h{
-        width: 400px;
-        height: 100px;
-
-        font-size: 28px;
-        font-weight: 800;
-        line-height: 130%; 
-        letter-spacing: 3px;
-        text-transform: uppercase; 
+        margin-left: 300px;   
     }
-    
     .part_checkbox_p{
-        width: 400px;
-
-        font-size: 15px;
-        line-height: 130%; 
-        margin: 21px auto 51px;
+        margin-left: 420px;
     }
-    
     .checkbox{
-        width: 400px;
-        height: 390px;
+        margin-left: 400px;
     }
-    
-    .checkbox ul{
-        margin-top: 10px;
-    }
-    
-    .checkbox_input{
-        width: 26px;
-        height: 26px;
-    
-        margin-left: 20px;
-    }
-    .checkbox_label{
-        width: 499px;
-        height: 45px;
-    
-        margin-bottom: 16px;
-        margin-left: 14px;
-    }
-    .checkbox_label label{
-        font-size: 15px;       
-        line-height: 130%; 
-        padding-top: 13px;
-        padding-left: 20px;
-    }
-    
     .part4_button{
-        display: flex;
-        justify-content: center;
-        gap: 12px;
-        margin-top: 48px;
+        margin-right: 220px;
+    }
+    .checkbox_background_img{
+      display: none;
+    }
+    
+}
+@media only screen and (max-width: 1540px) { 
+    .part_checkbox_h{
+        margin-left: 200px;   
+    }
+    .part_checkbox_p{
+        margin-left: 320px;
+    }
+    .checkbox{
+        margin-left: 300px;
     }
 
-    .part4_button .book_free_call, .order{
-        width: 170px;
-        height: 50px;
-        border-radius: 30px;
-        font-size: 15px;
-
-    }   
-
-    .checkbox_background_img{
-        display: none;
+    .part4_button{
+        margin-right: 420px;
     }
 }
+
+@media only screen and (max-width: 1360px) {
+    .part_checkbox_h{
+        width: 900px;
+        margin-left: 150px;  
+        font-size: 38px;
+        
+    }
+    .part_checkbox_p{
+        margin-left: 170px;
+        font-size: 20px;
+
+    }
+    .checkbox{
+        margin-left: 250px;       
+        width: 697px;
+        height: 732px;
+    }
+    .checkbox_label{
+        width: 555px;
+        height: 85px;
+    }   
+
+    .part4_button button{
+        width: 200px;
+        font-size: 15px;
+        height: 50px;
+    }
+    .part4_button{
+        margin-right: 720px;
+        margin-top: 58px;
+    }
+    
+}
+
+@media only screen and (max-width: 1050px) {
+    .part_checkbox{
+        margin-left: -70px;
+    }
+
+    .part4_button{
+        margin-right: 820px;       
+    }  
+}
+
+@media only screen and (max-width: 960px) {
+    .part_checkbox{
+        margin-left: -130px;
+    }   
+    .part4_button{
+        margin-right: 880px;       
+    }  
+}
+
+@media only screen and (max-width: 860px) {
+    .part_checkbox{
+        margin-left: -130px;      
+    }  
+    
+    .part_checkbox_h{
+        width: 700px;
+        font-size: 30px;
+        
+    }
+    .part_checkbox_p{
+        margin-left: 150px;
+        font-size: 15px;
+
+    }
+    .checkbox{
+        width: 497px;
+        height: 732px;
+    }
+    .checkbox_label{
+        width: 395px;
+        height: 75px;
+    }
+    .checkbox_input{
+        width: 28px;
+        height: 28px;
+        margin-left: 20px;
+    }
+    .part4_button button{
+        width: 150px;
+        font-size: 12.5px;
+    }
+    .part4_button{
+        margin-right: 1040px;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .part_checkbox{
+        margin-left: -90px;      
+    }  
+    
+    .part_checkbox_h{
+        width: 600px;
+        font-size: 30px;
+        
+    }
+    .part_checkbox_p{
+        width: 490px;
+        margin-left: 200px;
+
+    }
+    .checkbox{
+        width: 407px;
+        height: 532px;
+    }
+    .checkbox_label{
+        width: 295px;
+        height: 55px;
+    }
+    .checkbox_label label{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 10%; 
+    }
+    .checkbox_input{
+        width: 20px;
+        height: 20px;
+    }
+
+    .part4_button{
+        margin-right: 1140px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .part_checkbox_h{
+        width: 500px;
+        font-size: 25px;
+        
+    }
+    .part_checkbox_p{
+        width: 490px;
+        margin-left: 150px;
+
+    }
+    .checkbox{
+        margin-left: 200px;
+    }  
+    .part4_button{
+        gap: 10px;
+        margin-right: 1240px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .part_checkbox_h{
+        width: 400px;
+        font-size: 20px;
+        
+    }
+    .part_checkbox_p{
+        width: 450px;
+        margin-left: 120px;
+
+    }
+    .checkbox{
+        margin-left: 150px;
+    }  
+    .part4_button{
+        gap: 10px;
+        margin-right: 1340px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .part_checkbox_h{
+        margin-left: 90px;
+        
+    }
+    .part_checkbox_p{
+        margin-left: 85px;
+        width: 390px;
+
+    }
+    .checkbox{
+        width: 380px;
+        margin-left: 95px;
+    }  
+    .part4_button{
+        gap: 10px;
+        margin-right: 1440px;
+    }
+}
+
 

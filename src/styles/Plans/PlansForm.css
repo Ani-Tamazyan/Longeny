@@ -115,61 +115,195 @@
     left: 351px;
 } 
 
-@media only screen and (max-width: 500px) {  
+@media only screen and (max-width: 1720px) {
+    .part_form_cont{
+        width: 1720px;
+    }
+}
+
+@media only screen and (max-width: 1570px) {
+    .part_form_cont{
+        width: 1570px;
+    }
+
+    .form_background_img1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .part_form_cont{
+        width: 1400px;
+    }
+
+    .form_background_img2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    .part_form_cont{
+        width: 1270px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .part_form_cont{
+        width: 1150px;
+    }
+
     .part_form{
-        margin: 0;
-        margin-left: 50px;
         margin-top: 171px;
+        width: 717px;
+        height: 761px;
+    }
+    
+    .part_form > h2{
+        /* width: 605px; */
+        /* height: 45px; */
+        /* text-align: center; */
+        font-size: 25px;
+        letter-spacing: 3px;
+        /* text-transform: uppercase; */
+        /* margin: 0 auto; */
+        /* padding-top: 60px; */
+    }
+    
+    .part_form > p{
+        width: 600px;
+        /* height: 76px; */
+        font-size: 18px;
+        margin: 25px auto;
+    }
+    
+    .part_form > p > span{
+        font-size: 20px;
+    }
+    
+    
+    .part_form> form > label{
+        font-size: 20px;
+        margin-left: 55px;
+    }
+    
+    .part_form > form > input, select{
+        width: 615px;
+        height: 37px;
+        /* border-radius: 10px; */
+        /* margin-bottom: 16px; */
+        font-size: 15px;
+        /* padding-left: 5px;  */
+    }
+    
+    .part_form > form > select {
+        padding-right: 60px; 
+    }
+    
+    .part_form > form > select {
+        background-size: 10px 7px;
+    }
+    
+    .part_form > form > button{
+        width: 320px;
+        /* height: 73px;
+        font-size: 29px;
+        margin-top: 19px; */
+    
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .part_form_cont{
+        width: 1050px;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .part_form_cont{
+        width: 940px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .part_form_cont{
+        width: 840px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .part_form_cont{
+        width: 790px;
+    }
+
+    .part_form{
         width: 400px;
-        height: 591px;
-        border-radius: 30px;
+        height: 600px;
     }
     
     .part_form > h2{
         width: 400px;
-        height: 40px;
         font-size: 20px;
         letter-spacing: 3px;
-        padding-top: 30px;
+        padding-top: 40px;
     }
     
     .part_form > p{
         width: 400px;
-        height: 60px;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 130%; 
-        margin: 17px auto;
+        font-size: 15px;
+        margin: 20px auto;
     }
     
     .part_form > p > span{
-        font-size: 16px;
+        font-size: 18px;
     }
     
     
     .part_form> form > label{
         font-size: 18px;
-        margin-left: 0px;
+        margin-left: 22px;
     }
     
     .part_form > form > input, select{
-        width: 400px;
-        height: 37px;
-        margin-bottom: 11px;
-        font-size: 15px;
-        padding-left: 5px; 
+        width: 370px;
+        height: 30px;
     }
     
     .part_form > form > button{
-        width: 300px;
+        width: 290px;
         height: 53px;
-        border-radius: 30px;
-        font-size: 19px;
-        margin-top: 13px;
-    }
-
-    .form_background_img2, .form_background_img1{
-        display: none;
+        font-size: 20px;
+ 
     }
 }
+
+@media only screen and (max-width: 690px) {
+    .part_form_cont{
+        width: 690px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .part_form_cont{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .part_form_cont{
+        width: 530px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .part_form_cont{
+        width: 410px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .part_form_cont{
+        width: 390px;
+    }
+}
+
 

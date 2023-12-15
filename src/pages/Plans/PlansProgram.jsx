@@ -24,10 +24,10 @@ function PlansProgram() {
       <p>Here’s What you Get with 360ME</p>
 
       {data.map((section, index) => (
-        <div className='part_program_info' key={index}>
+        <div className='part_program_info' key={index} onClick={() => handleDropClick(index)}>
           <div className='part_program_info_header'>
             <h3>{section.header}</h3>
-            <div className={`part_program_info_header_img ${openSection === index ? 'rotate' : ''}`} onClick={() => handleDropClick(index)}>
+            <div className={`part_program_info_header_img ${openSection === index ? 'rotate' : ''}`} >
               <img src={drop} alt="drop" />
             </div>
           </div>
