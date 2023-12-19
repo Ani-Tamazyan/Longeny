@@ -1,5 +1,3 @@
-import React from 'react'
-
 import "../../styles/Plans/PlansForm.css";
 import vector1 from "../../assets/images/VectorForm1.png"
 import vector2 from "../../assets/images/VectorForm2.png"

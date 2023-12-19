@@ -1,7 +1,3 @@
-.part_nav{
-  width: max-content;
-}
-
 nav, .navbar, .nav-links{
   display: flex;
 }
@@ -59,13 +55,13 @@ nav{
   border-radius: 24.5px;
   border: none;
   background: #1DB6E0;
-
   color: var(--text-with-background);
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .nav-links li:nth-child(5){
   margin-left: 21px;
 }
@@ -80,84 +76,118 @@ nav{
   stroke: #056A86;
 }
 
-  .menu{
-    display: none;
-    width: 40px;
-    height: 40px;
-    margin-top: 27px;
-    margin-left: 35px;
-  }
-
-  @media only screen and (max-width: 1820px) {    
-    nav{
-      margin-left: 20px;
-    }
-    
-    .nav_logo{
-      width: 190px;
-      height: 190px;
-    }
-    
-    .navbar{
-      width: 75%;
-      gap: 0px;
-      justify-content: space-around;    
-    }
-    
-    .nav-links{
-      gap: 30px;
-    }
-    
+.menu{
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-top: 27px;
 }
 
-@media only screen and (max-width: 1640px) {    
+.menu_cont.mobil_activ{
+  width: 100%;
+  background-color: #ccc;
+}
+
+
+ @media only screen and (max-width: 1820px) {
+
+    nav{
+      margin-left: 70px;
+    }
+    
+
+  .nav_logo{
+    width: 190px;
+    height: 190px;
+  }
+    
   .navbar{
-    width: 65%;
+    gap: 80px;
+    margin-left: 50px;
+  }
+    
+  .nav-links{
+    gap: 30px;
+  }
+           
+  .sign-in{
+    width: 150px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1520px) {
+  nav{
+    margin-left: 10px;
+  }
+
+  .nav_logo{
+    width: 160px;
+    height: 160px;
+  }
+    
+  .navbar{
+    gap: 20px;
     margin-left: 20px;
   }
+    
+  .nav-links{
+    gap: 20px;
+  }
+
+  .link{
+    font-size: 15px;  
+  }
+    
+   
+  .sign-in{
+    width: 130px;
+  }
+
+  .nav-links li:nth-child(5){
+    margin-left: 16px;
+  }
+    
+  .dropdown-image{ 
+    margin-left: 7px;
+  }
 }
 
-@media only screen and (max-width: 1445px) {
-  .nav_logo{
-      width: 140px;
-      height: 140px;
-  }  
-  .navbar{
-    width: 35%;
+
+
+@media only screen and (max-width: 1200px) { 
+
+  .navbar, .nav-links, .nav-button, .sign-in{
+    display: none;
+  }
+
+  .nav-links li:nth-child(5){
+    margin-left: 0px;
   }
   
-   .nav-links{
-      display: none;
-    }
+  nav{   
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .menu{
-     display: block;
-     position: relative;
-    }
-
-    .sign-in{
-        margin-top: 27px;
-        width: 100px;
-        height: 35px;
-        font-size: 14px;
-        margin-left: -30px;
-    }
+  .menu{
+    display: block;
+    margin-right: 30px;
+  }
   
-    .menu_cont {
-      width: 40%;
-      text-align: center;
-      display: flex;
-      position: absolute;
-      top: 150px;
-      margin: auto;
-      margin-left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      justify-content: center;
-      height: 390px;
-      z-index: 10;
-      padding: 10px 0;
-    }
+  .menu_cont {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    height: 490px;
+    z-index: 10;
+    margin-left: -10px;
+  }
     
     .mobile-menu .nav-links{
       display: flex;
@@ -166,44 +196,17 @@ nav{
       margin: 10px 0;
     }
 
-    .nav-links li:nth-child(5){
-      margin-left: 0;
-    }
-   
-}
-
-  @media only screen and (max-width: 925px) {  
-  .navbar{
-    width: 10%;
-  }
-  
-  .menu{
-    margin-left: 80px;
-   }
-}
-
-@media only screen and (max-width: 695px) {  
-  .navbar{
-    width: 10%;
-  } 
-}
-
-@media only screen and (max-width: 500px) {  
-  
-  .navbar{
-    width: 4%;
-  } 
-  .menu{
-    margin-left: 50px;
-   }
-}
-
-@media only screen and (max-width: 280px) {  
-  .nav_logo{
-    width: 100px;
-    height: 100px;
-  }  
-  .menu{
-    margin-left: 20px;
-  }
-}
+    .menu-sign-in{
+      margin-top: 37px;
+      width: 177px;
+      height: 45px;
+      border-radius: 24.5px;
+      border: none;
+      background: #1DB6E0;    
+      color: var(--text-with-background);
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }    
+} 

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import "../../styles/Plans/PlansPrevent.css"
 
 import link from "../../assets/images/link.png"
@@ -8,6 +6,7 @@ function PlansPrevent() {
     return (
         <div className='part_prevention'>
             <div className='part_prevention_left_side'>
+                {/* <img src="" alt="" /> */}
 
             </div>
 

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import PlansHeader from "./PlansHeader";
 import PlansPrevent from "./PlansPrevent";
 import PlansDisease from "./PlansDisease";

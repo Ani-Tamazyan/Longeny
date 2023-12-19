@@ -1,5 +1,3 @@
-import React from 'react'
-
 import "../../styles/Plans/PlansHeader.css"
 
 import countryside from "../../assets/images/walk-countryside.png"
@@ -32,7 +30,9 @@ function PlansHeader() {
                 </div>
             </div>
 
-            <img src={countryside} alt="countryside" className='part_header_img'/>
+            <div className='right-side'>
+                <img src={countryside} alt="countryside" className='part_header_img'/>
+            </div>
                 
         </div>
     )

@@ -1,5 +1,6 @@
 .part_disease{
     margin-top: 436px;
+    position: relative;
 }
 
 .part_disease h2{
@@ -7,9 +8,7 @@
     display: flex;
     width: 877px;
     height: 60px;
-    flex-direction: column;
     justify-content: center;
-
     color: var(--header-color);
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
     font-family: Open Sans;
@@ -23,7 +22,6 @@
 .part_disease_organ1_cont{
     width: 930.952px;
     height: 114.433px;
-
     border-radius: 44px;
     border: 3px solid #57E8F6;
     background: var(--background);
@@ -46,7 +44,7 @@
     position: absolute;
     z-index: 3;
     left: 444px;
-    top: 2607px
+    top: 150px
 }
 
 .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
@@ -75,7 +73,7 @@
     height: 87.7px;
     position: absolute;
     z-index: 3;
-    top: 2834px;
+    top: 390px;
     left: 325px;
 }
 
@@ -84,7 +82,7 @@
     height: 87.7px;
     position: absolute;
     z-index: 3;
-    top: 2840px;
+    top: 400px;
     left: 1090px;
 }
 
@@ -115,7 +113,7 @@
     height: 87.7px;
     position: absolute;
     z-index: 3;
-    top: 3075px;
+    top: 615px;
     left: 887px;
 }
 
@@ -129,7 +127,7 @@
     width: 368.681px;
     height: 223.704px;
     left: 242px;
-    top: 2702px;
+    top: 250px;
 } 
 
 .dot1, .dot2, .dot3{
@@ -158,609 +156,438 @@
     width: 298.989px;
     height: 230.587px;  
     left: 1378px;
-    top: 2705px;
+    top: 255px;
 }
 
 .dashed3{
     width: 85.5px;
     height: 395.784px;
     left: 840px;
-    top: 2761px;
+    top: 310px;
 } 
 
 .disease_background_img{
     position: absolute;
     z-index: -10;
-    top: 2423px;
+    top: -27px;
 }
 
 
-@media only screen and (max-width: 1820px) { 
-
-    .part_disease h2{
-        margin-left: 400px;
-    }
-
-
-.part_disease_organ1_cont{
-    margin-left: 373px;
-}
-
-
-.organ1_img{
-    left: 344px;
-    top: 2590px;
-}
-
-
-.part_disease_organ2_cont{
-    margin-left: 268px;
-}
-
-
-.organ2_img{
-    left: 225px;
-    top: 2814px;
-}
-
-.organ3_img{
-    left: 890px;
-    top: 2814px;
-}
-
-.part_disease_organ3_cont{
-    margin-left: 224px;
-}
-
-.part_disease_organ4_cont{
-    margin-left: 830px;
-}
-
-
-
-.organ4_img{
-    left: 787px;
-    top: 3025px;
-}
-
-
-.dashed1{ 
-    left: 142px;
-    top: 2692px;
-} 
-
-
-.dot1{
-    margin-left: 262px;
-    margin-top: 175px;
-
-}
-
-.dot2{
-    margin-left: 1404px;
-    margin-top: 175px;
-
-}
-
-.dot3{
-    margin-left: 825px;
-}
-
- .dashed2{
-    left: 1178px;
-    top: 2680px;
-
-}
-
-.dashed3{
-    left: 740px;
-    top: 2731px;
-
-} 
+@media only screen and (max-width: 1800px) { 
     
-}
-
-@media only screen and (max-width: 1630px) {
-    .part_disease{
-        margin-top: 536px;
+    .part_disease h2{
+        margin-left: 422px;
     }
-
+    
     .part_disease_organ1_cont{
-        margin-left: 323px;
+        margin-left: 373px;
     }
-
-
+    
     .organ1_img{
-        left: 284px;
-        top: 2550px;
-
+        left: 344px;
     }
-
-
+    
     .part_disease_organ2_cont{
         margin-left: 168px;
-        height: 90px;
     }
-
-
+    
     .organ2_img{
         left: 125px;
-        top: 2794px;
     }
-
+    
     .organ3_img{
-        left: 790px;
-        top: 2794px;
-    }
-
-    .part_disease_organ3_cont{
-        margin-left: 224px;
-    }
-
-    .part_disease_organ4_cont{
-        margin-left: 730px;
-    }
-
-
-
-    .organ4_img{
-        left: 687px;
-        top: 3015px;
-    }
-
-
-    .dashed1{ 
-        left: 42px;
-        top: 2672px;
-
-    } 
-
-
-    .dot1{
-        margin-left: 162px;
-    }
-
-    .dot2{
-        margin-left: 1304px;
-    }
-
-    .dot3{
-        margin-left: 725px;
-    }
-
-    .dashed2{
-        left: 1078px;
-        top: 2660px;
-
-    }
-
-    .dashed3{
-        left: 640px;
-        top: 2711px;
-    } 
-}
-
-
-
-@media only screen and (max-width: 1580px) {   
-    .part_disease h2{
-        margin-left: 300px;
-    }
-}
-
-@media only screen and (max-width: 1445px) { 
-
-    .part_disease_organ1_cont{
-        width: 700px;
-        height: 90px;
-    }
-
-    .part_disease_organ1_cont img{
-        margin-top: 29px;
-        margin-left: 175px;
-    }
-
-    .organ1_img{
-        width: 90px;
-        height: 90px;
-        left: 284px;
-        top: 2520px;
-    }
-
-
-     .part_disease_organ2_cont{
-        margin-left: 168px;
-        width: 340px;
-    }
-
-    .part_disease_organ2_cont img{
-        margin-left: 10px;
-        margin-top: 30px;
-        width: 320px;
-    } 
-    
-    .organ2_img{
-        width: 70px;
-        height: 70px;
-        left: 125px;
-        top: 2714px;
-    }
-
-    .organ3_img{
-        width: 70px;
-        height: 70px;
-    }
-    
-    .part_disease_organ3_cont{
-        width: 340px;
-        height: 90px;
-        margin-left: 324px;
-    }
-    
-    .part_disease_organ3_cont img{
-        margin-left: 10px;
-        margin-top: 30px;
-        width: 320px;
+        left: 890px;
     }
     
     .part_disease_organ4_cont{
-        width: 230px;
-        height: 90px;
-        margin-left: 630px;
+        margin-left: 830px;
     }
     
-    .part_disease_organ4_cont img{
-        margin-left: 20px;
-        margin-top: 40px;
-        width: 100px;
-        
-    }
-    .organ3_img{
-        left: 790px;
-        top: 2720px;
-    }
-
     .organ4_img{
-        left: 587px;
-        top: 2905px;
+        left: 787px;
     }
-
+    
     .dashed1{
-        width: 368.681px;
-        height: 200px;
         left: 42px;
-        top: 2602px;
     } 
-     
+    
     .dot1{
         margin-left: 162px;
-        margin-top: 155px;
     }
     
     .dot2{
-        margin-left: 1165px;
-        margin-top: 160px;
+        margin-left: 1404px;
     }
     
     .dot3{
-        margin-left: 625px;
-        margin-top: 158px;
+        margin-left: 825px;
     }
     
      .dashed2{
-        width: 298.989px;
-        height: 200px;  
-        left: 948px;
-        top: 2602px;
-
+        left: 1178px;
     }
     
     .dashed3{
-        width: 85.5px;
-        height: 395.784px;
-        left: 540px;
-        top: 2611px;
-    } 
+        left: 740px;
+    }     
 }
 
-@media only screen and (max-width: 1265px) {
-
+@media only screen and (max-width: 1550px) { 
+    
     .part_disease h2{
-        width: 600px;
-        text-align: center;
-        margin-left: 250px;
+        margin-left: 322px;
+        letter-spacing: 3px;        
     }
     
     .part_disease_organ1_cont{
-        width: 500px;
-        height: 60px;
-        border-radius: 22px;
-        margin-left: 320px;
+        width: 700px;
     }
     
     .part_disease_organ1_cont img{
-        margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 175px;
+    }
+    
+
+    .part_disease_organ2_cont{
+        width: 340px;
+        margin-left: 168px;
+    }
+
+    .part_disease_organ2_cont img{
+        margin-left: 26px;
         width: 300px;
     }
     
-    .organ1_img{
-        width: 70px;
-        height: 70px;
-        left: 300px;
+    .organ3_img{
+        left: 790px;
     }
+    
+    .part_disease_organ3_cont{
+        width: 378px;
+    }
+    
+    .part_disease_organ3_cont img{
+        margin-left: 30px;
+        width: 330px;
+    }
+    
+    .part_disease_organ4_cont{
+        width: 177px;
+        margin-left: 730px;
+    }
+    
+    .part_disease_organ4_cont img{
+        margin-left: 39px;
+    }
+    
+    .organ4_img{
+        left: 687px;
+    }
+    
+    .dot2{
+        margin-left: 1204px;
+    }
+    
+    .dot3{
+        margin-left: 725px;
+    }
+    
+     .dashed2{
+        left: 978px;
+    }
+    
+    .dashed3{
+        left: 640px;
+    } 
+}
 
+@media only screen and (max-width: 1445px) { 
+    
+    .part_disease h2{
+        margin-left: 222px;
+        letter-spacing: 2px;        
+    }
+    
+    .part_disease_organ1_cont{
+        margin-left: 290px;
+    }
+    
+    .part_disease_organ1_cont img{
+        margin-left: 175px;
+    }
     
     .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
-        border-radius: 22px;
-        margin-top: 30px;
-        width: 400px;
-        height: 60px;
-        margin-left: 390px;
+        margin-left: 480px;
+        width: 350px;
     }
     
     .part_disease_organ{
         display: block;
     }
-    
+
+
     .part_disease_organ2_cont img, .part_disease_organ3_cont img{
-        margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 20px;
         width: 300px;
     }
-
+    
+    .organ2_img{
+        top: 380px;
+        left: 440px;
+    }
+    
+    .organ3_img{
+        top: 620px;
+        left: 440px;
+    }
+    
+    
     .part_disease_organ4_cont img{
-        margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
-    .organ2_img{    
-        left: 385px;
-        top: 2614px;
-    }
-
-    .organ3_img{    
-        left: 385px;
-    }
-     .organ2_img, .organ3_img, .organ4_img{
-        width: 50px;
-        height: 50px;
-    }
-
     
     .organ4_img{
-        left: 387px;
-        top: 2805px;
-        
-    } 
+        top: 830px;
+        left: 440px;
+    }
     
     .dashed1, .dashed2, .dashed3{
         display: none;
-    }   
-
-    .dot1, .dot2, .dot3{
+    } 
+    
+     .dot1, .dot2, .dot3{
         display: none;
-    }
-
+    } 
+     
     .disease_background_img{
         display: none;
-    }
-
+    }   
 }
 
-@media only screen and (max-width: 1000px) {
-
+@media only screen and (max-width: 1200px) { 
+    
     .part_disease h2{
-        margin-left: 150px;
-    }
-    
-    .part_disease_organ1_cont{
-        margin-left: 220px;
-    }
-    
-    
-    .organ1_img{
-        left: 200px;
-    }
-
-    
-    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
-        margin-left: 290px;
-    }
-    
-    .organ2_img, .organ3_img, .organ4_img{    
-        left: 265px;
-    }
-     .organ2_img, .organ3_img, .organ4_img{
-        width: 50px;
-        height: 50px;
-    }  
-}
-
-@media only screen and (max-width: 940px) { /**********/
-    .part_disease{
-        margin-top: 336px;
-    }
-    .part_disease h2{
-        margin-left: 90px;
-    }
-    
-    .part_disease_organ1_cont{
-        margin-left: 160px;
-    }
-    
-    
-    .organ1_img{
-        left: 130px;
-        top: 2310px;
-    }
-
-    
-    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
-        margin-left: 200px;
-    }
-    
-    .organ2_img, .organ3_img, .organ4_img{    
-        left: 180px;
-    }
-    .organ2_img{
-        top: 2420px;
-    }
-    .organ3_img{
-        top: 2500px;
-    }
-    .organ4_img{
-        top: 2600px;
-    }
-}
-
-@media only screen and (max-width: 870px) {
-    .organ1_img{
-        top: 2110px;
-    }
-
-    .organ2_img{
-        top: 2220px;
-    }
-    .organ3_img{
-        top: 2300px;
-    }
-    .organ4_img{
-        top: 2400px;
-    }
-}
-
-@media only screen and (max-width: 730px) {
-
-    .part_disease h2{
-        margin-left: 50px;
-    }
-    
-    .part_disease_organ1_cont{
-        margin-left: 100px;
-    }
-    
-    
-    .organ1_img{
-        left: 80px;
-        top: 2070px;
-    }
-
-    
-    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
-        margin-left: 130px;
-    }
-    
-    .organ2_img, .organ3_img, .organ4_img{    
-        left: 110px;
-    }
-    .organ2_img{
-        top: 2170px;
-    }
-    .organ3_img{
-        top: 2260px;
-    }
-    .organ4_img{
-        top: 2350px;
-    }
-}
-
-@media only screen and (max-width: 620px) {
-    .part_disease h2{
-        margin-left: 70px;
+        margin-left: 152px;
+        width: 677px;
         font-size: 30px;
-        width: 400px;
     }
     
     .part_disease_organ1_cont{
-        margin-left: 90px;
-        width: 300px;
-    }
-
-    .part_disease_organ1_cont img{
-        width: 200px;
-    }
-    .part_disease_organ2_cont img, .part_disease_organ3_cont img{
-        margin-left: 16px;
-        width: 230px;
-    }
-    .part_disease_organ4_cont img{
-        margin-left: 20px;
-        width: 90px;
+        width: 500px;
+        margin-left: 260px;
     }
     
+    .part_disease_organ1_cont img{
+        margin-left: 65px;
+    }
     
     .organ1_img{
-        left: 70px;
+        left: 214px;
     }
-  
+    
     .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
-        margin-left: 100px;
+        margin-left: 330px;
+        width: 310px;
+    }
+    
+    .part_disease_organ{
+        display: block;
+    }
+
+
+    .part_disease_organ2_cont img, .part_disease_organ3_cont img{
+        margin-left: 20px;
         width: 250px;
     }
     
-    .organ2_img, .organ3_img, .organ4_img{    
-        left: 80px;
-    }
-    .organ2_img{
-        top: 2170px;
-    }
-    .organ3_img{
-        top: 2260px;
-    }
-    .organ4_img{
-        top: 2350px;
-    }
-}
-
-@media only screen and (max-width: 540px) { 
-  .organ1_img{
-        top: 2020px;
+    .organ2_img, .organ3_img, .organ4_img{
+        left: 290px;
     }
     
-    .organ2_img{
-        top: 2115px;
+    
+    .part_disease_organ4_cont img{
+        width: 90px;
+        margin-left: 20px;
     }
-    .organ3_img{
-        top: 2200px;
-    }
-    .organ4_img{
-        top: 2300px;
-    }
+     
 }
 
-@media only screen and (max-width: 500px) { 
-
-    .part_disease{
-        margin-top: 236px;
-    }
-    .organ1_img{
-          top: 1820px;
-      }
-  
-      .organ2_img{
-          top: 1915px;
-      }
-      .organ3_img{
-          top: 2000px;
-      }
-      .organ4_img{
-          top: 2100px;
-      }
-  }
-
-  @media only screen and (max-width: 420px) { 
-
-    .part_disease{
-        margin-left: -50px;
-    }
+@media only screen and (max-width: 900px) { 
+    
     .part_disease h2{
-        margin-left: 40px;
+        margin-left: 52px;
+        font-size: 30px;
     }
+    
+    .part_disease_organ1_cont{
+        width: 400px;
+        margin-left: 160px;
+    }
+    
+    .part_disease_organ1_cont img{
+        margin-left: 25px;
+        width: 300px;
+    }
+    
     .organ1_img{
-        left: 20px;
+        width: 100px;
+        height: 100px;
+        left: 124px;
+        top: 140px;
+    }
+    
+    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
+        margin-left: 230px;
+        width: 260px;
     }
 
-    .organ2_img, .organ3_img, .organ4_img{    
-        left: 30px;
+
+    .part_disease_organ2_cont img, .part_disease_organ3_cont img{
+        margin-left: 20px;
+        width: 230px;
     }
-  }
+    
+    .organ2_img, .organ3_img, .organ4_img{
+        left: 190px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .organ2_img{
+        top: 390px;
+    }
+
+    .organ4_img{
+        top: 840px;
+    }
+      
+    .part_disease_organ4_cont img{
+        width: 90px;
+        margin-left: 20px;
+    }     
+}
+
+@media only screen and (max-width: 730px) { 
+    
+    .part_disease h2{
+        margin-left: -40px;
+        font-size: 20px;
+    }
+    
+    .part_disease_organ1_cont{
+        width: 280px;
+        margin-left: 110px;
+    }
+    
+    .part_disease_organ1_cont img{
+        margin-left: 15px;
+        width: 250px;
+    }
+    
+    .organ1_img{
+        width: 80px;
+        height: 80px;
+        left: 84px;
+        top: 160px;
+    }
+    
+    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
+        margin-left: 130px;
+        width: 230px;
+    }
+
+
+    .part_disease_organ2_cont img, .part_disease_organ3_cont img{
+        margin-left: 20px;
+        width: 200px;
+    }
+    
+    .organ2_img, .organ3_img, .organ4_img{
+        left: 100px;
+        width: 70px;
+        height: 70px;
+    }  
+}
+
+@media only screen and (max-width: 560px) { 
+    
+    .part_disease h2{
+        margin-left: -100px;
+        font-size: 18px;
+    }
+    
+    .part_disease_organ1_cont{
+        margin-left: 70px;
+    }
+    
+    .organ1_img{
+        left: 44px;
+    }
+    
+    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
+        margin-left: 70px;
+    }
+    
+    .organ2_img, .organ3_img, .organ4_img{
+        left: 40px;
+    }  
+}
+
+@media only screen and (max-width: 450px) { 
+    
+    .part_disease h2{
+        margin-left: -155px;
+        font-size: 15px;
+    }
+    
+    .part_disease_organ1_cont{
+        margin-left: 70px;
+    }
+    
+    .organ1_img{
+        left: 44px;
+    }
+    
+    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
+        margin-left: 70px;
+    }
+
+    
+    .organ2_img, .organ3_img, .organ4_img{
+        left: 40px;
+    }  
+}
+
+@media only screen and (max-width: 300px) { 
+    
+    .part_disease h2{
+        margin-left: -210px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    
+    .part_disease_organ1_cont{
+        width: 260px;
+        margin-left: 20px;
+    }
+    
+    .part_disease_organ1_cont img{
+        width: 230px;
+    }
+    
+    .organ1_img{
+        left: 4px;
+    }
+    
+    .part_disease_organ2_cont, .part_disease_organ3_cont, .part_disease_organ4_cont{
+        margin-left: 30px;
+    }
+
+    
+    .organ2_img, .organ3_img, .organ4_img{
+        left: 10px;
+    }  
+}
+
+
+

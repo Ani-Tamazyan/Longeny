@@ -1,6 +1,5 @@
  body{
     background: linear-gradient(0deg, rgba(176, 239, 248, 0.11) 0%, rgba(176, 239, 248, 0.11) 100%), #FFF;
-    width: 1920px;
 }
 body::-webkit-scrollbar {
     display: none;

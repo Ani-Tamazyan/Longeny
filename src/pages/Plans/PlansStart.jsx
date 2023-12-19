@@ -1,6 +1,4 @@
-import React from 'react';
-
-import { start } from '../../components/constant';
+import { start } from '../../helpers/utils/constant';
 import '../../styles/Plans/PlansStart.css';
 import zig from "../../assets/images/zig.png"
 
