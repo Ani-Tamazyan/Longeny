@@ -1,20 +1,21 @@
 .part_form{
     margin: 0 auto;
     margin-top: 271px;
-    width: 917px;
+    max-width: 917px;
     height: 891px;
     border-radius: 35px;
     background: rgba(255, 255, 255, 0.85);
     box-shadow: -10px 10px 44px 0px rgba(52, 189, 227, 0.16);
     backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8px;
 }
 
 .part_form > h2{
-    display: flex;
-    width: 605px;
+    max-width: 605px;
     height: 45px;
-    flex-direction: column;
-    justify-content: center;
     color: var(--header-color);
     text-align: center;
     font-size: 30px;
@@ -22,19 +23,17 @@
     line-height: var(--line-height);
     letter-spacing: 5.7px;
     text-transform: uppercase;
-    margin: 0 auto;
-    padding-top: 60px;
+    margin-top: 60px;
 }
 
 .part_form > p{
-    width: 640px;
-    height: 76px;
+    max-width: 640px;
     color: var(--text-color);
     text-align: center;
     font-size: 24px;
     font-weight: 600;
     line-height: var(--line-height); 
-    margin: 27px auto;
+    padding: 27px 0;
 }
 
 .part_form > p > span{
@@ -45,19 +44,17 @@
 }
 
 .part_form > form{
-    display: flex;
-    flex-direction: column;
+    max-width: 715px;
 }
 
 .part_form> form > label{
     color: #025C75;
     font-size: 22px;
     font-weight: 600;
-    margin-left: 101px;
 }
 
 .part_form > form > input, select{
-    width: 715px;
+    width: 100%;
     height: 47px;
     border-radius: 10px;
     border: 1px solid #046A86;
@@ -65,8 +62,6 @@
     margin: 0 auto;
     margin-bottom: 16px;
     font-size: 18px;
-    padding-left: 5px;
-
 }
 
 .part_form > form > select {
@@ -85,6 +80,9 @@
 }
 
 .part_form > form > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 420px;
     height: 73px;
     border-radius: 36.5px;
@@ -97,7 +95,6 @@
     border: none;
     margin: 0 auto;
     margin-top: 19px;
-
 }
 
 .form_background_img1{
@@ -116,89 +113,50 @@
 
 
 
-@media only screen and (max-width: 940px) {
-    .part_form{
-        width: 517px;
-        height: 751px;
-    }
-    
+@media only screen and (max-width: 992px) {
+
     .part_form > h2{
-        width: 505px;
-        font-size: 20px;
         letter-spacing: 3px;
-        padding-top: 60px;
     }
-    
+
     .part_form > p{
-        width: 505px;
-        height: 56px;
-        font-size: 16px;
+        font-size: 20px;
     }
-    
+
     .part_form > p > span{
-        font-size: 17px;
+        font-size: 23px;
     }
-    
-    .part_form> form > label{
-        font-size: 20px;
-        margin-left: 10px;
-    }
-    
-    .part_form > form > input, select{
-        width: 505px;
-        height: 37px;
-        margin-bottom: 16px;
-        font-size: 18px;
-        padding-left: 5px;
-    
-    }
-     
+
     .part_form > form > button{
-        width: 350px;
-        height: 73px;
-        border-radius: 36.5px;
-        font-size: 20px;
-        margin-top: 19px; 
+        width: 320px;
+        height: 53px;
+        font-size: 19px;
     }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 576px) {  
+
     .part_form{
-        width: 280px;
-        height: 651px;
+        margin-top: 70px;
     }
-    
+
+    .part_form > form{
+        max-width: 280px;
+    }
+
     .part_form > h2{
-        width: 205px;
-        height: 35px;
-        font-size: 13px;
-        letter-spacing: 1px;
+        font-size: 20px;
     }
-    
+
     .part_form > p{
-        width: 205px;
-        height: 76px;
-        font-size: 15px;
+        font-size: 18px;
     }
-    
+
     .part_form > p > span{
-        font-size: 16px;
+        font-size: 20px;
     }
-    
-    .part_form> form > label{
-        font-size: 16px;
-        margin-left: 5px;
-    }
-    
-    .part_form > form > input, select{
-        width: 270px;
-        font-size: 15px;  
-    }
-       
+
     .part_form > form > button{
-        width: 250px;
-        height: 53px;
-        font-size: 15px;
-    }   
+        width: 220px;
+    }
 }
-    

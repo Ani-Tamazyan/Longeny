@@ -1,13 +1,13 @@
 import "../../styles/Plans/PlansPrevent.css"
 
 import link from "../../assets/images/link.png"
+import left_img from "../../assets/images/Group 520.png"
 
 function PlansPrevent() {
     return (
         <div className='part_prevention'>
             <div className='part_prevention_left_side'>
-                {/* <img src="" alt="" /> */}
-
+                <img src={left_img} alt="left_img" />
             </div>
 
             <div className='part_prevention_right_side'>
@@ -24,28 +24,29 @@ function PlansPrevent() {
                 <div className='part_prevention_card'>
                     <div className='part_prevention_card_cont'>
 
-                     <div className='part_prevention_card_buttons'>
-                        <button>Saves Lives</button>
-                        <button>Improves Quality of Life</button>
-                        <button>Extends lifespan and healthspan</button>
-                        <button>It’s less expensive than treatment</button>
-                        <button>Avoids painful treatment such as surgery or chemotherapy</button>
-                    </div>
+                        <div className='part_prevention_card_p'>
+                            <p>Saves Lives</p>
+                            <p>Improves Quality of Life</p>
+                            <p>Extends lifespan and healthspan</p>
+                            <p>It’s less expensive than treatment</p>
+                            <p>Avoids painful treatment such as surgery or chemotherapy</p>
+                        </div>
 
-                    <div className='part_prevention_card_text'>
-                        <p>At LonGeny our first goal is to help prevent or delay the onset of chronic disease. </p>
-                        <span> Why Prevention?</span>                           
-                       
-                    </div>
-                </div>
+                        <div className='part_prevention_card_text'>
+                            <p>At LonGeny our first goal is to help prevent or delay the onset of chronic disease. </p>
+                            <span> Why Prevention?</span>                           
+                        </div>
+                    
 
-                <div className='card_book_free_call'>
-                    <button className='book_free_call'>Book your free call</button>
-                </div>                 
+                        <div className='card_book_free_call'>
+                            <button className='book_free_call'>Book your free call</button>
+                        </div> 
+                    </div>                
                 </div>
             </div>
-    </div>
+        </div>
     )
 }
 
 export default PlansPrevent
+

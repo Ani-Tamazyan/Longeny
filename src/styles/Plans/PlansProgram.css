@@ -4,7 +4,7 @@
 }
 
 .part_program > h2{
-    width: 1563px;
+    max-width: 1563px;
     color: var(--header-color);
     text-align: center;
     text-shadow: 0px 0px 28px rgba(255, 255, 255, 0.48);
@@ -18,14 +18,16 @@
 }
 
 .part_program > p{
-    width: 716px;
     color: #646464;
     text-align: center;
     font-family: Open Sans;
     font-size: 35px;
     font-weight: 700;
     line-height: 150%;
-    margin: 72px 0 87px 585px;
+    margin: 72px 0 87px 0px;
+    display: flex;
+    justify-content: center;
+    margin-right: 17px;
 }
 
 .part_program_info{
@@ -111,17 +113,15 @@
 
 @media only screen and (max-width: 1670px) { 
     .part_program > h2{
-        width: 1063px;
+        max-width: 1063px;
         font-size: 29px;
         letter-spacing: 2px;
     }
 
     .part_program > p{
-        margin-left: 450px;
         font-size: 25px;
     }
 
-    
     .part_program_info_header_img{
         padding: 0 20px;
         margin-left: 30px;
@@ -134,27 +134,29 @@
     .part_program_info_hiden > p{
         padding-left: 30px;
         padding-right: 20px;
-        color: var(--text-color);
         font-size: 15px;
         line-height: 130%; 
     }
     
     .part_program_info_hiden > button{
-        width: 400px;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        padding: 17px 44px;
+        font-size: 19px;
     }
 }
 
-@media only screen and (max-width: 1430px) { 
+@media only screen and (max-width: 992px) { 
     .part_program > h2{
-        width: 963px;
+        max-width: 576px;
         font-size: 25px;
+        letter-spacing: 1px;
     }
 
     .part_program > p{
-        margin: 72px auto 87px auto; 
         font-size: 20px;
     }
-    
+
     .part_program_info_header_img{
         padding: 0 10px;
         margin-left: 10px;
@@ -171,108 +173,59 @@
     } 
 
     .part_program_info_hiden > p{
-        padding-left: 30px;
-        padding-right: 20px;
-        font-size: 15px;
-        line-height: 130%; 
+        padding-left: 20px;
+        padding-right: 10px;
     }
     
     .part_program_info_hiden > button{
-        width: 200px;
-        font-size: 18px;
-        margin-left: 20px;
-    }
-    
-}
-
-@media only screen and (max-width: 930px) { 
-    .part_program > h2{
-        width: 663px;
-        font-size: 25px;
+        padding: 17px 24px;
+        font-size: 15px;
     }
 }
 
-@media only screen and (max-width: 930px) { 
+@media only screen and (max-width: 576px) { 
+    .part_program{
+        margin-top: 50px;
+    }
     .part_program > h2{
-        width: 463px;
+        max-width: 300px;
         font-size: 20px;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
     }
+
     .part_program > p{
-        width: 400px;
-        font-size: 17px;
+        font-size: 15px;
     }
 
-    .part_program_info_header > h3{
-        font-size: 16px;
-        padding: 20px 0; 
-        margin-left: 30px;
-    } 
-
-}
-
-@media only screen and (max-width: 930px) { 
-    .part_program > h2{
-        width: 463px;
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-    .part_program > p{
-        width: 400px;
-        font-size: 17px;
+    .part_program_info{
+        margin: 20px 0;
     }
 
-    .part_program_info_header > h3{
-        font-size: 16px;
-        padding: 20px 0; 
-        margin-left: 30px;
+    .part_program_info_header_img{
+        padding: 0 3px;
+        margin-left: 5px;
     }
-
-
-}
-
-
-@media only screen and (max-width: 450px) { 
-    .part_program > h2{
-        width: 289px;
-    }
-    .part_program > p{
-        width: 280px;
-    }
-
-    .part_program_info_header > h3{
-        font-size: 11px;
-        margin-left: 8px;
-    } 
 
     .part_program_info_header_img img{
         width: 10px;
     }
-
-    .part_program_info_header_img{
-        padding: 0 5px;
-        margin-left: 0px;
-    }
-
-    .part_program_info_hiden > button{
-        width: 100px;
-        font-size: 11px;
-        margin-left: 10px;
-        height: 40px;
-    }
+    
+    .part_program_info_header > h3{
+        font-size: 13px;
+        padding: 20px 0; 
+        margin-left: 5px;
+    } 
 
     .part_program_info_hiden > p{
         padding-left: 10px;
         padding-right: 5px;
-        font-size: 11px;
+        font-size: 12px;
         line-height: 130%; 
     }
     
-
+    .part_program_info_hiden > button{
+        margin-left: 10px;
+        padding: 10px 14px;
+        font-size: 10px;
+    }
 }
-
-
-
-
-
-

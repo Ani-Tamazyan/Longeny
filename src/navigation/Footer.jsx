@@ -1,5 +1,3 @@
-import React from 'react'
-
 import '../styles/Footer.css';
 
 import phone from "../assets/images/phone.png"

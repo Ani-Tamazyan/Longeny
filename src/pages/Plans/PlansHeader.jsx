@@ -13,17 +13,21 @@ function PlansHeader() {
             <img src={vector2} alt="vector"  className='header_background_img2'/>
             <div className='part_header_left_side'>
 
-                <h2 className='part_header_left_side_h'>HEALTH ASSESSMENT</h2>
+                <div className='part_header_left_side_header'>
+                    <h2 className='part_header_left_side_h'>HEALTH ASSESSMENT</h2>
+                </div>
 
                 <img src={ellipseHeader} alt="ellipseHeader" className='ellipseHeader'/>
                
-
+               <div className='part_header_left_side_card_cont'>
                 <div className='part_header_left_side_card'>
-                    <div className='part_header_left_side_card_text'>
-                        <span>LONGENY </span>
-                        <span>Be the Master of Your Health</span>  
-                    </div>                                     
-                </div>
+                        <div className='part_header_left_side_card_text'>
+                            <span>LONGENY </span>
+                            <span>Be the Master of Your Health</span>  
+                        </div>                                     
+                    </div>
+               </div>
+                
                 
                 <div className='header_button'>
                     <button className='book_free_call'>Book my free call</button>
@@ -39,4 +43,5 @@ function PlansHeader() {
 }
 
 export default PlansHeader
+
 

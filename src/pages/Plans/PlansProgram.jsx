@@ -53,7 +53,7 @@ function PlansProgram() {
           </div>
         ))}
 
-        <img src={vector} alt="vector" className="program_background_img" />
+        {/* <img src={vector} alt="vector" className="program_background_img" /> */}
       </div>
     </>
   );

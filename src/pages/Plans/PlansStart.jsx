@@ -13,18 +13,20 @@ function PlansStart() {
             <h3>Where do I Start?</h3>
         </div>
 
-      <img src={zig} alt="zig" className='part_start_img' />
+      <div className='part_start_img_wrapper'>
+        <img src={zig} alt="zig" className='part_start_img' />
 
-      <div className='steps'>
-        {start.map((step, index) => (
-          <div key={index} className={`part_start_step step${index + 1}`}>
-            <div className='number'>
-              <h2>{step.h2}</h2>
+        <div className='steps'>
+          {start.map((step, index) => (
+            <div key={index} className={`part_start_step step${index + 1}`}>
+              <div className='number'>
+                <h2>{step.h2}</h2>
+              </div>
+              <p>{step.p1}</p>
+              <p>{step.p2}</p>
             </div>
-            <p>{step.p1}</p>
-            <p>{step.p2}</p>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       <button>explore plans now!</button>
@@ -33,4 +35,5 @@ function PlansStart() {
 }
 
 export default PlansStart;
+
 

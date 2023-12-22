@@ -18,8 +18,8 @@ function Plans() {
             <PlansDisease />
             <PlansCheckbox />
             <PlansProgram />
-            <PlansStart />   
-            <PlansForm />  
+            <PlansStart /> 
+            <PlansForm />
         </>
     )
 }
