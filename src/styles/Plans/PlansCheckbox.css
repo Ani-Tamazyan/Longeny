@@ -1,5 +1,6 @@
 .part_checkbox{
     margin-top: 200px;
+    position: relative;
 }
 
 .part_checkbox_h{
@@ -14,7 +15,7 @@
     font-family: Open Sans;
     font-size: 58px;
     font-weight: 800;
-    line-height: 150%; 
+    line-height: var(--line-height); 
     letter-spacing: 5.8px;
     text-transform: uppercase;
     margin: 0 auto;
@@ -22,13 +23,13 @@
 
 .part_checkbox_p{
     max-width: 790px;
-    color: #646464;
+    color: var(--text-color);
     text-align: center;
     font-family: Open Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; 
+    line-height: var(--line-height); 
     margin: 21px auto 91px;
 }
 
@@ -45,6 +46,7 @@
     backdrop-filter: blur(6px);
 }
 
+
 .checkbox{  
     max-width: 875px;
     height: 792px;
@@ -52,6 +54,13 @@
     margin: 0 auto; 
     display: flex;
 }
+
+.checkbox {
+    position: sticky; 
+    top: 0; 
+    z-index: 2;
+  }
+  
 
 .checkbox ul{
     margin-top: 20px;
@@ -64,16 +73,21 @@
     max-width: 854px; 
 }
 
+.checkbox li {
+    position: relative; 
+  }
+
 .checkbox_input{
     position: absolute;
     z-index: 20;
-    left: 59px;
+    left: 50px;
     margin-top: 29px;
     width: 35px;
     height: 35px;
     opacity: 0;
     cursor: pointer;
 }
+
 
 .checkbox_label{
     position: relative;
@@ -104,6 +118,7 @@
     cursor: pointer;
 }
 
+
   .check{
     position: relative;
     z-index: 10;
@@ -129,6 +144,8 @@
     padding-top: 23px;
     padding-left: 40px;
     cursor: pointer;
+
+    
 }
 
 .part4_button{
@@ -187,8 +204,15 @@
 .checkbox_background_img{
     position: absolute;
     z-index: -10;
-    top: 4199px;
-    left: 1619px;
+    right: 0px;
+    bottom: 42px;
+}
+
+.part_checkbox_ellips{
+    position: absolute;
+    z-index: -10;
+    top: -87px;
+    left: 0px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -243,12 +267,27 @@
     .part4_button .book_free_call{
         font-size: 16px;
         padding: 13px 29px;
-     }
+    }
 
      .order{
         font-size: 16px;
         padding: 13px 29px;
      }
+
+     .check{
+        top: -10px;
+        left: 0px;
+      }
+
+      .checkbox_input{
+        left: 0px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .part_checkbox_ellips{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -276,10 +315,17 @@
         padding-top: 20px;
         padding-left: 30px;
     }
+
+      .checkbox_input{
+        top: -10px;
+    }
 }
 
-
 @media only screen and (max-width: 576px) {
+    .part_checkbox{
+        margin-top: 50px;
+    }
+
     .part_checkbox_h{
         max-width: 320px;
         font-size: 25px;
@@ -320,4 +366,7 @@
         padding: 11px 29px;
 
      }
+     .checkbox_background_img{
+        display: none;
+    }
 }

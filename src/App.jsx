@@ -1,7 +1,6 @@
-import React from 'react';
-import {  RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {  RouterProvider } from 'react-router-dom';
 
-import './App.css';
+import './styles/Global.css';
 import router from './router/routes';
 
 

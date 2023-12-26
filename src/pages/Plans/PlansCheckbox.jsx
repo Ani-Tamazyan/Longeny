@@ -3,49 +3,68 @@ import { label } from "../../helpers/utils/constant";
 
 import "../../styles/Plans/PlansCheckbox.css";
 import vector from "../../assets/images/VectorCheckbox.png";
-import check from "../../assets/images/check.svg"
-
+import ellips from "../../assets/images/ellipse_check.png";
+import check from "../../assets/images/check.svg";
 
 function PlansCheckbox() {
-  const [selectedCheckbox, setSelectedCheckbox] = useState(null);
+  const [selectedCheckbox, setSelectedCheckbox] = useState(new Set());
 
-  const handleCheckboxClick = (index) =>{
-    setSelectedCheckbox(index === selectedCheckbox ? null : index)
-  }
+  const handleCheckboxClick = (id) => {
+    setSelectedCheckbox((prevSelected) => {
+      const newSet = new Set(prevSelected);
+      if (newSet.has(id)) {
+        newSet.delete(id);
+      } else {
+        newSet.add(id);
+      }
+      return newSet;
+    });
+  };
 
   return (
     <div className="part_checkbox">
+      <img src={ellips} alt="ellips" className="part_checkbox_ellips"/>
       <h2 className="part_checkbox_h">
         The Most Comprehensive Biomarker Analysis
       </h2>
 
       <p className="part_checkbox_p">
         Your membership will include 120+ lab tests and consultations with
-        leading doctor's in respective fields.
+        leading doctor{"'"}s in respective fields.
       </p>
 
       <div className="checkbox_cont">
         <div className="checkbox">
           <ul>
-            {label.map((checkboxLabel, index) => (
-              <li key={index}>
-                <input
-                  type="checkbox"
-                  value={checkboxLabel}
-                  className="checkbox_input"
-                  onClick={() => handleCheckboxClick(index)}
-                />
-                <img src={check} alt="check" className={`check ${selectedCheckbox === index ? 'visible' : ''}`}/>
-                <div className="checkbox_label" onClick={() => handleCheckboxClick(index)}>
-                  <label htmlFor={checkboxLabel}>{checkboxLabel}</label>
-                </div>
-              </li>
-            ))}
+
+            {label.map(({ id, label }) => {
+              return (
+                <li key={id}>
+                  <input
+                    type="checkbox"
+                    value={label}
+                    className="checkbox_input"
+                    onClick={() => handleCheckboxClick(id)}
+                  />
+                  <img
+                    src={check}
+                    alt="check"
+                    className={`check ${selectedCheckbox.has(id) ? "visible" : ""}`}
+                  />
+                  <div
+                    className="checkbox_label"
+                    onClick={() => handleCheckboxClick(id)}
+                  >
+                    <label htmlFor={label}>{label}</label>
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
 
-      {/* <img src={vector} alt="vector" className="checkbox_background_img" /> */}
+      <img src={vector} alt="vector" className="checkbox_background_img" />
 
       <div className="part4_button">
         <div className="button_1">
@@ -60,3 +79,5 @@ function PlansCheckbox() {
 }
 
 export default PlansCheckbox;
+
+

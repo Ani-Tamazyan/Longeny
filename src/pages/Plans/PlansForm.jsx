@@ -5,8 +5,9 @@ import vector2 from "../../assets/images/VectorForm2.png"
 function PlansForm() {
     return (
         <div className='part_form_cont padding'>
-        {/* <img src={vector1} alt="vector" className='form_background_img1'/> */}
-        <div className='part_form'>          
+         <img src={vector1} alt="vector" className='form_background_img1'/> 
+        <div className='part_form'>   
+                 
             <h2>SCHEDULE YOUR FREE CALL</h2>
             <p>Experience the power within you to control your health Schedule a call with our counsellors <span>NOW!</span></p>
 
@@ -35,7 +36,7 @@ function PlansForm() {
             </form>
         </div>
         
-        {/* <img src={vector2} alt="vector" className='form_background_img2'/> */}
+        <img src={vector2} alt="vector" className='form_background_img2'/>
     </div>
     )
 }

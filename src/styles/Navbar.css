@@ -70,8 +70,6 @@ nav{
   position: absolute;
   top: 50%;
   margin-left: 12px;
-  width: 9px;
-  height: 4px;
   stroke-width: 2px;
   stroke: #056A86;
 }
@@ -139,7 +137,6 @@ nav{
   .link{
     font-size: 15px;  
   }
-    
    
   .sign-in{
     width: 130px;
@@ -156,8 +153,12 @@ nav{
 
 @media only screen and (max-width: 1200px) { 
 
-  .navbar, .nav-links, .nav-button, .sign-in{
+  .navbar,  .nav-button, .sign-in{
     display: none;
+  }
+
+  .nav-links{
+    height: 350px;
   }
 
   .nav-links li:nth-child(5){
@@ -173,6 +174,13 @@ nav{
     display: block;
     margin-right: 30px;
   }
+
+  .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
   
   .menu_cont {
     width: 100%;
@@ -182,7 +190,7 @@ nav{
     top: 150px;
     display: flex;
     justify-content: center;
-    height: 490px;
+    height: 590px;
     z-index: 1000;
     margin-left: -10px;
   }
@@ -192,10 +200,10 @@ nav{
       flex-direction: column;
       gap: 30px;
       margin: 10px 0;
+
     }
 
     .menu-sign-in{
-      margin-top: 37px;
       width: 177px;
       height: 45px;
       border-radius: 24.5px;

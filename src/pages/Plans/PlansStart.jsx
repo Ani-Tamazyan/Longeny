@@ -17,13 +17,13 @@ function PlansStart() {
         <img src={zig} alt="zig" className='part_start_img' />
 
         <div className='steps'>
-          {start.map((step, index) => (
-            <div key={index} className={`part_start_step step${index + 1}`}>
+          {start.map(({id, h2, p1, p2}) => (
+            <div key={id} className={`part_start_step step${id}`}>
               <div className='number'>
-                <h2>{step.h2}</h2>
+                <h2>{h2}</h2>
               </div>
-              <p>{step.p1}</p>
-              <p>{step.p2}</p>
+              <p>{p1}</p>
+              <p>{p2}</p>
             </div>
           ))}
         </div>

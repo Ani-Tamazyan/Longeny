@@ -1,5 +1,3 @@
-import React from "react";
-
 import "../../styles/Plans/PlansDisease.css";
 
 import organ1 from "../../assets/images/organ1.png";
@@ -17,7 +15,7 @@ function PlansDisease() {
     <div className="part_disease padding">
       <h2>The 4 Spectres of Chronic Disease</h2>
 
-      {/* <img src={vector} alt="vector" className='disease_background_img' /> */}
+      <img src={vector} alt="vector" className='disease_background_img' />
 
       <div className="part_disease_content">
       <div className="part_disease_organ1_wrapper">

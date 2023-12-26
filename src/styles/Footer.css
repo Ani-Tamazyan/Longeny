@@ -43,9 +43,13 @@
     gap: 12px;
 }
 
+.contact > li > span{
+    font-size: 18px;      
+}
+
 
 .footer_link > ul > div  > li{
-    color: #FFF;
+    color: var(--text-with-background);
     font-size: 15px;
     font-weight: 600;
     line-height: normal;
@@ -53,9 +57,7 @@
     padding: 4px;
 }
 
-.footer_link{
-    height: 650px;
-}
+
 
 .footer_link > ul > div > li:hover{
     cursor: pointer;
@@ -65,21 +67,24 @@
 }
 
 .groops{
-    width: 205px;
     margin: auto;
     display: flex;
-    gap: 8px;  
+    justify-content: center;
+    gap: 18px;  
 } 
 
- .groops > a{
-    background-color: #3ba4af;
-    padding: 8px;
+ .groops > a {
     border-radius: 50%;
-    gap: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.groops > a > img{
+    width: 37px;
+    height: 37px;
+}
+
 
 @media only screen and (max-width: 1690px) {
     .footer_logo{
@@ -87,11 +92,23 @@
     }
     .footer_link > ul{
         margin-left: 60px;
-        gap: 60px;
+        gap: 25px;
+    }
+    .groops > a > img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .groops{
+        padding-right: 16px; 
+    } 
+
+    .contact > li > span{
+        font-size: 15px;      
     }
 }
 
-@media only screen and (max-width: 997px) {
+@media only screen and (max-width: 992px) {
     .footer{
         flex-direction: column;
         height: max-content;
@@ -104,40 +121,39 @@
 
     .footer_link > ul{
         justify-content: center;
+        margin-top: 170px;
         margin-left: 0px;
+        gap: 55px;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
-    .footer_link > ul{
-        gap: 25px;
-    }
-
-    .footer_link > ul > div  > li{
-        font-size: 12px;
+    .footer_link > ul {
+        display:grid;
+        grid-template-columns: auto auto;
+        column-gap: 120px;
     }
 }
 
 
 @media only screen and (max-width: 576px) {
-
-    .footer_link > ul >div{
-        width: 300px;
+    .footer_link{
+        height: 650px;
     }
+
     .footer_link > ul {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         margin-top: 300px;
+        gap: 17px;
     }
 
     .groops{
         justify-content: center;
-    }
-
-
-  
+    } 
 
 }
 

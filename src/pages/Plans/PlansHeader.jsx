@@ -3,7 +3,8 @@ import "../../styles/Plans/PlansHeader.css"
 import countryside from "../../assets/images/walk-countryside.png"
 import vector1 from "../../assets/images/VectorHeader.png"
 import vector2 from "../../assets/images/VectorHeader2.png"
-import ellipseHeader from "../../assets/images/ellipseHeader.png"
+import ellipseHeader1 from "../../assets/images/ellipseHeader1.png"
+
 
 
 function PlansHeader() {
@@ -17,7 +18,7 @@ function PlansHeader() {
                     <h2 className='part_header_left_side_h'>HEALTH ASSESSMENT</h2>
                 </div>
 
-                <img src={ellipseHeader} alt="ellipseHeader" className='ellipseHeader'/>
+                <img src={ellipseHeader1} alt="ellipseHeader" className='ellipseHeader1'/>
                
                <div className='part_header_left_side_card_cont'>
                 <div className='part_header_left_side_card'>
@@ -37,7 +38,7 @@ function PlansHeader() {
             <div className='right-side'>
                 <img src={countryside} alt="countryside" className='part_header_img'/>
             </div>
-                
+        
         </div>
     )
 }

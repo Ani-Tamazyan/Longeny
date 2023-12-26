@@ -1,7 +1,9 @@
 import "../../styles/Plans/PlansPrevent.css"
+import { prevent} from "../../helpers/utils/constant";
 
 import link from "../../assets/images/link.png"
 import left_img from "../../assets/images/Group 520.png"
+import ellipseHeader2 from "../../assets/images/ellipseHeader2.png"
 
 function PlansPrevent() {
     return (
@@ -11,6 +13,7 @@ function PlansPrevent() {
             </div>
 
             <div className='part_prevention_right_side'>
+            <img src={ellipseHeader2} alt="ellipseHeader" className='ellipseHeader2'/>
                 <div className='part_prevention_text'>
                     <h2 className='part_prevention_right_side_h'>Prevention is Better Than Cure!</h2>
                     <p className='part_prevention_right_side_p'>While we know that the best way to live long healthily is to avoid or delay the onset of disease, unfortunately 
@@ -25,11 +28,12 @@ function PlansPrevent() {
                     <div className='part_prevention_card_cont'>
 
                         <div className='part_prevention_card_p'>
-                            <p>Saves Lives</p>
-                            <p>Improves Quality of Life</p>
-                            <p>Extends lifespan and healthspan</p>
-                            <p>It’s less expensive than treatment</p>
-                            <p>Avoids painful treatment such as surgery or chemotherapy</p>
+
+                            {prevent.map(({ id, p }) => {
+                            return (
+                                <p key={id}>{p}</p>
+                            );
+                            })}
                         </div>
 
                         <div className='part_prevention_card_text'>
@@ -49,4 +53,5 @@ function PlansPrevent() {
 }
 
 export default PlansPrevent
+
 

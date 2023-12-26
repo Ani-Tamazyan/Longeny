@@ -3,7 +3,7 @@ import { useState } from "react";
 import { data } from "../../helpers/utils/constant";
 import "../../styles/Plans/PlansProgram.css";
 
-import drop from "../../assets/images/drop.png";
+import drop from "../../assets/images/drop.svg";
 import vector from "../../assets/images/VectorProgram.png";
 
 function PlansProgram() {
@@ -26,34 +26,34 @@ function PlansProgram() {
         </h2>
         <p>Here’s What you Get with 360ME</p>
 
-        {data.map((section, index) => (
+        {data.map(({id, header, text1, text2, book}) => (
           <div
             className="part_program_info"
-            key={index}
-            onClick={() => handleDropClick(index)}
+            key={id}
+            onClick={() => handleDropClick(id)}
           >
             <div className="part_program_info_header">
-              <h3>{section.header}</h3>
+              <h3>{header}</h3>
               <div
                 className={`part_program_info_header_img ${
-                  openSection === index ? "rotate" : ""
+                  openSection === id ? "rotate" : ""
                 }`}
               >
                 <img src={drop} alt="drop" />
               </div>
             </div>
 
-            {openSection === index && (
+            {openSection === id && (
               <div className="part_program_info_hiden">
-                <p>{section.text1}</p>
-                <p>{section.text2}</p>
-                <button className="book_free_call">{section.book}</button>
+                <p>{text1}</p>
+                <p>{text2}</p>
+                <button className="book_free_call">{book}</button>
               </div>
             )}
           </div>
         ))}
 
-        {/* <img src={vector} alt="vector" className="program_background_img" /> */}
+        <img src={vector} alt="vector" className="program_background_img" />
       </div>
     </>
   );

@@ -1,24 +1,30 @@
  .part_prevention{
     display: flex;
     position: relative;
+    margin-top: 155px;
+    justify-content: flex-end;
 }
 
 .part_prevention_left_side{
     max-width: 909px;
     margin-top: 131px;
+    position: absolute;
+    z-index: -3;
+    top: -62px;
+    left: 0;
 }
 
 .part_prevention_left_side img{
     max-width: 100%;
     object-fit: contain;
+    
 }
 
 .part_prevention_right_side{
     max-width: 1115px;
     margin-top: 238px;
-    position: absolute;
-    z-index: 3;
-    right: 100px;
+    padding-right: 100px;
+    position: relative;
 }
 
 .part_prevention_text{
@@ -46,13 +52,13 @@
 
 .part_prevention_right_side_p{
     max-width: 790px;
-    color: #646464;
+    color: var(--text-color);
     text-align: right;
     font-family: Open Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; 
+    line-height:  var(--line-height); 
     margin-bottom: 14px;
 }
 
@@ -107,12 +113,12 @@
     background: rgba(255, 255, 255, 0.10);
     box-shadow: 1px 2px 12px 0px rgba(52, 189, 227, 0.90);
     backdrop-filter: blur(6px);   
-    color: #FFF;
+    color: var(--background);
     text-align: right;
     font-family: Open Sans;
     font-size: 25px;
     font-weight: 700;
-    line-height: 150%;
+    line-height: var(--line-height);
 }
 
 .part_prevention_card_p p:nth-child(4){
@@ -133,7 +139,7 @@
     font-family: Open Sans;
     font-size: 24px;
     font-weight: 500;
-    line-height: 150%; 
+    line-height: var(--line-height); 
 }
 
 .part_prevention_card_text span{
@@ -149,7 +155,21 @@
 
 } 
 
-@media only screen and (max-width: 1680px) { 
+.ellipseHeader2{
+    width: 890.195px;
+    height: 735.422px;
+    transform: rotate(-24.641deg);
+    border-radius: 890.195px;
+    opacity: 0.7;
+    background: rgba(255, 153, 135, 0.18);
+    filter: blur(176.5px);
+    position: absolute;
+    z-index: -2;
+    /* right: -249px; */
+    top: -450px;
+}
+
+@media only screen and (max-width: 1610px) { 
     .part_prevention_left_side{
         max-width: 450px;
     } 
@@ -216,6 +236,10 @@
     .part_prevention_card_p p{   
         font-size: 18px;
     }
+
+    .ellipseHeader2{
+        display: none;
+    }
     
 }
 
@@ -225,7 +249,7 @@
     }  
 
     .part_prevention_right_side{
-        right: 50px;
+        padding: 0 30px;
     }
 
     .part_prevention_card_p{ 
@@ -248,10 +272,15 @@
     .card_book_free_call .book_free_call{
         font-size: 20px;
     }
+
+   
     
 }
 
 @media only screen and (max-width: 768px) {  
+    .part_prevention{
+        margin-top: -50px;
+    }
     .part_prevention_right_side{
         right: 0px;
     }
@@ -262,7 +291,6 @@
     }
 
     .part_prevention_right_side_p{
-        /* max-width: 768px; */
         font-size: 15px;
     }
 
@@ -307,36 +335,41 @@
 }
 
 @media only screen and (max-width: 576px) {  
-
+    .part_prevention_right_side{
+        padding: 0 15px;
+    }
     .part_prevention{
-        margin-top: -100px;
+        margin-top: -150px;
     }
 
     .part_prevention_card{
-        max-width: 320px;      
+        max-width: 300px;      
     }  
 
     .part_prevention_right_side_h{
         line-height: 37px;
+        font-size: 23px;
     }
 
     .part_prevention_right_side_p{
-        max-width: 320px;
+        max-width: 300px;
         font-size: 13px;
-
     }
 
     .part_prevention_card{
-        max-width: 320px;      
+        max-width: 300px;      
     }  
 
     .part_prevention_card_p{ 
         padding-left: 5px;
+
     }  
 
     .part_prevention_card_p p{   
         padding: 11px 3px;
-        font-size: 10px;
+        font-size: 12px;
+        max-width: 280px;
+        text-align: left;
     }
 
     .part_prevention_card_p p:nth-child(4){
@@ -348,11 +381,11 @@
     }
 
     .part_prevention_card_text{
-        max-width: 243px;
+        max-width: 210px;
     }
 
     .part_prevention_card_text p{
-        font-size: 11px;
+        font-size: 12px;
     }
     
     .part_prevention_card_text span{
