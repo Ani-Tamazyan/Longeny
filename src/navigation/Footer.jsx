@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import '../styles/Footer.css';
 
 import phone from "../assets/images/phone.png"
 import envelop from "../assets/images/envelop.png"

@@ -18,15 +18,15 @@
     display: flex;
     margin-top: 114.5px;
     transform: translateY(-50%);
-    margin-left: 99px;
-    gap: 137px;
+    margin-left: 5.1vw;
+    gap: 7.1vw;
 }
 
 
 .footer_link > ul > div > a > li{
     color: var(--text-with-background);
     font-family: Open Sans;
-    font-size: 15px;
+    font-size: 0.78vw;
     font-weight: 600;
     text-transform: uppercase; 
 }
@@ -34,17 +34,17 @@
 .footer_link > ul > div:not(.contact){
     display: flex;
     flex-direction: column;
-    gap: 17px;
+    gap: 0.9vw;
 }
 
 .contact{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0.7vw;
 }
 
 .contact > li > span{
-    font-size: 18px;      
+    font-size: 0.94vw;
 }
 
 
@@ -54,9 +54,7 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
-    padding: 4px;
 }
-
 
 
 .footer_link > ul > div > li:hover{
@@ -86,25 +84,42 @@
 }
 
 
-@media only screen and (max-width: 1690px) {
+@media only screen and (max-width: 1610px) {
     .footer_logo{
         margin-left: 30px;
     }
+
     .footer_link > ul{
-        margin-left: 60px;
-        gap: 25px;
+        margin-left: 4.1vw;
+        gap: 6.1vw;
     }
+
+   
     .groops > a > img{
         width: 30px;
         height: 30px;
     }
 
-    .groops{
-        padding-right: 16px; 
-    } 
+    .contact > li > span{
+        font-size: 1.1vw;      
+    }
+
+    .footer_link > ul > div > a > li{
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer_link > ul{
+        gap: 4.1vw;
+    }
 
     .contact > li > span{
-        font-size: 15px;      
+        font-size: 1.2vw;      
+    }
+
+    .footer_link > ul > div > a > li{
+        font-size: 1.2vw;
     }
 }
 
@@ -121,25 +136,42 @@
 
     .footer_link > ul{
         justify-content: center;
-        margin-top: 170px;
-        margin-left: 0px;
+        margin: 170px unset;
         gap: 55px;
+    }
+
+    .contact > li > span{
+        font-size: 1.6vw;      
+    }
+
+    .footer_link > ul > div > a > li{
+        font-size: 1.6vw;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
+
     .footer_link > ul {
         display:grid;
         grid-template-columns: auto auto;
-        column-gap: 120px;
+        column-gap: 90px;
+        margin-top: 140px;
+        margin-left: 0px;  
+    }
+
+    .contact > li > span{
+        font-size: 2.2vw;      
+    }
+
+    .footer_link > ul > div > a > li{
+        font-size: 2.2vw;
     }
 }
 
-
 @media only screen and (max-width: 576px) {
     .footer_link{
-        height: 650px;
+        height: 390px;
     }
 
     .footer_link > ul {
@@ -147,13 +179,23 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 300px;
-        gap: 17px;
+        gap: 10px;
+        margin-top: 170px;
     }
 
     .groops{
         justify-content: center;
     } 
+
+
+    .contact > li > span{
+        font-size: 15px;      
+    }
+
+    .footer_link > ul > div > a > li{
+        font-size: 15px;
+
+    }
 
 }
 

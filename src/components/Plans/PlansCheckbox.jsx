@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { label } from "../../helpers/utils/constant";
 
-import "../../styles/Plans/PlansCheckbox.css";
 import vector from "../../assets/images/VectorCheckbox.png";
 import ellips from "../../assets/images/ellipse_check.png";
 import check from "../../assets/images/check.svg";
+
 
 function PlansCheckbox() {
   const [selectedCheckbox, setSelectedCheckbox] = useState(new Set());
@@ -22,7 +22,7 @@ function PlansCheckbox() {
   };
 
   return (
-    <div className="part_checkbox">
+    <div className="part_checkbox padding">
       <img src={ellips} alt="ellips" className="part_checkbox_ellips"/>
       <h2 className="part_checkbox_h">
         The Most Comprehensive Biomarker Analysis

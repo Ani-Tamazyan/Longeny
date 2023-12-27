@@ -3,7 +3,7 @@ import Layout  from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import AboutUs from "../pages/AboutUs";
 import Guidance from "../pages/Guidance";
-import Plans from "../pages/Plans/Plans";
+import Plans from "../pages/Plans";
 import Resources from "../pages/Resources";
 import Support from "../pages/Support";
 import ForPartners from "../pages/ForPartners";

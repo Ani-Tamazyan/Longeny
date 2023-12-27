@@ -63,6 +63,7 @@
     margin: 0 auto;
     margin-bottom: 16px;
     font-size: 18px;
+    padding: 8px;
 }
 
 .part_form > form > select {

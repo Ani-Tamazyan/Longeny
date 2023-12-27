@@ -165,7 +165,6 @@
     filter: blur(176.5px);
     position: absolute;
     z-index: -2;
-    /* right: -249px; */
     top: -450px;
 }
 

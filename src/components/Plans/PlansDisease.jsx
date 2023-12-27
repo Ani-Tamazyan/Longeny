@@ -1,5 +1,3 @@
-import "../../styles/Plans/PlansDisease.css";
-
 import organ1 from "../../assets/images/organ1.png";
 import organ2 from "../../assets/images/organ2.png";
 import organ3 from "../../assets/images/organ3.png";

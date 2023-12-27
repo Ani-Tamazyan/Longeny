@@ -109,7 +109,7 @@
     right: 0;
 }
 
-@media only screen and (max-width: 1670px) { 
+@media only screen and (max-width: 1610px) { 
     .part_program > h2{
         max-width: 1063px;
         font-size: 29px;

@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import { data } from "../../helpers/utils/constant";
-import "../../styles/Plans/PlansProgram.css";
 
 import drop from "../../assets/images/drop.svg";
 import vector from "../../assets/images/VectorProgram.png";
@@ -19,12 +18,12 @@ function PlansProgram() {
 
   return (
     <>
-      <div className="part_program">
-        <h2>
+      <div className="part_program ">
+        <h2 className="padding">
           360ME from LONGENY. India’s First Subscription Based Comprehensive
           Health Assessment Program
         </h2>
-        <p>Here’s What you Get with 360ME</p>
+        <p className="padding">Here’s What you Get with 360ME</p>
 
         {data.map(({id, header, text1, text2, book}) => (
           <div

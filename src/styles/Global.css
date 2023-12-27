@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import "../styles/Plans/Plans.css";
+@import "../styles/Plans/PlansCheckbox.css";
+@import "../styles/Plans/PlansDisease.css";
+@import "../styles/Plans/PlansForm.css";
+@import "../styles/Plans/PlansHeader.css";
+@import "../styles/Plans/PlansPrevent.css";
+@import "../styles/Plans/PlansProgram.css";
+@import "../styles/Plans/PlansStart.css";
+@import "../styles/Footer.css";
+@import "../styles/Navbar.css";
 
 *{
     margin: 0px;

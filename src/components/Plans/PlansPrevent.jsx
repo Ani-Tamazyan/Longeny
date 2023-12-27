@@ -1,4 +1,3 @@
-import "../../styles/Plans/PlansPrevent.css"
 import { prevent} from "../../helpers/utils/constant";
 
 import link from "../../assets/images/link.png"
@@ -7,7 +6,7 @@ import ellipseHeader2 from "../../assets/images/ellipseHeader2.png"
 
 function PlansPrevent() {
     return (
-        <div className='part_prevention'>
+        <div className='part_prevention padding'>
             <div className='part_prevention_left_side'>
                 <img src={left_img} alt="left_img" />
             </div>

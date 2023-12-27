@@ -1,4 +1,5 @@
 .part_start{
+    margin: 0 auto;
     margin-top: 165px;
     position: relative;
 }
@@ -84,7 +85,9 @@
 .part_start_img_wrapper{
     position: relative;
     max-width: 1920px;
+    /* max-width: 100vw; */
     height: 840px;
+    margin: 0 auto;
 }
 
 .part_start_img{
@@ -93,7 +96,7 @@
     stroke: rgba(0, 88, 137, 0.11);
     position: absolute; 
     z-index: -1;
-    top: -270px;
+    top: -33%;
 }
 .steps{
     display: flex;
@@ -105,31 +108,33 @@
 }
 
 .step1{
-    right: 1530px;
-    top: 227.5px;
+    left: 1.5%;
+    /* left: 1.5vw; */
+    top: 27%;
+    /* top: 40vh; */
 }
 
 .step2{
-    right: 1194px;
-    top: 48px;
+    left: 21.2%;
+    top: 2.7%;
 
 }
 
 .step3{
-    right: 830px;
-    top: 268px;
+    left: 39.9%;
+    top: 24%;
 
 }
 
 .step4{
-    right: 438px;
-    top: 296px;
+    right: 21.6%;
+    top: 27.3%;
 
 }
 
 .step5{
-    right: 113px;
-    top: 23px;
+    right: 6%;
+    top: 2.9%;
 }
 
 .part_start > button{
@@ -148,39 +153,9 @@
     text-transform: uppercase;
     border: none;
     margin: 0 auto; 
-}
+} 
 
-@media only screen and (max-width: 1870px) {  
-    .part_start_step{
-        width: 210px;
-    } 
-    .step1{
-        left: 15px;
-        top: 277px;
-    }
-    
-    .step2{
-        left: 280px;
-        top: 48px;   
-    }
-    
-    .step3{
-        right: 970px;
-        top: 80px; 
-    }
-    
-    .step4{
-        left: 988px;
-        top: 286px; 
-    }
-    
-    .step5{
-        right: 153px;
-        top: 43px;
-    }
-}
-
-@media only screen and (max-width: 1720px) {  
+ @media only screen and (max-width: 1610px) {  
     .part_start_step{
         width: 290px;
     } 
@@ -234,18 +209,12 @@
 @media only screen and (max-width: 992px) { 
     
     .part_start_header h2{
-        /* max-width: 793px; */
-        /* height: 20px; */
         font-size: 25px;
-        /* line-height: 40px;  */
         letter-spacing: 1px;
     }  
     
     .part_start_header h3{
-        /* max-width: 697px; */
-        /* height: 90px; */
         font-size: 30px;
-        /* line-height: 120%; */
         letter-spacing: 2px;
         margin-top: 15px;
     }
@@ -332,7 +301,7 @@
         font-size: 15px;
     }
 
-}
+}  
 
 
 

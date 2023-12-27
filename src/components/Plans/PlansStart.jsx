@@ -1,10 +1,10 @@
 import { start } from '../../helpers/utils/constant';
-import '../../styles/Plans/PlansStart.css';
+
 import zig from "../../assets/images/zig.png"
 
 function PlansStart() {
   return (
-    <div className='part_start'>
+    <div className='part_start padding'>
         <div className='part_start_header'>
             <h2>
               <span>Disease Free Life</span>
