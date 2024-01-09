@@ -12,7 +12,7 @@ function PlansForm() {
 
     const onSubmit = (data) => {
         console.log(data)
-        setSuccessMsg("registration is successful.");
+        // setSuccessMsg("registration is successful.");
         reset();
     }
 
