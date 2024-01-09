@@ -368,6 +368,11 @@
         height: 110px;
     }
 
+    .part_disease_organ2_cont p, .part_disease_organ3_cont p, .part_disease_organ4_cont p{
+        width: min-content;
+        margin: auto;
+    }
+
     .part_disease_organ{
         gap: 50px;
         margin-top: 50px;

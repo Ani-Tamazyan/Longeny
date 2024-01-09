@@ -71,11 +71,9 @@
 .checkbox li{
     display: flex;
     max-width: 854px; 
-}
-
-.checkbox li {
     position: relative; 
-  }
+    margin-bottom: 16px;
+}
 
 .checkbox_input{
     position: absolute;
@@ -307,6 +305,10 @@
         max-width: 475px;
     }
 
+    .checkbox li{
+        max-width: 456px; 
+    }
+
     .checkbox_label{
         height: 65px;
     }
@@ -349,7 +351,8 @@
     }
 
     .checkbox li{
-        max-width: 345px; 
+        max-width: 260px; 
+        margin-left: 6px;
     }
 
     .checkbox_label{

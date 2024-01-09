@@ -6,7 +6,7 @@ import ellipseHeader2 from "../../assets/images/ellipseHeader2.png"
 
 function PlansPrevent() {
     return (
-        <div className='part_prevention padding'>
+        <div className='part_prevention'>
             <div className='part_prevention_left_side'>
                 <img src={left_img} alt="left_img" />
             </div>
