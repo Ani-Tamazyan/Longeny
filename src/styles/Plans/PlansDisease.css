@@ -334,6 +334,11 @@
         bottom: 40px;
     }
 
+    .part_disease_organ1_cont p{
+        font-size: 19px;
+
+    } 
+
     .part_disease h2{
         margin-bottom: 60px;
     }
